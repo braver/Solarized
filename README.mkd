@@ -14,6 +14,23 @@ If you have come across this page via github please visit the main [Solarized ho
 [Solarized homepage]:   http://ethanschoonover.com/solarized
 [Solarized repository]: https://github.com/altercation/solarized
 
+
+Sublime Text Support
+---------
+
+This theme is fully compatible with [Sublime Text][Sublime]!
+
+To install it, ensure that you have installed Sublime Package Control following [these instructions][SublimePackage]
+
+Open the Sublime command palette with `Ctrl + Shift + P`, type / select `Package Control: Install Package`,
+then from the package control list, type / select `Solarized Color Scheme (TextMate)`
+
+Note that packages are auto-updating, so as new modifications are made they will automatically be installed.
+
+[Sublime]: http://www.sublimetext.com/dev
+[SublimePackage]: http://wbond.net/sublime_packages/package_control/installation
+
+
 Contribute
 ---------
 
