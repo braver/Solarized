@@ -2128,7 +2128,19 @@
 				<string>#cb4b16</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>SublimeBracketHighlighter</string>
+			<key>scope</key>
+			<string>brackethighlighter.all</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#002b36</string>
+				<key>foreground</key>
+				<string>#cb4b16</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>A4299D9B-1DE5-4BC4-87F6-A757E71B1597</string>
