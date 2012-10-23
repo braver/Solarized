@@ -496,10 +496,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name.id.css</string>
 			<key>settings</key>
-            <dict>
+			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
-                <key>foreground</key>
+				<key>foreground</key>
 				<string>#B58900</string>
 			</dict>
 		</dict>
@@ -605,7 +605,7 @@
 				<key>foreground</key>
 				<string>#839496</string>
 			</dict>
-    	</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>HTML: Comment Block</string>
@@ -619,7 +619,7 @@
 				<string>#839496</string>
 			</dict>
 		</dict>
-    	<dict>
+		<dict>
 			<key>name</key>
 			<string>HTML: Script</string>
 			<key>scope</key>
