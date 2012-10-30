@@ -110,9 +110,9 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string>bold</string>
+				<string></string>
 				<key>foreground</key>
-				<string>#073642</string>
+				<string>#859900</string>
 			</dict>
 		</dict>
 		<dict>
