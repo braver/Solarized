@@ -470,10 +470,10 @@
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
-            <dict>
+			<dict>
 				<key>fontStyle</key>
 				<string></string>
-                <key>foreground</key>
+				<key>foreground</key>
 				<string>#B58900</string>
 			</dict>
 		</dict>
@@ -981,6 +981,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>PHP: Class Names</string>
+			<key>scope</key>
+			<string>support.class.php</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#586E75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>PHP: []</string>
 			<key>scope</key>
 			<string>keyword.operator.index-start.php, keyword.operator.index-end.php</string>
@@ -1062,7 +1073,7 @@
 			<key>name</key>
 			<string>PHP: ::</string>
 			<key>scope</key>
-			<string>support.class.php, keyword.operator.class</string>
+			<string>keyword.operator.class</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -1095,9 +1106,14 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Class Function</string>
+			<string>PHP: Semicolon</string>
+			<key>scope</key>
+			<string>punctuation.terminator.expression.php</string>
 			<key>settings</key>
-			<dict/>
+			<dict>
+				<key>foreground</key>
+				<string>#657B83</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -2120,7 +2136,7 @@
 				<key>background</key>
 				<string>#FDF6E3</string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#cb4b16</string>
 			</dict>
 		</dict>
 	</array>

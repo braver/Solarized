@@ -684,7 +684,7 @@
 			<key>name</key>
 			<string>HTML: "</string>
 			<key>scope</key>
-			<string>text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html </string>
+			<string>text.html.basic meta.tag.structure.any.html punctuation.definition.string.begin.html, punctuation.definition.string.begin.html, punctuation.definition.string.end.html</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -987,7 +987,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#93A1A1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1079,7 +1079,7 @@
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#93A1A1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1103,12 +1103,6 @@
 				<key>foreground</key>
 				<string>#B58900</string>
 			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Class Function</string>
-			<key>settings</key>
-			<dict/>
 		</dict>
 		<dict>
 			<key>name</key>
