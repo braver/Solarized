@@ -1,4 +1,4 @@
-Solarized Colorscheme for TextMate
+Solarized Colorscheme for Sublime Text
 =============================
 
 See the [Solarized homepage](http://ethanschoonover.com/solarized) for screenshots, 
@@ -55,6 +55,7 @@ Contributors
 * [oesmith](https://github.com/oesmith)
 * [evanmoran](https://github.com/evanmoran)
 * [iristyle](https://github.com/iristyle)
+* [braver](https://github.com/braver)
 
 License
 -------
