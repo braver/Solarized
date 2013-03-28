@@ -361,7 +361,7 @@
 			<key>name</key>
 			<string>CSS: @ rules</string>
 			<key>scope</key>
-			<string>source.css, punctuation.definition.keyword.css, punctuation.definition.keyword.scss, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, eyword.control.else.css, eyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss</string>
+			<string>source.css, punctuation.definition.keyword.css, punctuation.definition.keyword.scss, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, eyword.control.else.css, eyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
