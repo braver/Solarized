@@ -442,13 +442,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Standard Value</string>
+			<string>CSS: Standard color value</string>
 			<key>scope</key>
 			<string>support.constant.color</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6C71C4</string>
+				<string>#CB4b16</string>
 			</dict>
 		</dict>
 		<dict>
