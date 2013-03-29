@@ -1384,30 +1384,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Linebreak</string>
-			<key>scope</key>
-			<string>text.html.markdown meta.dummy.line-break</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#B58900</string>
-				<key>foreground</key>
-				<string>#EEE8D5</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Markdown: Raw</string>
-			<key>scope</key>
-			<string>text.html.markdown markup.raw.inline</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2AA198</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>reST raw</string>
 			<key>scope</key>
 			<string>text.restructuredtext markup.raw</string>
@@ -1889,7 +1865,30 @@
 				<string>#DC322F</string>
 			</dict>
 		</dict>
-
+		<dict>
+			<key>name</key>
+			<string>Markdown: Linebreak</string>
+			<key>scope</key>
+			<string>text.html.markdown meta.dummy.line-break</string>
+			<key>settings</key>
+			<dict>
+				<key>background</key>
+				<string>#B58900</string>
+				<key>foreground</key>
+				<string>#EEE8D5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: Raw</string>
+			<key>scope</key>
+			<string>text.html.markdown markup.raw.inline</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Markdown: Headings</string>

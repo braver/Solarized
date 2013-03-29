@@ -346,9 +346,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Property</string>
+			<string>CSS: Property name</string>
 			<key>scope</key>
-			<string>entity.name.tag.css, support.type.property-name.css, meta.property-name.css</string>
+			<string>entity.name.tag.css, support.type.property-name.css, meta.property-name.css, support.type.property-name.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -359,13 +359,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: @font-face</string>
+			<string>CSS: @ rules</string>
 			<key>scope</key>
-			<string>source.css</string>
+			<string>source.css, punctuation.definition.keyword.css, punctuation.definition.keyword.scss, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, eyword.control.else.css, eyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#268BD2</string>
+				<string>#6C71c4</string>
 			</dict>
 		</dict>
 		<dict>
@@ -385,7 +385,7 @@
 			<key>name</key>
 			<string>CSS: {}</string>
 			<key>scope</key>
-			<string>punctuation.section.property-list.css</string>
+			<string>punctuation.section.property-list.css, punctuation.section.property-list.scss, punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -396,7 +396,7 @@
 			<key>name</key>
 			<string>CSS: Numeric Value</string>
 			<key>scope</key>
-			<string>meta.property-value.css constant.numeric.css, keyword.other.unit.css,constant.other.color.rgb-value.css</string>
+			<string>constant.numeric.css, keyword.other.unit.css, constant.other.color.rgb-value.css, constant.numeric.scss, constant.other.color.rgb-value.scss, keyword.other.unit.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -409,7 +409,7 @@
 			<key>name</key>
 			<string>CSS: Value</string>
 			<key>scope</key>
-			<string>meta.property-value.css</string>
+			<string>meta.property-value.css, meta.property-value.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -431,22 +431,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Standard Value</string>
+			<string>SCSS: Variables</string>
+			<key>scope</key>
+			<string>meta.set.variable, variable.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#D33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Standard color value</string>
 			<key>scope</key>
 			<string>support.constant.color</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6C71C4</string>
+				<string>#CB4b16</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>CSS: Tag</string>
 			<key>scope</key>
-			<string>entity.name.tag.css</string>
+			<string>entity.name.tag.css, entity.name.tag.scss</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string></string>
 				<key>foreground</key>
 				<string>#859900</string>
 			</dict>
@@ -1860,7 +1873,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6C71C4</string>
+				<string>#B58900</string>
+				<key>foreground</key>
+				<string>#073642</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1894,6 +1909,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>bold</string>
+				<key>foreground</key>
+				<string>#657B83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1905,6 +1922,8 @@
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+				<key>foreground</key>
+				<string>#657B83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1980,6 +1999,8 @@
 			<string>meta.image.inline.markdown, markup.underline.link.markdown</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#93A1A1</string>
 			</dict>
@@ -1997,13 +2018,35 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Markdown: Link Punctuation</string>
+			<string>Markdown: Angle Brakets on Link and Image</string>
 			<key>scope</key>
-			<string>meta.link.inet.markdown, meta.link.email.lt-gt.markdown, punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.link.markdown</string>
+			<string>punctuation.definition.link.markdown</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DC322F</string>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: Parens on Link and Image </string>
+			<key>scope</key>
+			<string>punctuation.definition.metadata.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93A1A1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Markdown: Square Brakets on Link, Image, and Reference</string>
+			<key>scope</key>
+			<string>punctuation.definition.string.begin.markdown, punctuation.definition.string.end.markdown, punctuation.definition.constant.markdown</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93A1A1</string>
 			</dict>
 		</dict>
 		<dict>
