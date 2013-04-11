@@ -346,7 +346,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Property name</string>
+			<string>CSS: Property name (body)</string>
 			<key>scope</key>
 			<string>entity.name.tag.css, support.type.property-name.css, meta.property-name.css, support.type.property-name.scss</string>
 			<key>settings</key>
@@ -359,9 +359,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: @ rules</string>
+			<string>CSS: @ rules (purple)</string>
 			<key>scope</key>
-			<string>source.css, punctuation.definition.keyword.css, punctuation.definition.keyword.scss, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, eyword.control.else.css, eyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss</string>
+			<string>punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, eyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -370,7 +370,68 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Selector</string>
+			<string>CSS: Numeric Value (blue)</string>
+			<key>scope</key>
+			<string>constant.numeric.css, keyword.other.unit.css, constant.other.color.rgb-value.css, constant.numeric.scss, constant.other.color.rgb-value.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#268BD2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Value and constants (azure)</string>
+			<key>scope</key>
+			<string>variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: !Important (red)</string>
+			<key>scope</key>
+			<string>keyword.other.important.css</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DC322F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Standard color value (orange)</string>
+			<key>scope</key>
+			<string>support.constant.color, invalid.deprecated.color.w3c-non-standard-color-name.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CB4b16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: : , () (body)</string>
+			<key>scope</key>
+			<string>punctuation.terminator.rule.css, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, punctuation.scss, punctuation.css, punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>foreground</key>
+				<string>#657B83</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS: Selector > [] and non-spec tags (body)</string>
 			<key>scope</key>
 			<string>meta.selector.css</string>
 			<key>settings</key>
@@ -383,77 +444,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: {}</string>
-			<key>scope</key>
-			<string>punctuation.section.property-list.css, punctuation.section.property-list.scss, punctuation.section.property-list.begin.scss, punctuation.section.property-list.end.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#268BD2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Numeric Value</string>
-			<key>scope</key>
-			<string>constant.numeric.css, keyword.other.unit.css, constant.other.color.rgb-value.css, constant.numeric.scss, constant.other.color.rgb-value.scss, keyword.other.unit.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#268BD2</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Value</string>
-			<key>scope</key>
-			<string>meta.property-value.css, meta.property-value.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#2AA198</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: !Important</string>
-			<key>scope</key>
-			<string>keyword.other.important.css</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#DC322F</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SCSS: Variables</string>
-			<key>scope</key>
-			<string>meta.set.variable, variable.scss</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#D33682</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Standard color value</string>
-			<key>scope</key>
-			<string>support.constant.color</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CB4b16</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS: Tag</string>
+			<string>CSS: Tag (green)</string>
 			<key>scope</key>
 			<string>entity.name.tag.css, entity.name.tag.scss</string>
 			<key>settings</key>
@@ -466,20 +457,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: : ,</string>
-			<key>scope</key>
-			<string>punctuation.separator.key-value.css, punctuation.terminator.rule.css</string>
-			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string></string>
-				<key>foreground</key>
-				<string>#657B83</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>CSS .class</string>
+			<string>CSS .class (yellow)</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.class.css</string>
 			<key>settings</key>
@@ -492,7 +470,20 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS :pseudo</string>
+			<string>CSS: #id (yellow)</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.id.css</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>CSS :pseudo (orange)</string>
 			<key>scope</key>
 			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class.css</string>
 			<key>settings</key>
@@ -505,15 +496,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: #id</string>
+			<string>SCSS: Variables (pink)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.css</string>
+			<string>variable, variable.scss</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
 				<key>foreground</key>
-				<string>#B58900</string>
+				<string>#D33682</string>
 			</dict>
 		</dict>
 		<dict>
@@ -745,7 +734,7 @@
 			<key>name</key>
 			<string>HTML: {}</string>
 			<key>scope</key>
-			<string>text.html.basic punctuation.section.property-list.css</string>
+			<string>text.html.basic, punctuation.section.property-list.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
