@@ -361,7 +361,7 @@
 			<key>name</key>
 			<string>CSS: @ rules (purple)</string>
 			<key>scope</key>
-			<string>punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, eyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss</string>
+			<string>punctuation.definition.keyword.scss, punctuation.definition.keyword.css, keyword.control.at-rule.charset.css, keyword.control.at-rule.charset.scss, keyword.control.each.css, keyword.control.each.scss, keyword.control.else.css, keyword.control.else.scss, keyword.control.at-rule.import.css, keyword.control.at-rule.import.scss, keyword.control.at-rule.fontface.css, keyword.control.at-rule.fontface.scss, keyword.control.for.css, keyword.control.for.scss, keyword.control.at-rule.function.css, keyword.control.at-rule.function.scss, keyword.control.if.css, keyword.control.if.scss, keyword.control.at-rule.include.scss, keyword.control.at-rule.media.css, keyword.control.at-rule.media.scss, keyword.control.at-rule.font-face.css, keyword.control.at-rule.font-face.scss, meta.at-rule.import.css, variable.other.less, variable.declaration.less, variable.interpolation.less, meta.at-rule.media.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -372,7 +372,7 @@
 			<key>name</key>
 			<string>CSS: Numeric Value (blue)</string>
 			<key>scope</key>
-			<string>constant.numeric.css, keyword.other.unit.css, constant.other.color.rgb-value.css, constant.numeric.scss, constant.other.color.rgb-value.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css</string>
+			<string>constant.numeric.css, keyword.other.unit.css, keyword.unit.css, constant.other.color.rgb-value.css, constant.numeric.scss, constant.other.color.rgb-value.scss, keyword.other.unit.scss, punctuation.definition.constant.scss, punctuation.definition.constant.css, constant.other.rgb-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -383,9 +383,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Value and constants (azure)</string>
+			<string>CSS: String, value and constants (azure)</string>
 			<key>scope</key>
-			<string>variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss</string>
+			<string>variable.parameter.url.scss, meta.property-value.css, meta.property-value.scss, support.constant.property-value.scss, support.constant.font-name.scss, string.quoted.single.css, string.quoted.double.css, constant.character.escaped.css, string.quoted.variable.parameter.url, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, support.constant.property-value.css</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -420,7 +420,7 @@
 			<key>name</key>
 			<string>CSS: : , () (body)</string>
 			<key>scope</key>
-			<string>punctuation.terminator.rule.css, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.css, punctuation.definition.string.begin.scss, punctuation.definition.string.begin.css, punctuation.definition.string.end.scss, punctuation.definition.string.end.css, punctuation.scss, punctuation.css, punctuation</string>
+			<string>punctuation.terminator.rule.css, punctuation.section.function.css, punctuation.section.function.scss, punctuation.separator.key-value.csspunctuation.scss, punctuation.css, keyword.operator.less, entity.name.tag.wildcard.scss, entity.name.tag.wildcard.css, entity.name.tag.reference.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -459,7 +459,7 @@
 			<key>name</key>
 			<string>CSS .class (yellow)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css</string>
+			<string>entity.other.attribute-name.class.css, entity.other.less.mixin</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -472,7 +472,7 @@
 			<key>name</key>
 			<string>CSS: #id (yellow)</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.id.css</string>
+			<string>entity.other.attribute-name.id.css, entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -592,7 +592,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#268BD2</string>
+				<string>#657B83</string>
 			</dict>
 		</dict>
 		<dict>
