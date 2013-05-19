@@ -138,7 +138,18 @@ unknown   ff0000
 			<key>name</key>
 			<string>String</string>
 			<key>scope</key>
-			<string>string, variable.parameter.url, string.regexp, string.regexp punctuation.definition</string>
+			<string>string, variable.parameter.url, punctuation.definition.string</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#7ECEFD</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Regex</string>
+			<key>scope</key>
+			<string>string.regexp, string.regexp punctuation.definition</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -148,7 +159,8 @@ unknown   ff0000
 		<dict>
 			<key>name</key>
 			<string>String escaped</string>
-			<!-- stand out from a regex -->
+			<key>comment</key>
+			<string>stand out from a regex</string>
 			<key>scope</key>
 			<string>constant.character.escape</string>
 			<key>settings</key>
