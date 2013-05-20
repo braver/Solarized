@@ -12,9 +12,9 @@
 				<key>background</key>
 				<string>#FDF6E3</string>
 				<key>caret</key>
-				<string>#002B36</string>
+				<string>#657B83</string>
 				<key>foreground</key>
-				<string>#586E75</string>
+				<string>#657B83</string>
 				<key>invisibles</key>
 				<string>#EEE8D5</string>
 				<key>lineHighlight</key>
