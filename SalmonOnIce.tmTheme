@@ -11,7 +11,7 @@ https://kuler.adobe.com/#themeID/2291686
 
 black       3E454C
 dark blue   2185C5  -> numbers, constants, tags, units
-light blue  7ECEFD  -> strings, names, attributes
+light blue  7ECEFD  -> strings, names, attributes, classes
 white       FFF6E5  -> foreground
 orange      FF7F66  -> variable, argument, support.function
 
@@ -180,7 +180,6 @@ unknown   ff0000
 				<string>#2185C5</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
 			<string>Constants</string>
@@ -271,9 +270,9 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tag attribute and html classes in css</string>
+			<string>Tag attribute</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name, entity.other.less</string>
+			<string>meta.attribute, entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -335,10 +334,9 @@ unknown   ff0000
 				<string>#7ECEFD</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>diff.header</string>
+			<string>Versioning diff header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
@@ -349,7 +347,7 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.deleted</string>
+			<string>Versioning diff deleted</string>
 			<key>scope</key>
 			<string>markup.deleted</string>
 			<key>settings</key>
@@ -360,7 +358,7 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.inserted</string>
+			<string>Versioning diff inserted</string>
 			<key>scope</key>
 			<string>markup.inserted</string>
 			<key>settings</key>
@@ -371,7 +369,7 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.changed</string>
+			<string>Versioning diff changed</string>
 			<key>scope</key>
 			<string>markup.changed</string>
 			<key>settings</key>
@@ -395,7 +393,7 @@ unknown   ff0000
 			<key>Name</key>
 			<string>Embedded</string>
 			<key>scope</key>
-			<string>source.css.embedded, source.js.embedded, markup.raw, source.smarty</string>
+			<string>source.css.embedded, source.js.embedded, markup.raw</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
@@ -413,6 +411,17 @@ unknown   ff0000
 				<dict>
 					<key>foreground</key>
 					<string>#B5C6D8</string>
+				</dict>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>CSS class selector</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name.class</string>
+			<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#7ECEFD</string>
 				</dict>
 		</dict>
 		<dict>
