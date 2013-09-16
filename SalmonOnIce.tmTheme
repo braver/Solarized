@@ -395,11 +395,13 @@ unknown   ff0000
 			<key>Name</key>
 			<string>Embedded</string>
 			<key>scope</key>
-			<string>source.css.embedded, source.js.embedded, markup.raw</string>
+			<string>source.css.embedded, source.js.embedded, markup.raw, source.smarty</string>
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
 				<string>italic</string>
+				<key>background</key>
+				<string>#24272B</string>
 			</dict>
 		</dict>
 		<dict>
