@@ -335,10 +335,9 @@ unknown   ff0000
 				<string>#7ECEFD</string>
 			</dict>
 		</dict>
-
 		<dict>
 			<key>name</key>
-			<string>diff.header</string>
+			<string>Versioning diff header</string>
 			<key>scope</key>
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
@@ -349,7 +348,7 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.deleted</string>
+			<string>Versioning diff deleted</string>
 			<key>scope</key>
 			<string>markup.deleted</string>
 			<key>settings</key>
@@ -360,7 +359,7 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.inserted</string>
+			<string>Versioning diff inserted</string>
 			<key>scope</key>
 			<string>markup.inserted</string>
 			<key>settings</key>
@@ -371,13 +370,24 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>diff.changed</string>
+			<string>Versioning diff changed</string>
 			<key>scope</key>
 			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#FDC77E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Versioning highlight names (eg. in blame)</string>
+			<key>scope</key>
+			<string>svn entity.name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF7F66</string>
 			</dict>
 		</dict>
 		<dict>
