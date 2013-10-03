@@ -11,12 +11,13 @@ https://kuler.adobe.com/#themeID/2291686
 
 black       3E454C
 dark blue   2185C5  -> numbers, constants, tags, units
-light blue  7ECEFD  -> strings, names, attributes, classes
+light blue  7ECEFD  -> names, attributes, classes
 white       FFF6E5  -> foreground
 orange      FF7F66  -> variable, argument, support.function
+turqouise   67D8E6  -> strings
 
 shades of black
-darkest   2A2E33  -> bg
+darkest   212326  -> bg
 dark      3F454C  -> line, invisibles
 medium    4A5159  -> selection
 light     7F8B98  -> comments
@@ -40,7 +41,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#2A2E33</string>
+				<string>#212326</string>
 
 				<key>caret</key>
 				<string>#FFF6E5</string>
@@ -142,7 +143,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7ECEFD</string>
+				<string>#67D8E6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -444,7 +445,7 @@ unknown   ff0000
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#FFF6E5</string>
+					<string>#FF7F66</string>
 				</dict>
 		</dict>
 		<dict>
