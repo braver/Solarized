@@ -2021,6 +2021,17 @@
 				<string>#cb4b16</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find In Files: File Name</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>38E819D9-AE02-452F-9231-ECC3B204AFD7</string>
