@@ -2023,6 +2023,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Find In Files: File Name</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>GitGutter deleted</string>
 			<key>scope</key>
 			<string>markup.deleted.git_gutter</string>
