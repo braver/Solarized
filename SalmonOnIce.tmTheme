@@ -403,6 +403,17 @@ unknown   ff0000
 		</dict>
 		<dict>
 			<key>Name</key>
+			<string>Search results filenames</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FF7F66</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Name</key>
 			<string>Embedded</string>
 			<key>scope</key>
 			<string>source.css.embedded, source.js.embedded, markup.raw</string>
