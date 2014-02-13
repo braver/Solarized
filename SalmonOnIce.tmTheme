@@ -12,8 +12,8 @@ https://kuler.adobe.com/#themeID/2291686
 black       3E454C
 dark blue   2185C5  -> numbers, constants, tags, units
 light blue  7ECEFD  -> names, attributes, classes
-white       FFF6E5  -> foreground
-orange      FF7F66  -> variable, argument, support.function
+white       FFF6E5  -> foreground, support.function
+orange      FF7F66  -> variable, argument
 turqouise   67D8E6  -> strings
 
 shades of black
@@ -284,11 +284,11 @@ unknown   ff0000
 			<key>name</key>
 			<string>Library function</string>
 			<key>scope</key>
-			<string>support.function</string>
+			<string>support.function, keyword.control</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FF7F66</string>
+				<string>#FFF6E5</string>
 			</dict>
 		</dict>
 		<dict>
