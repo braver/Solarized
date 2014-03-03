@@ -23,9 +23,9 @@ medium    4A5159  -> selection
 light     7F8B98  -> comments
 lightest  B5C6D8  -> selectionborder, some punctuation
 
-reddish   E85451  -> negative
+reddish   E83F3A  -> negative
 greenish  24B279  -> positive
-yellowish FDC77E  -> neutral
+yellowish FEBD27  -> neutral
 
 unknown   ff0000
 
@@ -310,7 +310,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E85451</string>
+				<string>#E83F3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -321,7 +321,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E85451</string>
+				<string>#E83F3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -354,7 +354,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#E85451</string>
+				<string>#E83F3A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -376,7 +376,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FDC77E</string>
+				<string>#FEBD27</string>
 			</dict>
 		</dict>
 		<dict>
@@ -546,6 +546,50 @@ unknown   ff0000
 					<key>background</key>
 					<string>#FF7F66</string>
 				</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#E83F3ABB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFFFFF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FEBD27BB</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Bracket Highlighter</string>
+			<key>scope</key>
+			<string>brackethighlighter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#FFF6E599</string>
+			</dict>
 		</dict>
 	</array>
 	<key>uuid</key>
