@@ -21,6 +21,8 @@
 				<string>#EEE8D5</string>
 				<key>selection</key>
 				<string>#073642</string>
+				<key>gutter</key>
+				<string>#EEE8D5</string>
 			</dict>
 		</dict>
 		<dict>
