@@ -8,25 +8,22 @@ Copyright (c) 2014 Koen Lageveen
 
 Colors based on lumberjack shirts
 
-black       E2D8C7 #E2D8C7
-dark blue   285E7F #285E7F -> numbers, constants, tags, units
+background  F3F3F3
+dark blue   285E7F #285E7F -> storage
 light blue  154D69 #154D69 -> names, attributes, classes
-white       6F6F6F #6F6F6F -> foreground, support.function
+blackish    6F6F6F #6F6F6F -> foreground, support.function
 orange      #e16137 #e16137 -> variable, argument
 turqouise   1ebf91 #1ebf91 -> strings
 
-shades of black
-darkest   E2D8C7  -> bg
-dark      3F454C  -> line, invisibles
-medium    4A5159  -> selection
-light     989898  -> comments
+light     A6A6A6  -> comments
 lightest  6F6F6F  -> selectionborder, some punctuation
 
 reddish   E83F3A #ea3643 -> negative
 greenish  3a7045 #3a7045 -> positive
 yellowish e1a33f #e1a33f -> neutral
 
-unknown   ff0000
+green 5E993F keyword.control, operator 
+
 
 ======================================================================
 -->
@@ -114,7 +111,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#5E993F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -193,7 +190,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#5E993F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -270,7 +267,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#5E993F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -288,7 +285,7 @@ unknown   ff0000
 			<key>name</key>
 			<string>Invalid</string>
 			<key>scope</key>
-			<string>invalid, keyword.other.important.css</string>
+			<string>invalid, keyword.other.important.css, keyword.other.important.scss</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -380,7 +377,7 @@ unknown   ff0000
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#989898</string>
+				<string>#A6A6A6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -515,7 +512,7 @@ unknown   ff0000
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#989898</string>
+					<string>#A6A6A6</string>
 				</dict>
 		</dict>
 		<dict>
