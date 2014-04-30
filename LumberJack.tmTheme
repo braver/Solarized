@@ -11,9 +11,10 @@ Colors based on lumberjack shirts
 background  F3F3F3
 dark blue   285E7F #285E7F -> storage
 light blue  154D69 #154D69 -> names, attributes, classes
-blackish    6F6F6F #6F6F6F -> foreground, support.function
+blackish    6F6F6F #6F6F6F -> foreground
 orange      #e16137 #e16137 -> variable, argument
 turqouise   1ebf91 #1ebf91 -> strings
+purple 		6871CC
 
 light     A6A6A6  -> comments
 lightest  6F6F6F  -> selectionborder, some punctuation
@@ -22,8 +23,7 @@ reddish   E83F3A #ea3643 -> negative
 greenish  3a7045 #3a7045 -> positive
 yellowish e1a33f #e1a33f -> neutral
 
-green 5E993F keyword.control, operator 
-
+green 5E993F keyword.control, operator
 
 ======================================================================
 -->
@@ -228,6 +228,17 @@ green 5E993F keyword.control, operator
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Function</string>
+			<key>scope</key>
+			<string>entity.name.function, support.function, support.function.misc.scss</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#6871CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Function argument</string>
 			<key>scope</key>
 			<string>variable.parameter</string>
@@ -301,17 +312,6 @@ green 5E993F keyword.control, operator
 			<dict>
 				<key>foreground</key>
 				<string>#E83F3A</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JSON String</string>
-			<key>scope</key>
-			<string>meta.structure.dictionary.json string.quoted.double.json</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#154d69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -424,18 +424,6 @@ green 5E993F keyword.control, operator
 				<dict>
 					<key>foreground</key>
 					<string>#2FABE9</string>
-				</dict>
-		</dict>
-		<dict>
-			<key>Name</key>
-			<string>CSS @ rules</string>
-			<!-- also includes LESS variables because selectors are buggy -->
-			<key>scope</key>
-			<string>keyword.control.at-rule, variable.other.less, variable.declaration.less</string>
-			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#e16137</string>
 				</dict>
 		</dict>
 		<dict>
