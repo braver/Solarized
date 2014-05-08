@@ -88,7 +88,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#666666</string>
 			</dict>
 		</dict>
 		<dict>
