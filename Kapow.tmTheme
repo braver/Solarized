@@ -6,21 +6,24 @@
 A Sublime Text theme
 Copyright (c) 2014 Koen Lageveen
 
-dark blue   285E7F #285E7F -> storage
-pink  #9964D9 #9964D9 -> names, attributes, classes
-blackish    959595 #959595 -> foreground
-orange      #fd5c4d #fd5c4d -> variable, argument
-turqouise   1ebf91 #1ebf91 -> strings
-purple 		6871CC -> function
+Colors based on lumberjack shirts
 
-light     A6A6A6  -> comments
-lightest  959595  -> selectionborder, some punctuation
+background  F3F3F3
+dark blue   285E7F #285E7F -> storage
+light blue  154D69 #154D69 -> names, attributes, classes
+blackish    6F6F6F #6F6F6F -> foreground
+orange      #e16137 #e16137 -> variable, argument
+turqouise   1ebf91 #1ebf91 -> strings
+purple 		6871CC
+
+light     6F6F6Fx  -> comments
+lightest  6F6F6F  -> selectionborder, some punctuation
 
 reddish   E83F3A #ea3643 -> negative
 greenish  3a7045 #3a7045 -> positive
 yellowish e1a33f #e1a33f -> neutral
 
-green #5E993F keyword.control, operator
+green 5E993F keyword.control, operator
 
 ======================================================================
 -->
@@ -34,34 +37,34 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#282828</string>
+				<string>#242424</string>
 
 				<key>caret</key>
-				<string>#c0c0c0</string>
+				<string>#666666</string>
 				
 				<key>foreground</key>
-				<string>#c0c0c0</string>
+				<string>#666666</string>
 				
 				<key>invisibles</key>
 				<string>#A1ACB3</string>
 				
 				<key>lineHighlight</key>
-				<string>#242424</string>
+				<string>#202020</string>
 				
 				<key>selection</key>
-				<string>#295c96</string>
+				<string>#9CD9FF</string>
 				
 				<key>selectionBorder</key>
-				<string>#295c96</string>
+				<string>#9CD9FF</string>
 				
 				<key>findHighlight</key>
 				<string>#FFD69C</string>
 				
 				<key>guide</key>
-				<string>#333333</string>
+				<string>#303030</string>
 
 				<key>activeGuide</key>
-				<string>#383838</string>
+				<string>#303030</string>
 
 			</dict>
 		</dict>
@@ -73,7 +76,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#545454</string>
+				<string>#6f6f6f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -85,7 +88,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c0c0c0</string>
+				<string>#666666</string>
 			</dict>
 		</dict>
 		<dict>
@@ -97,7 +100,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#6f6f6f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,7 +133,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9964D9</string>
+				<string>#154D69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -143,7 +146,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#959595</string>
+				<string>#a6a6a6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -154,7 +157,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#64ACD9</string>
+				<string>#2899e2</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +168,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9964D9</string>
+				<string>#154D69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -176,7 +179,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5c4d</string>
+				<string>#e16137</string>
 			</dict>
 		</dict>
 		<dict>
@@ -198,7 +201,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5c4d</string>
+				<string>#e16137</string>
 			</dict>
 		</dict>
 		<dict>
@@ -209,7 +212,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5c4d</string>
+				<string>#285E7F</string>
 			</dict>
 		</dict>
 		<dict>
@@ -242,7 +245,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5c4d</string>
+				<string>#e16137</string>
 			</dict>
 		</dict>
 		<dict>
@@ -264,7 +267,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9964D9</string>
+				<string>#154D69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -286,7 +289,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#959595</string>
+				<string>#a6a6a6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -319,7 +322,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#9964D9</string>
+				<string>#154D69</string>
 			</dict>
 		</dict>
 		<dict>
@@ -363,7 +366,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5c4d</string>
+				<string>#e16137</string>
 			</dict>
 		</dict>
 		<dict>
@@ -374,7 +377,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#6f6f6f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -385,7 +388,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#fd5c4d</string>
+				<string>#e16137</string>
 			</dict>
 		</dict>
 		<dict>
@@ -398,7 +401,7 @@ green #5E993F keyword.control, operator
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>background</key>
-				<string>#262626</string>
+				<string>#dddddd</string>
 			</dict>
 		</dict>
 		<dict>
@@ -409,7 +412,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#959595</string>
+					<string>#a6a6a6</string>
 				</dict>
 		</dict>
 		<dict>
@@ -420,7 +423,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#64ACD9</string>
+					<string>#2FABE9</string>
 				</dict>
 		</dict>
 		<dict>
@@ -431,7 +434,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#6871CC</string>
+					<string>#e16137</string>
 				</dict>
 		</dict>
 		<dict>
@@ -442,7 +445,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#fd5c4d</string>
+					<string>#e16137</string>
 				</dict>
 		</dict>
 		<dict>
@@ -464,7 +467,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#9964D9</string>
+					<string>#154D69</string>
 				</dict>
 		</dict>
 		<dict>
@@ -497,7 +500,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#A6A6A6</string>
+					<string>#6f6f6f</string>
 				</dict>
 		</dict>
 		<dict>
@@ -508,7 +511,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#fd5c4d</string>
+					<string>#e16137</string>
 				</dict>
 		</dict>
 		<dict>
@@ -552,7 +555,7 @@ green #5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#95959599</string>
+				<string>#6F6F6F99</string>
 			</dict>
 		</dict>
 	</array>
