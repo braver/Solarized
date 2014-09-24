@@ -9,11 +9,11 @@ Copyright (c) 2014 Koen Lageveen
 Colors based on lumberjack shirts
 
 background  F3F3F3
-dark blue   285E7F #285E7F -> storage
-light blue  154D69 #154D69 -> names, attributes, classes
+dark blue   8C3A3B #8C3A3B -> storage
+light blue  1F729C #1F729C -> names, attributes, classes
 blackish    6F6F6F #6F6F6F -> foreground
 orange      #e16137 #e16137 -> variable, argument
-turqouise   1ebf91 #1ebf91 -> strings
+turqouise   147F61 #147F61 -> strings
 purple 		6871CC
 
 light     6F6F6Fx  -> comments
@@ -37,25 +37,25 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#242424</string>
+				<string>#292929</string>
 
 				<key>caret</key>
 				<string>#666666</string>
 				
 				<key>foreground</key>
-				<string>#666666</string>
+				<string>#888888</string>
 				
 				<key>invisibles</key>
 				<string>#A1ACB3</string>
 				
 				<key>lineHighlight</key>
-				<string>#202020</string>
+				<string>#2e2e2e</string>
 				
 				<key>selection</key>
-				<string>#9CD9FF</string>
+				<string>#3E5766</string>
 				
 				<key>selectionBorder</key>
-				<string>#9CD9FF</string>
+				<string>#3E5766</string>
 				
 				<key>findHighlight</key>
 				<string>#FFD69C</string>
@@ -76,7 +76,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6f6f6f</string>
+				<string>#6a6a6a</string>
 			</dict>
 		</dict>
 		<dict>
@@ -122,7 +122,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#1ebf91</string>
+				<string>#147F61</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,7 +133,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#154D69</string>
+				<string>#1F729C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -168,7 +168,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#154D69</string>
+				<string>#1F729C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -212,7 +212,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#285E7F</string>
+				<string>#8C3A3B</string>
 			</dict>
 		</dict>
 		<dict>
@@ -267,7 +267,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#154D69</string>
+				<string>#1F729C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -322,7 +322,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#154D69</string>
+				<string>#1F729C</string>
 			</dict>
 		</dict>
 		<dict>
@@ -456,7 +456,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#285E7F</string>
+					<string>#8C3A3B</string>
 				</dict>
 		</dict>
 		<dict>
@@ -467,7 +467,7 @@ green 5E993F keyword.control, operator
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#154D69</string>
+					<string>#1F729C</string>
 				</dict>
 		</dict>
 		<dict>
