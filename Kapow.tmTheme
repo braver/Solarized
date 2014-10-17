@@ -32,7 +32,7 @@ red
 
 333 -> shades
 404040
-7F7F7F
+737F7A
 BFBFBF
 FAFAFA
 
@@ -48,7 +48,7 @@ FAFAFA
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#262626</string>
+				<string>#2E3331</string>
 
 				<key>caret</key>
 				<string>#BFBFBF</string>
@@ -57,25 +57,25 @@ FAFAFA
 				<string>#BFBFBF</string>
 				
 				<key>invisibles</key>
-				<string>#7F7F7F</string>
+				<string>#737F7A</string>
 				
 				<key>lineHighlight</key>
-				<string>#333</string>
+				<string>#252927</string>
 				
 				<key>selection</key>
-				<string>#333</string>
+				<string>#252927</string>
 				
 				<key>selectionBorder</key>
-				<string>#333</string>
+				<string>#252927</string>
 				
 				<key>findHighlight</key>
 				<string>#FFFB81</string>
 				
 				<key>guide</key>
-				<string>#333</string>
+				<string>#252927</string>
 
 				<key>activeGuide</key>
-				<string>#404040</string>
+				<string>#252927</string>
 
 			</dict>
 		</dict>
@@ -87,7 +87,7 @@ FAFAFA
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F7F7F</string>
+				<string>#737F7A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -256,7 +256,7 @@ FAFAFA
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F7F7F</string>
+				<string>#737F7A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -344,7 +344,7 @@ FAFAFA
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F7F7F</string>
+				<string>#737F7A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -388,7 +388,7 @@ FAFAFA
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F7F7F</string>
+				<string>#737F7A</string>
 			</dict>
 		</dict>
 		<dict>
@@ -443,7 +443,7 @@ FAFAFA
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#E9962F</string>
+					<string>#FF5A6B</string>
 				</dict>
 		</dict>
 		<dict>
@@ -564,7 +564,7 @@ FAFAFA
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#7F7F7F99</string>
+				<string>#737F7A99</string>
 			</dict>
 		</dict>
 	</array>
