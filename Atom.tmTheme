@@ -60,25 +60,25 @@ css class selector
 
 				<key>caret</key>
 				<string>#c5c8c6</string>
-				
+
 				<key>foreground</key>
 				<string>#c5c8c6</string>
-				
+
 				<key>invisibles</key>
 				<string>rgba(197, 200, 198, .2)</string>
-				
+
 				<key>lineHighlight</key>
 				<string>#252927</string>
-				
+
 				<key>selection</key>
 				<string>#444</string>
-				
+
 				<key>selectionBorder</key>
 				<string>#444</string>
-				
+
 				<key>findHighlight</key>
 				<string>#FFD2A7</string>
-				
+
 				<key>guide</key>
 				<string>#252927</string>
 
@@ -297,7 +297,7 @@ css class selector
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c5c8c6</string>
+				<string>#DAD085</string>
 			</dict>
 		</dict>
 		<dict>
@@ -330,7 +330,7 @@ css class selector
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#83010C</string>
+				<string>#FD5FF1</string>
 			</dict>
 		</dict>
 		<dict>
