@@ -3,46 +3,26 @@
 <!--
 ======================================================================
 ======================================================================
-A Sublime Text theme based on the default dark theme for Atom
-Copyright (c) 2014 Koen Lageveen
+A Sublime Text theme based on the default dark theme for the Atom editor
+Author: Koen Lageveen
 
-.entity {
-  color: #FFD2A7; //zalmroze
+Color reference
 
-name.type {
-    color: #FFFFB6;  //geel
-    color: #9B5C2E;  //bruin
-
-.keyword {
-  color: #96CBFE; //blauw
-
-.operator {
-    color: #EDEDED; //wittig
-
-.storage {
-  color: #CFCB90;  //viesgeel
-
-.constant {
-  color: #99CC99;  //groen
-
-.numeric {
-    color: #FF73FD;  //roze
-
-.variable {
-  color: #C6C5FE;  //licht paarsig
-
-.invalid.deprecated {
-  color: #FD5FF1;  //roze
-
-.string {
-  color: #A8FF60;  //felgroen
-
-.regexp {
-    color: #E9C062; //zand
-
-css class selector
-	62B1FE  //lichtblauw
-
+entity 		#FFD2A7		salmon
+name.type 	#FFFFB6		yellow
+name.type 	#9B5C2E		brown
+keyword 	#96CBFE		blue
+operator 	#EDEDED 	white
+storage 	#CFCB90 	dirty yellow
+constant 	#99CC99 	green
+numeric	 	#FF73FD 	pink
+variable 	#C6C5FE 	light purple
+invalid 	#FD5FF1 	hot pink
+string 		#A8FF60 	hot green
+regexp 		#E9C062 	sand
+class 		#62B1FE 	light blue
+regex 		#FF8000 	orange (not used)
+escaped 	#00A0A0 	turquoise
 
 ======================================================================
 -->
@@ -111,15 +91,36 @@ css class selector
 			</dict>
 		</dict>
 		<dict>
+			<key>name</key>
+			<string>Tags</string>
+			<key>scope</key>
+			<string>entity.name.tag, keyword.control.html.elements, meta.tag.sgml, punctuation.definition.tag, punctuation.definition.tag</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#96CBFE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Tag attributes</string>
+			<key>scope</key>
+			<string>meta.attribute, entity.other.attribute-name, meta.tag.inline.any.html, meta.tag.any.html</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#96CBFE</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>Name</key>
 			<string>Tag Braces</string>
-			<!-- keeps tagnames and tag content readable -->
 			<key>scope</key>
 			<string>punctuation.definition.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#c5c8c6</string>
+				<string>#96CBFE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -165,7 +166,7 @@ css class selector
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#355869</string>
+				<string>#00A0A0</string>
 			</dict>
 		</dict>
 		<dict>
@@ -236,6 +237,17 @@ css class selector
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Storage modifier</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#96CBFE</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class name</string>
 			<key>scope</key>
 			<string>entity.name.class</string>
@@ -253,7 +265,7 @@ css class selector
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#DAD085</string>
+				<string>#FFD2A7</string>
 			</dict>
 		</dict>
 		<dict>
@@ -264,40 +276,40 @@ css class selector
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#737F7A</string>
+				<string>#C6C5FE</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Tags</string>
+			<string>Doctype</string>
 			<key>scope</key>
-			<string>entity.name.tag, keyword.control.html.elements, meta.tag.sgml, keyword.doctype</string>
+			<string>keyword.doctype, meta.tag.sgml.doctype.html</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#62B1FE</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Tag attribute</string>
-			<key>scope</key>
-			<string>meta.attribute, entity.other.attribute-name</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2FABE9</string>
+				<string>#7C7C7C</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
 			<string>Library function</string>
 			<key>scope</key>
-			<string>support.function, keyword.control</string>
+			<string>support.function</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#DAD085</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Control</string>
+			<key>scope</key>
+			<string>keyword.control</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#96CBFE</string>
 			</dict>
 		</dict>
 		<dict>
@@ -308,7 +320,7 @@ css class selector
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#FAFAFA</string>
+				<string>#FFFFB6</string>
 			</dict>
 		</dict>
 		<dict>
@@ -436,7 +448,7 @@ css class selector
 			<key>Name</key>
 			<string>CSS at rule</string>
 			<key>scope</key>
-			<string>keyword.control.at-rule, keyword.control.at-rule.font-face.css punctuation.definition.entity.css</string>
+			<string>keyword.control.at-rule, keyword.control.at-rule punctuation.definition</string>
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -447,7 +459,7 @@ css class selector
 			<key>Name</key>
 			<string>CSS class selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class, entity.other.attribute-name.class punctuation.definition.entity.css</string>
+			<string>entity.other.attribute-name.class, meta.selector entity.other.attribute-name.class punctuation.definition</string>
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -458,7 +470,7 @@ css class selector
 			<key>Name</key>
 			<string>CSS attribute selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.attribute.css, meta.attribute-selector, meta.attribute-selector punctuation.definition.entity.css</string>
+			<string>entity.other.attribute-name.attribute.css, meta.attribute-selector, meta.attribute-selector punctuation.definition</string>
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -469,7 +481,7 @@ css class selector
 			<key>Name</key>
 			<string>CSS pseudo selector</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element, entity.other.attribute-name.pseudo-class punctuation.definition.entity.css, entity.other.attribute-name.pseudo-element punctuation.definition.entity.css</string>
+			<string>entity.other.attribute-name.pseudo-class, entity.other.attribute-name.pseudo-element, entity.other.attribute-name.pseudo-class punctuation.definition, entity.other.attribute-name.pseudo-element punctuation.definition</string>
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
@@ -480,11 +492,11 @@ css class selector
 			<key>Name</key>
 			<string>CSS class selector</string>
 			<key>scope</key>
-			<string>entity.name.tag, entity.other.attribute-name.class punctuation.definition.entity.css</string>
+			<string>entity.name.tag, entity.other.attribute-name.class punctuation.definition</string>
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#62B1FE</string>
+					<string>#96CBFE</string>
 				</dict>
 		</dict>
 		<dict>
@@ -517,7 +529,7 @@ css class selector
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#E9962F</string>
+					<string>#EDEDED</string>
 				</dict>
 		</dict>
 		<dict>
@@ -528,7 +540,7 @@ css class selector
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#B6B113</string>
+					<string>#EDEDED</string>
 				</dict>
 		</dict>
 		<dict>
@@ -572,7 +584,7 @@ css class selector
 			<key>settings</key>
 				<dict>
 					<key>foreground</key>
-					<string>#A6A6A6</string>
+					<string>#FF73FD</string>
 				</dict>
 		</dict>
 		<dict>
