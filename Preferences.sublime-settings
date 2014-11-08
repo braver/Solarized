@@ -1,4 +1,5 @@
 {
-	"color_scheme": "Packages/sublime-themes/Atom.tmTheme",
-	"font_size": 14
+	"color_scheme": "Packages/User/sublime-themes/Atom.tmTheme",
+	"font_size": 14,
+	"highlight_line": true
 }
