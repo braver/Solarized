@@ -48,7 +48,7 @@ escaped 	#00A0A0 	turquoise
 				<string>rgba(197, 200, 198, .2)</string>
 
 				<key>lineHighlight</key>
-				<string>#252927</string>
+				<string>#26292B</string>
 
 				<key>selection</key>
 				<string>#444</string>
@@ -109,7 +109,7 @@ escaped 	#00A0A0 	turquoise
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#96CBFE</string>
+				<string>#C6C5FE</string>
 			</dict>
 		</dict>
 		<dict>
