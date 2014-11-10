@@ -1,5 +1,15 @@
 {
 	"color_scheme": "Packages/User/sublime-themes/Atom.tmTheme",
-	"font_size": 14,
-	"highlight_line": true
+	"draw_indent_guides": false,
+	"ensure_newline_at_eof_on_save": true,
+	"find_selected_text": true,
+	"font_face": "Menlo",
+	"font_size": 13,
+	"ignored_packages":
+	[
+		"CSS",
+		"Vintage"
+	],
+	"trim_trailing_white_space_on_save": true,
+	"word_wrap": false
 }
