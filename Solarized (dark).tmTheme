@@ -109,6 +109,19 @@
 			</dict>
 		</dict>
 		<dict>
+		    <key>name</key>
+		    <string>Arithmetical, Assignment, Comparision Operators</string>
+		    <key>scope</key>
+		    <string>keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>fontStyle</key>
+		        <string></string>
+		        <key>foreground</key>
+		        <string>#839496</string>
+		    </dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Storage</string>
 			<key>scope</key>
