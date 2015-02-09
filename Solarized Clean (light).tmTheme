@@ -10,7 +10,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FDF6E3</string>
+				<string>#fdf6e3</string>
 				<key>caret</key>
 				<string>#657B83</string>
 				<key>foreground</key>
@@ -22,7 +22,7 @@
 				<key>selection</key>
 				<string>#839496</string>
 				<key>selectionForeground</key>
-				<string>#FDF6E3</string>
+				<string>#fdf6e3</string>
 				<key>selectionBorder</key>
 				<string>#93A1A1</string>
 				<key>gutter</key>
@@ -2035,7 +2035,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#FDF6E3</string>
+				<string>#fdf6e3</string>
 				<key>foreground</key>
 				<string>#cb4b16</string>
 			</dict>
