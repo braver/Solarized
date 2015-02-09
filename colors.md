@@ -23,14 +23,17 @@ base1   > comments
 base0   > unused
 base00  > default
 base01  > emphasis
-base02  > unused
+base02  > caret
 base03  > unused
 
 #b58900 > instance?
 #cb4b16 > include/import
 #dc322f > support function, escape
 #d33682 > TODO
-#6c71c4 > md link
+#6c71c4 > md link, number
 #268bd2 > variable, tag
 #2aa198 > string
 #859900 > punctuation.definition
+
+base2 50% opacity on top of base3: #f5efdc
+base1 50% opacity on top of base2: #c0c4bb
