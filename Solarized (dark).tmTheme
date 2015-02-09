@@ -20,7 +20,13 @@
 				<key>lineHighlight</key>
 				<string>#073642</string>
 				<key>selection</key>
-				<string>#EEE8D5</string>
+				<string>#657B83</string>
+				<key>selectionForeground</key>
+				<string>#002B36</string>
+				<key>selectionBorder</key>
+				<string>#586E75</string>
+				<key>gutter</key>
+				<string>#073642</string>
 			</dict>
 		</dict>
 		<dict>
@@ -101,6 +107,19 @@
 				<key>foreground</key>
 				<string>#859900</string>
 			</dict>
+		</dict>
+		<dict>
+		    <key>name</key>
+		    <string>Arithmetical, Assignment, Comparision Operators</string>
+		    <key>scope</key>
+		    <string>keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic</string>
+		    <key>settings</key>
+		    <dict>
+		        <key>fontStyle</key>
+		        <string></string>
+		        <key>foreground</key>
+		        <string>#839496</string>
+		    </dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -1320,8 +1339,6 @@
 			<string>meta.diff, meta.diff.header</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#B58900</string>
 				<key>fontStyle</key>
 				<string>italic</string>
 				<key>foreground</key>
@@ -1335,8 +1352,6 @@
 			<string>markup.deleted</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#EEE8D5</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -1350,8 +1365,6 @@
 			<string>markup.changed</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#EEE8D5</string>
 				<key>fontStyle</key>
 				<string></string>
 				<key>foreground</key>
@@ -1365,10 +1378,8 @@
 			<string>markup.inserted</string>
 			<key>settings</key>
 			<dict>
-				<key>background</key>
-				<string>#EEE8D5</string>
 				<key>foreground</key>
-				<string>#2AA198</string>
+				<string>#859900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -2027,6 +2038,83 @@
 				<string>#002b36</string>
 				<key>foreground</key>
 				<string>#cb4b16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find In Files: File Name</string>
+			<key>scope</key>
+			<string>entity.name.filename.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#2AA198</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter deleted</string>
+			<key>scope</key>
+			<string>markup.deleted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DC322F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter inserted</string>
+			<key>scope</key>
+			<string>markup.inserted.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#859900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>GitGutter changed</string>
+			<key>scope</key>
+			<string>markup.changed.git_gutter</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Warning</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#B58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Error</string>
+			<key>scope</key>
+			<string>sublimelinter.mark.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#DC322F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>SublimeLinter Gutter Mark</string>
+			<key>scope</key>
+			<string>sublimelinter.gutter-mark</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
 			</dict>
 		</dict>
 	</array>
