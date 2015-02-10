@@ -13,20 +13,34 @@
 			<dict>
 				<key>background</key>
 				<string>#002b36</string>
+
 				<key>caret</key>
 				<string>#eee8d5</string>
+
 				<key>foreground</key>
 				<string>#839496</string>
+
 				<key>invisibles</key>
 				<string>#586e75</string>
+
 				<key>lineHighlight</key>
 				<string>#03303C</string>
+
 				<key>selection</key>
 				<string>#073642</string>
+
 				<key>selectionBorder</key>
 				<string>#2F525B</string>
+
 				<key>gutter</key>
 				<string>#073642</string>
+
+				<!-- Defaul looks best really -->
+				<!-- <key>findHighlight</key> -->
+				<!-- <string>#DDDD45</string> -->
+
+				<!-- <key>findHighlightForeground</key>
+				<string>#fdf6e3</string> -->
 			</dict>
 		</dict>
 
@@ -303,9 +317,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#dc322f</string>
-				<key>foreground</key>
-				<string>#fdf6e3</string>
+				<string>#6E2E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -397,7 +409,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#859900</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -408,18 +420,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B58900</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: #id (yellow)</string>
+			<string>CSS: #id</string>
 			<key>scope</key>
 			<string>source.css entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B58900</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>

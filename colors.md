@@ -40,7 +40,7 @@ base03  > unused
 
 base2 50% opacity on top of base3: #f5efdc
 base1 50% opacity on top of base2: #c0c4bb
-
+red   33% opacity on top of background: #ec9489
 
 DARK:
 base03 bg
@@ -52,3 +52,4 @@ base2  caret
 
 base02 50% opacity on top of base03: #03303C
 base01 50% opacity on top of base02: #c0c4bb
+red    33% opacity on top of background: #6E2E32
