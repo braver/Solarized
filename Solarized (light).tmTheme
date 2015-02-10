@@ -475,11 +475,11 @@
 			<key>name</key>
 			<string>HTML: something=</string>
 			<key>scope</key>
-			<string>text.html.basic entity.other.attribute-name.html</string>
+			<string>text.html.basic entity.other.attribute-name.html, meta.tag.xml entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#657B83</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 
