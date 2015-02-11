@@ -519,17 +519,6 @@
 		<!-- PHP -->
 		<dict>
 			<key>name</key>
-			<string>PHP: Array</string>
-			<key>scope</key>
-			<string>meta.array.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#586E75</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>PHP: Array()</string>
 			<key>scope</key>
 			<string>meta.array support.function.construct.php</string>
