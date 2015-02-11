@@ -565,24 +565,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>PHP: Other Property</string>
-			<key>scope</key>
-			<string>variable.other.property.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#839496</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>PHP: Function</string>
 			<key>scope</key>
 			<string>entity.name.function.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#dc322f</string>
 			</dict>
 		</dict>
 		<dict>
