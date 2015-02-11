@@ -185,7 +185,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#268BD2</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -262,7 +262,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dc322f</string>
+				<string>#859900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -446,19 +446,6 @@
 			</dict>
 		</dict>
 
-		<!-- JavaScript -->
-		<dict>
-			<key>name</key>
-			<string>JS: Function Name</string>
-			<key>scope</key>
-			<string>meta.function.js, entity.name.function.js, support.function.dom.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B58900</string>
-			</dict>
-		</dict>
-
 		<!-- HTML -->
 		<dict>
 			<key>name</key>
@@ -545,53 +532,20 @@
 			<key>name</key>
 			<string>PHP: Array()</string>
 			<key>scope</key>
-			<string>meta.array.php support.function.construct.php, meta.array.empty.php support.function.construct.php</string>
+			<string>meta.array support.function.construct.php</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#B58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Array Construct</string>
-			<key>scope</key>
-			<string>support.function.construct.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#B58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Function</string>
-			<key>scope</key>
-			<string>entity.name.function.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#dc322f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>PHP: Function Construct</string>
-			<key>scope</key>
-			<string>support.function.construct.php</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#859900</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 
 		<!-- C -->
 		<dict>
 			<key>name</key>
-			<string>C: Meta Preprocessor</string>
+			<string>C: Preprocessor</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c.include, meta.preprocessor.macro.c</string>
+			<string>entity.name.function.preprocessor.c, meta.preprocessor.c.include, meta.preprocessor.macro.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -600,35 +554,13 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C: Function Preprocessor</string>
-			<key>scope</key>
-			<string>entity.name.function.preprocessor.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CB4B16</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>C: include</string>
+			<string>C: Include</string>
 			<key>scope</key>
 			<string>meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#2aa198</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>C: Function</string>
-			<key>scope</key>
-			<string>support.function.C99.c, support.function.any-method.c, entity.name.function.c</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#586E75</string>
 			</dict>
 		</dict>
 
