@@ -10,32 +10,29 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F3F3F3</string>
+				<string>#F1F1EC</string>
 
 				<key>caret</key>
-				<string>#666666</string>
+				<string>#71716F</string>
 
 				<key>foreground</key>
-				<string>#666666</string>
+				<string>#71716F</string>
 
 				<key>invisibles</key>
 				<string>#A1ACB3</string>
 
 				<key>lineHighlight</key>
-				<string>#ededed</string>
+				<string>#EBEBE6</string>
 
 				<key>selection</key>
-				<string>#e3e3e3</string>
+				<string>#E5E5E1</string>
 
 				<key>selectionBorder</key>
-				<string>#d3d3d3</string>
+				<string>#CCCCC8</string>
 
 				<!-- Defaul looks best really -->
 				<!-- <key>findHighlight</key> -->
 				<!-- <string>#DDDD45</string> -->
-				<!-- <key>findHighlightForeground</key>
-				<string>#fdf6e3</string>
-			-->
 
 				<key>guide</key>
 				<string>#A6A6A6</string>
@@ -45,6 +42,7 @@
 
 			</dict>
 		</dict>
+
 		<!-- Generics -->
 		<dict>
 			<key>name</key>
@@ -927,10 +925,10 @@
 			<key>scope</key>
 			<string>markup.italic</string>
 			<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>italic</string>
-				</dict>
+			<dict>
+				<key>fontStyle</key>
+				<string>italic</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -938,10 +936,10 @@
 			<key>scope</key>
 			<string>markup.bold</string>
 			<key>settings</key>
-				<dict>
-					<key>fontStyle</key>
-					<string>bold</string>
-				</dict>
+			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -949,10 +947,10 @@
 			<key>scope</key>
 			<string>markup.underline.link.markdown, meta.link.reference constant.other.reference.link.markdown</string>
 			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#2aa198</string>
-				</dict>
+			<dict>
+				<key>foreground</key>
+				<string>#2aa198</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -960,10 +958,10 @@
 			<key>scope</key>
 			<string>constant.other.reference.link.markdown</string>
 			<key>settings</key>
-				<dict>
-					<key>foreground</key>
-					<string>#6c71c4</string>
-				</dict>
+			<dict>
+				<key>foreground</key>
+				<string>#6c71c4</string>
+			</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -971,10 +969,10 @@
 			<key>scope</key>
 			<string>meta.paragraph.markdown meta.dummy.line-break</string>
 			<key>settings</key>
-				<dict>
-					<key>background</key>
-					<string>#6F6F6F</string>
-				</dict>
+			<dict>
+				<key>background</key>
+				<string>#6F6F6F</string>
+			</dict>
 		</dict>
 
 		<!-- Sublime Linter -->
