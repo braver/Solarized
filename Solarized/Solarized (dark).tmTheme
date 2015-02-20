@@ -130,7 +130,18 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#dc322f</string>
+				<string>#859900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Import</string>
+			<key>scope</key>
+			<string>meta.import keyword, keyword.control.import, keyword.control.import.from, keyword.other.import</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CB4B16</string>
 			</dict>
 		</dict>
 		<dict>
@@ -747,17 +758,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>Python: import</string>
-			<key>scope</key>
-			<string>keyword.control.import.python, keyword.control.import.from.python</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CB4B16</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Python: Support.exception</string>
 			<key>scope</key>
 			<string>support.type.exception.python</string>
@@ -804,17 +804,6 @@
 		</dict>
 
 		<!-- Java -->
-		<dict>
-			<key>name</key>
-			<string>Java: import</string>
-			<key>scope</key>
-			<string>keyword.other.import.java</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CB4B16</string>
-			</dict>
-		</dict>
 		<dict>
 			<key>name</key>
 			<string>Java: storage import</string>
