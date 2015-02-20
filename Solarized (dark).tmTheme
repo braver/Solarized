@@ -1,44 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>name</key>
-	<string>Lumberjack</string>
+	<string>Solarized (light)</string>
 	<key>settings</key>
 	<array>
+
+		<!-- Basics -->
 		<dict>
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#F1F1EC</string>
+				<string>#002b36</string>
 
 				<key>caret</key>
-				<string>#71716F</string>
+				<string>#eee8d5</string>
 
 				<key>foreground</key>
-				<string>#71716F</string>
+				<string>#839496</string>
 
 				<key>invisibles</key>
-				<string>#A1ACB3</string>
+				<string>#586e75</string>
 
 				<key>lineHighlight</key>
-				<string>#EBEBE6</string>
+				<string>#03303C</string>
 
 				<key>selection</key>
-				<string>#E5E5E1</string>
+				<string>#2C4C55</string>
 
 				<key>selectionBorder</key>
-				<string>#CCCCC8</string>
+				<string>#586e75</string>
+
+				<key>gutter</key>
+				<string>#073642</string>
 
 				<!-- Defaul looks best really -->
 				<!-- <key>findHighlight</key> -->
 				<!-- <string>#DDDD45</string> -->
-
-				<key>guide</key>
-				<string>#A6A6A6</string>
-
-				<key>activeGuide</key>
-				<string>#e6e6e6</string>
+				<!-- <key>findHighlightForeground</key>
+				<string>#fdf6e3</string> -->
 
 			</dict>
 		</dict>
@@ -48,11 +49,11 @@
 			<key>name</key>
 			<string>Comment</string>
 			<key>scope</key>
-			<string>comment, punctuation.definition.comment, punctuation.whitespace.comment</string>
+			<string>comment, meta.documentation</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -133,15 +134,15 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
-			<string>Arithmetical, Assignment, Comparision Operators</string>
-			<key>scope</key>
-			<string>keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6F6F6F</string>
-			</dict>
+				<key>name</key>
+				<string>Arithmetical, Assignment, Comparision Operators</string>
+				<key>scope</key>
+				<string>keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic</string>
+				<key>settings</key>
+				<dict>
+						<key>foreground</key>
+						<string>#657b83</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>name</key>
@@ -250,7 +251,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -316,7 +317,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#ec9489</string>
+				<string>#6E2E32</string>
 			</dict>
 		</dict>
 		<dict>
@@ -338,7 +339,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#839496</string>
 			</dict>
 		</dict>
 		<dict>
@@ -360,7 +361,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -371,7 +372,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
 
@@ -542,9 +543,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C: Include</string>
+			<string>C: include</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c</string>
+			<string>meta.preprocessor.c.include string, meta.preprocessor.c.include punctuation.definition.string.begin, meta.preprocessor.c.include punctuation.definition.string.end</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -770,13 +771,13 @@
 		<!-- Shell -->
 		<dict>
 			<key>name</key>
-			<string>Shell: []</string>
+			<string>Shell: meta scope in loop</string>
 			<key>scope</key>
-			<string>punctuation.definition.logical-expression.shell</string>
+			<string>meta.scope.for-in-loop.shell, variable.other.loop.shell</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586E75</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -787,7 +788,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586E75</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -822,7 +823,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586E75</string>
+				<string>#93a1a1</string>
 			</dict>
 		</dict>
 
@@ -848,7 +849,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -903,10 +904,10 @@
 			<key>scope</key>
 			<string>markup.heading, punctuation.definition.heading.markdown</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b58900</string>
-			</dict>
+				<dict>
+					<key>foreground</key>
+					<string>#b58900</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -914,10 +915,10 @@
 			<key>scope</key>
 			<string>markup.quote</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#859900</string>
-			</dict>
+				<dict>
+					<key>foreground</key>
+					<string>#859900</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -925,10 +926,10 @@
 			<key>scope</key>
 			<string>markup.italic</string>
 			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
-			</dict>
+				<dict>
+					<key>fontStyle</key>
+					<string>italic</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -936,10 +937,10 @@
 			<key>scope</key>
 			<string>markup.bold</string>
 			<key>settings</key>
-			<dict>
-				<key>fontStyle</key>
-				<string>bold</string>
-			</dict>
+				<dict>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -947,10 +948,10 @@
 			<key>scope</key>
 			<string>markup.underline.link.markdown, meta.link.reference constant.other.reference.link.markdown</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#2aa198</string>
-			</dict>
+				<dict>
+					<key>foreground</key>
+					<string>#2aa198</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -958,10 +959,10 @@
 			<key>scope</key>
 			<string>constant.other.reference.link.markdown</string>
 			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6c71c4</string>
-			</dict>
+				<dict>
+					<key>foreground</key>
+					<string>#6c71c4</string>
+				</dict>
 		</dict>
 		<dict>
 			<key>Name</key>
@@ -969,10 +970,10 @@
 			<key>scope</key>
 			<string>meta.paragraph.markdown meta.dummy.line-break</string>
 			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#6F6F6F</string>
-			</dict>
+				<dict>
+					<key>background</key>
+					<string>#586e75</string>
+				</dict>
 		</dict>
 
 		<!-- Sublime Linter -->
@@ -984,9 +985,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6F6F6F</string>
+				<string>#586e75</string>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -997,9 +998,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#A6A6A6</string>
+				<string>#586e75</string>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1045,9 +1046,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6F6F6F</string>
+				<string>#657b83</string>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1069,7 +1070,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#A6A6A6</string>
+				<string>#586e75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1080,7 +1081,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#5E993F</string>
+				<string>#2AA198</string>
 			</dict>
 		</dict>
 
@@ -1150,7 +1151,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#6F6F6F</string>
+				<string>#657b83</string>
 			</dict>
 		</dict>
 	</array>

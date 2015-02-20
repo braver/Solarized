@@ -12,28 +12,28 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#002b36</string>
+				<string>#fdf6e3</string>
 
 				<key>caret</key>
-				<string>#eee8d5</string>
+				<string>#073642</string>
 
 				<key>foreground</key>
-				<string>#839496</string>
+				<string>#657b83</string>
 
 				<key>invisibles</key>
-				<string>#586e75</string>
+				<string>#eee8d5</string>
 
 				<key>lineHighlight</key>
-				<string>#03303C</string>
+				<string>#f5efdc</string>
 
 				<key>selection</key>
-				<string>#2C4C55</string>
+				<string>#eee8d5</string>
 
 				<key>selectionBorder</key>
-				<string>#586e75</string>
+				<string>#c0c4bb</string>
 
 				<key>gutter</key>
-				<string>#073642</string>
+				<string>#eee8d5</string>
 
 				<!-- Defaul looks best really -->
 				<!-- <key>findHighlight</key> -->
@@ -53,7 +53,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#93a1a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -130,18 +130,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#859900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>Import</string>
-			<key>scope</key>
-			<string>meta.import keyword, keyword.control.import, keyword.control.import.from, keyword.other.import, keyword.control.at-rule.include, keyword.control.at-rule.import</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#CB4B16</string>
+				<string>#dc322f</string>
 			</dict>
 		</dict>
 		<dict>
@@ -262,7 +251,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#93A1A1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -328,7 +317,7 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#6E2E32</string>
+				<string>#ec9489</string>
 			</dict>
 		</dict>
 		<dict>
@@ -554,9 +543,9 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>C: include</string>
+			<string>C: Include</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c.include string, meta.preprocessor.c.include punctuation.definition.string.begin, meta.preprocessor.c.include punctuation.definition.string.end</string>
+			<string>meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -758,6 +747,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Python: import</string>
+			<key>scope</key>
+			<string>keyword.control.import.python, keyword.control.import.from.python</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CB4B16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Python: Support.exception</string>
 			<key>scope</key>
 			<string>support.type.exception.python</string>
@@ -777,7 +777,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#586E75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -788,7 +788,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#586E75</string>
 			</dict>
 		</dict>
 		<dict>
@@ -806,13 +806,24 @@
 		<!-- Java -->
 		<dict>
 			<key>name</key>
+			<string>Java: import</string>
+			<key>scope</key>
+			<string>keyword.other.import.java</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#CB4B16</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Java: storage import</string>
 			<key>scope</key>
 			<string>storage.modifier.import.java</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#93a1a1</string>
+				<string>#586E75</string>
 			</dict>
 		</dict>
 
@@ -838,7 +849,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#93a1a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -961,7 +972,7 @@
 			<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#586e75</string>
+					<string>#eee8d5</string>
 				</dict>
 		</dict>
 
@@ -974,9 +985,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#586e75</string>
+				<string>#eee8d5</string>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#eee8d5</string>
 			</dict>
 		</dict>
 		<dict>
@@ -987,9 +998,9 @@
 			<key>settings</key>
 			<dict>
 				<key>background</key>
-				<string>#586e75</string>
+				<string>#93a1a1</string>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#93a1a1</string>
 			</dict>
 		</dict>
 		<dict>
@@ -1059,7 +1070,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#586e75</string>
+				<string>#93a1a1</string>
 			</dict>
 		</dict>
 		<dict>
