@@ -137,7 +137,7 @@
 			<key>name</key>
 			<string>Import</string>
 			<key>scope</key>
-			<string>meta.import keyword, keyword.control.import, keyword.control.import.from, keyword.other.import</string>
+			<string>meta.import keyword, keyword.control.import, keyword.control.import.from, keyword.other.import, keyword.control.at-rule.include, keyword.control.at-rule.import</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
