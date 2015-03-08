@@ -1073,6 +1073,17 @@
 				<string>#2AA198</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
+			<string>Find In Files: Line numbers</string>
+			<key>scope</key>
+			<string>constant.numeric.line-number.find-in-files</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93a1a1</string>
+			</dict>
+		</dict>
 
 		<!-- Git Gutter -->
 		<dict>
