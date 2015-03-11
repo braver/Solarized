@@ -69,17 +69,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>StringNumber</string>
-			<key>scope</key>
-			<string>string</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#6c71c4</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>Regexp</string>
 			<key>scope</key>
 			<string>string.regexp</string>
