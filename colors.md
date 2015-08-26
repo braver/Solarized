@@ -18,38 +18,45 @@ green:     #859900;
 ```
 
 ## ACCENT
-`#b58900`: instance?
-`#cb4b16`: include/import
-`#dc322f`: support function, escape
-`#d33682`: TODO
-`#6c71c4`: md link, number
-`#268bd2`: variable, tag
-`#2aa198`: string
-`#859900`: punctuation.definition
+Colour    |  Use 
+--------- | -----
+`#b58900` | instance?
+`#cb4b16` | include/import
+`#dc322f` | support function, escape
+`#d33682` | TODO
+`#6c71c4` | md link, number
+`#268bd2` | variable, tag
+`#2aa198` | string
+`#859900` | punctuation.definition
 
 
 ## LIGHT
-`base3`  : bg
-`base2`  : highlights bg (current line, gutter)
-`base1`  : comments
-`base0`  : unused
-`base00` : default
-`base01` : emphasis
-`base02` : caret
-`base03` : unused
+Colour |  Use 
+------ | -----
+base3  | bg
+base2  | highlights bg (current line, gutter)
+base1  | comments
+base0  | unused
+base00 | default
+base01 | emphasis
+base02 | caret
+base03 | unused
 
-`base2`  : 50% opacity on top of base3: #f5efdc
-`base1`  : 50% opacity on top of base2: #c0c4bb
-`red`    : 33% opacity on top of background: #ec9489
+base2  : 50% opacity on top of base3: #f5efdc
+base1  : 50% opacity on top of base2: #c0c4bb
+red    : 33% opacity on top of background: #ec9489
 
 ## DARK
-`base03` : bg
-`base02` : highlight
-`base01` : comments
-`base0`  : fg
-`base1`  : emphasis
-`base2`  : caret
+Colour |  Use 
+------ | -----
+base03 | bg
+base02 | highlight
+base01 | comments
+base0  | fg
+base1  | emphasis
+base2  | caret
 
-`base01` : 50% opacity on top of base03: #2C4C55
-`base01` : 50% opacity on top of base02: #c0c4bb
-`red`    : 33% opacity on top of background: #6E2E32
+
+base01 : 50% opacity on top of base03: #2C4C55
+base01 : 50% opacity on top of base02: #c0c4bb
+red    : 33% opacity on top of background: #6E2E32
