@@ -29,34 +29,30 @@ Colour    |  Use
 `#2aa198` | string
 `#859900` | punctuation.definition
 
-
 ## LIGHT
-Colour |  Use 
------- | -----
-base3  | bg
-base2  | highlights bg (current line, gutter)
-base1  | comments
-base0  | unused
-base00 | default
-base01 | emphasis
-base02 | caret
-base03 | unused
-
-base2  : 50% opacity on top of base3: #f5efdc
-base1  : 50% opacity on top of base2: #c0c4bb
-red    : 33% opacity on top of background: #ec9489
+Colour    |  Use 
+--------- | -----
+base3     | bg
+base2     | highlights bg (current line, gutter)
+base1     | comments
+base0     | unused
+base00    | default
+base01    | emphasis
+base02    | caret
+base03    | unused
+`#f5efdc` | selection (base2 on base3; 50%)
+`#c0c4bb` | selection (base1 on base2; 50%)
+`#ec9489` | invalid   (red   on base3; 33%)
 
 ## DARK
-Colour |  Use 
------- | -----
-base03 | bg
-base02 | highlight
-base01 | comments
-base0  | fg
-base1  | emphasis
-base2  | caret
-
-
-base01 : 50% opacity on top of base03: #2C4C55
-base01 : 50% opacity on top of base02: #c0c4bb
-red    : 33% opacity on top of background: #6E2E32
+Colour    |  Use 
+--------- | -----
+base03    | bg
+base02    | highlight
+base01    | comments
+base0     | fg
+base1     | emphasis
+base2     | caret
+`#2C4C55` | selection (base02 on base03; 50%)
+`#c0c4bb` | selection (base01 on base02; 50%)
+`#6E2E32` | invalid   (red    on base03; 33%)
