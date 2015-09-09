@@ -1136,6 +1136,19 @@
 				<string>#b58900</string>
 			</dict>
 		</dict>
+
+		<!-- JavaScript (JavaScript Next) -->
+		<dict>
+			<key>name</key>
+			<string>JavaScriptNext: Variables</string>
+			<key>scope</key>
+			<string>variable.other.readwrite</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
 	</array>
 	<key>uuid</key>
 	<string>5815b34d-fb7d-4593-bf0c-4f41f8b1f0a9</string>
