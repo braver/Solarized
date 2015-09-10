@@ -383,7 +383,7 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>CSS: Selector &gt; [] and non-spec tags</string>
+			<string>CSS: Selector > [] and non-spec tags</string>
 			<key>scope</key>
 			<string>meta.selector.css</string>
 			<key>settings</key>
@@ -923,7 +923,7 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
+			<key>Name</key>
 			<string>Markdown reference list</string>
 			<key>scope</key>
 			<string>constant.other.reference.link.markdown</string>
@@ -934,7 +934,7 @@
 			</dict>
 		</dict>
 		<dict>
-			<key>name</key>
+			<key>Name</key>
 			<string>Markdown linebreak</string>
 			<key>scope</key>
 			<string>meta.paragraph.markdown meta.dummy.line-break</string>
@@ -1142,7 +1142,7 @@
 			<key>name</key>
 			<string>JavaScriptNext: Variables</string>
 			<key>scope</key>
-			<string>variable.other.readwrite</string>
+			<string>variable.other.readwrite.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
