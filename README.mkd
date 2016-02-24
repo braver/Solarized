@@ -4,7 +4,7 @@ Solarized is a color scheme created by [Ethan Schoonover](http://ethanschoonover
 
 ## Solarized for Sublime Text
 
-This color scheme is created for Sublime Text (2 and 3). It improved on the Solarized color schemes packaged with Sublime Text, by using the correct colors and optimizing for the syntax grammars available for Sublime Text 3.
+This color scheme is created for Sublime Text (2 and 3). It improves on the Solarized color schemes packaged with Sublime Text, by using the correct colors and optimizing for the syntax grammars available for Sublime Text 3.
 
 To install it, use Sublime Package Control following [these instructions](http://wbond.net/sublime_packages/package_control/installation).
 
