@@ -1137,16 +1137,49 @@
 			</dict>
 		</dict>
 
-		<!-- JavaScript (JavaScript Next) -->
+		<!-- JavaScript and Babel/ES2015 -->
 		<dict>
 			<key>name</key>
-			<string>JavaScriptNext: Variables</string>
+			<string>JavaScript Variables</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.js</string>
+			<string>variable.other.readwrite.js, variable.other.object.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#839496</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Functions</string>
+			<key>scope</key>
+			<string>variable.function.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript punctation inside class</string>
+			<key>scope</key>
+			<string>meta.class punctuation</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#839496</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>JavaScript Classes</string>
+			<key>scope</key>
+			<string>variable.language.this.js, variable.language.super.js</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d33682</string>
 			</dict>
 		</dict>
 	</array>
