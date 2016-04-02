@@ -1142,7 +1142,7 @@
 			<key>name</key>
 			<string>JavaScript Variables</string>
 			<key>scope</key>
-			<string>variable.other.readwrite.js, variable.other.object.js</string>
+			<string>variable.other.readwrite.js, variable.other.object.js, variable.other.constant.js</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
