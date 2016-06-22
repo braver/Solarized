@@ -32,6 +32,27 @@
 				<!-- <string>#dddd45</string> -->
 				<!-- <key>findHighlightForeground</key> -->
 				<!-- <string>#fdf6e3</string> -->
+
+				<key>popupCss</key>
+				<string><![CDATA[
+					html {
+						background-color: #002b36;
+						color: #839496;
+					}
+					a {
+						color: #2aa198;
+					}
+					.error, .deleted {
+						color: #dc322f;
+					}
+					.success, .inserted {
+						color: #859900;
+					}
+					.warning, .modified {
+						color: #b58900;
+					}
+				]]></string>
+
 			</dict>
 		</dict>
 
