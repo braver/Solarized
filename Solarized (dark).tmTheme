@@ -58,9 +58,6 @@
 					html {
 						background-color: #2C4C55;
 						color: #93a1a1;
-						padding: 4px;
-						padding-top: 1px;
-						padding-bottom: 1px;
 					}
 					a {
 						color: #2aa198;
