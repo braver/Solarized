@@ -243,6 +243,17 @@
 			</dict>
 		</dict>
 		<dict>
+			<key>Name</key>
+			<string>Section heading</string>
+			<key>scope</key>
+			<string>entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cb4b16</string>
+			</dict>
+		</dict>
+		<dict>
 			<key>name</key>
 			<string>Support.construct</string>
 			<key>scope</key>
