@@ -145,6 +145,15 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Variable Function</string>
+			<key>scope</key>
+			<string>variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
 		<dict>
 			<key>name</key>
 			<string>Variable Language</string>
@@ -156,6 +165,8 @@
 				<string>#d33682</string>
 			</dict>
 		</dict>
+		<dict>
+			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>keyword</string>
@@ -1208,17 +1219,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#657b83</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Functions</string>
-			<key>scope</key>
-			<string>variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
