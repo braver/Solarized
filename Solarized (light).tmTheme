@@ -459,7 +459,7 @@
 			<key>name</key>
 			<string>CSS .class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass</string>
+			<string>entity.other.attribute-name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -470,7 +470,7 @@
 			<key>name</key>
 			<string>CSS: #id</string>
 			<key>scope</key>
-			<string>source.css entity.other.attribute-name.id, source.less entity.other.attribute-name.id, source.scss entity.other.attribute-name.id, source.sass entity.other.attribute-name.id</string>
+			<string>entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -481,7 +481,7 @@
 			<key>name</key>
 			<string>CSS :pseudo</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
+			<string>entity.other.attribute-name.pseudo-element, entity.other.attribute-name.tag.pseudo-element, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
