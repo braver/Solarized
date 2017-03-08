@@ -213,7 +213,7 @@
 			<key>name</key>
 			<string>Library class</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>support, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -246,7 +246,7 @@
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language, meta.preprocessor</string>
+			<string>constant, constant.language, meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
