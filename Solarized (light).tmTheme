@@ -145,6 +145,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+		<dict>
+			<key>name</key>
+			<string>Variable Language</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d33682</string>
+			</dict>
+		</dict>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>keyword</string>
@@ -1221,17 +1232,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#657b83</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Classes</string>
-			<key>scope</key>
-			<string>variable.language.this.js, variable.language.super.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#d33682</string>
 			</dict>
 		</dict>
 	</array>
