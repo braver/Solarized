@@ -200,6 +200,17 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Storage modifier</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#586e75</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class</string>
 			<key>scope</key>
 			<string>keyword.control.class, meta.class, entity.name.class, entity.name.type.class</string>
@@ -843,19 +854,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#dc322f</string>
-			</dict>
-		</dict>
-
-		<!-- Java -->
-		<dict>
-			<key>name</key>
-			<string>Java: storage import</string>
-			<key>scope</key>
-			<string>storage.modifier.import.java</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#586e75</string>
 			</dict>
 		</dict>
 
