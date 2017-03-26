@@ -145,6 +145,28 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Variable Function</string>
+			<key>scope</key>
+			<string>variable.function</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Variable Language</string>
+			<key>scope</key>
+			<string>variable.language</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#d33682</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Keyword</string>
 			<key>scope</key>
 			<string>keyword</string>
@@ -189,9 +211,42 @@
 		</dict>
 		<dict>
 			<key>name</key>
+			<string>Storage modifier</string>
+			<key>scope</key>
+			<string>storage.modifier</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#93a1a1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
 			<string>Class</string>
 			<key>scope</key>
-			<string>keyword.control.class, meta.class, entity.name.class, entity.name.type.class</string>
+			<string>keyword.control.class, meta.class, entity.name, entity.name.class, entity.name.type.class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Inherited Class</string>
+			<key>scope</key>
+			<string>entity.other.inherited-class</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#268bd2</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Attribute</string>
+			<key>scope</key>
+			<string>entity.other.attribute-name</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -202,7 +257,7 @@
 			<key>name</key>
 			<string>Library class</string>
 			<key>scope</key>
-			<string>support.type, support.class</string>
+			<string>support, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -235,11 +290,22 @@
 			<key>name</key>
 			<string>Built-in constant</string>
 			<key>scope</key>
-			<string>constant.language, meta.preprocessor</string>
+			<string>constant, constant.language, meta.preprocessor</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Name</key>
+			<string>Section heading</string>
+			<key>scope</key>
+			<string>entity.name.section</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#cb4b16</string>
 			</dict>
 		</dict>
 		<dict>
@@ -448,7 +514,7 @@
 			<key>name</key>
 			<string>CSS .class</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.class.css, entity.other.attribute-name.class.sass</string>
+			<string>entity.other.attribute-name.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -459,7 +525,7 @@
 			<key>name</key>
 			<string>CSS: #id</string>
 			<key>scope</key>
-			<string>source.css entity.other.attribute-name.id, source.less entity.other.attribute-name.id, source.scss entity.other.attribute-name.id, source.sass entity.other.attribute-name.id</string>
+			<string>entity.other.attribute-name.id</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -470,7 +536,7 @@
 			<key>name</key>
 			<string>CSS :pseudo</string>
 			<key>scope</key>
-			<string>entity.other.attribute-name.pseudo-element.css, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
+			<string>entity.other.attribute-name.pseudo-element, entity.other.attribute-name.tag.pseudo-element, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -577,7 +643,7 @@
 			<key>name</key>
 			<string>C: include</string>
 			<key>scope</key>
-			<string>meta.preprocessor.c.include string, meta.preprocessor.c.include punctuation.definition.string.begin, meta.preprocessor.c.include punctuation.definition.string.end</string>
+			<string>meta.preprocessor.c.include string.quoted.other.lt-gt.include.c, meta.preprocessor.c.include punctuation.definition.string.begin.c, meta.preprocessor.c.include punctuation.definition.string.end.c</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
@@ -824,18 +890,6 @@
 			</dict>
 		</dict>
 
-		<!-- Java -->
-		<dict>
-			<key>name</key>
-			<string>Java: storage import</string>
-			<key>scope</key>
-			<string>storage.modifier.import.java</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#93a1a1</string>
-			</dict>
-		</dict>
 
 		<!-- Perl -->
 		<dict>
@@ -1192,17 +1246,6 @@
 		</dict>
 		<dict>
 			<key>name</key>
-			<string>JavaScript Functions</string>
-			<key>scope</key>
-			<string>variable.function.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
 			<string>JavaScript punctation inside class</string>
 			<key>scope</key>
 			<string>meta.class punctuation</string>
@@ -1210,17 +1253,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#839496</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>JavaScript Classes</string>
-			<key>scope</key>
-			<string>variable.language.this.js, variable.language.super.js</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#d33682</string>
 			</dict>
 		</dict>
 	</array>
