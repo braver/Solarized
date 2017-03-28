@@ -24,3 +24,16 @@ int main(int argc, char **argv) {
   printf("New speed:     %2d\n", speed);
   return 0;
 }
+
+
+class Test :
+    public Interface
+{
+public:
+    virtual
+    void
+    SomeMethod();
+
+private:
+    int SomeData
+};

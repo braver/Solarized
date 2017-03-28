@@ -890,6 +890,19 @@
 			</dict>
 		</dict>
 
+		<!-- C++ -->
+		<dict>
+			<key>name</key>
+			<string>Storage</string>
+			<key>scope</key>
+			<string>storage.modifier.c++</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#859900</string>
+			</dict>
+		</dict>
+
 		<!-- Perl -->
 		<dict>
 			<key>name</key>
