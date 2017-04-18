@@ -27,11 +27,6 @@
 				<string>#2c4c55</string>
 				<key>selectionBorder</key>
 				<string>#586e75</string>
-				<!-- Default looks best really -->
-				<!-- <key>findHighlight</key> -->
-				<!-- <string>#dddd45</string> -->
-				<!-- <key>findHighlightForeground</key> -->
-				<!-- <string>#fdf6e3</string> -->
 			</dict>
 		</dict>
 
