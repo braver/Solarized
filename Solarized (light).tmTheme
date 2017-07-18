@@ -1141,30 +1141,6 @@
 			</dict>
 		</dict>
 
-		<!-- NeoVintageous -->
-		<dict>
-			<key>name</key>
-			<string>NeoVintageous Search</string>
-			<key>scope</key>
-			<string>string.search</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#268bd24d</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>NeoVintageous Occurrence</string>
-			<key>scope</key>
-			<string>string.search.occurrence</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#b589004d</string>
-			</dict>
-		</dict>
-
 		<!-- Find In Files -->
 		<dict>
 			<key>name</key>
