@@ -23,6 +23,8 @@
 				<string>#eee8d5</string>
 				<key>lineHighlight</key>
 				<string>#3F3D3812</string>
+				<key>misspelling</key>
+				<string>#dc322f</string>
 				<key>selection</key>
 				<string>#eee8d5</string>
 				<key>selectionBorder</key>
