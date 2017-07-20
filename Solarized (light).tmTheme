@@ -180,7 +180,7 @@
 			<key>name</key>
 			<string>Class</string>
 			<key>scope</key>
-			<string>keyword.control.class, meta.class, entity.name, entity.name.class, entity.name.type.class</string>
+			<string>keyword.control.class, entity.name, entity.name.class, entity.name.type.class</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
