@@ -928,6 +928,8 @@
 			<dict>
 				<key>foreground</key>
 				<string>#b58900</string>
+				<key>fontStyle</key>
+				<string>bold</string>
 			</dict>
 		</dict>
 		<dict>
