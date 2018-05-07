@@ -903,7 +903,7 @@
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
-				<string>#2aa198</string>
+				<string>#b58900</string>
 			</dict>
 		</dict>
 		<dict>
@@ -915,6 +915,29 @@
 			<dict>
 				<key>foreground</key>
 				<string>#859900</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Warning</string>
+			<key>scope</key>
+			<string>markup.warning</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#b58900</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>Error</string>
+			<key>scope</key>
+			<string>markup.error</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#dc322f</string>
 			</dict>
 		</dict>
 
@@ -999,126 +1022,6 @@
 			</dict>
 		</dict>
 
-		<!-- Sublime Linter -->
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Annotations</string>
-			<key>scope</key>
-			<string>sublimelinter.notes</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#586e75</string>
-				<key>foreground</key>
-				<string>#586e75</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#586e75</string>
-				<key>foreground</key>
-				<string>#586e75</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.illegal</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#dc322f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#839496</string>
-				<key>foreground</key>
-				<string>#839496</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#b58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Outline</string>
-			<key>scope</key>
-			<string>sublimelinter.outline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#657b83</string>
-				<key>foreground</key>
-				<string>#657b83</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Violation Underline</string>
-			<key>scope</key>
-			<string>sublimelinter.underline.violation</string>
-			<key>settings</key>
-			<dict>
-				<key>background</key>
-				<string>#cb4b16</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Warning</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.warning</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b58900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Error</string>
-			<key>scope</key>
-			<string>sublimelinter.mark.error</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#dc322f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>SublimeLinter Gutter Mark</string>
-			<key>scope</key>
-			<string>sublimelinter.gutter-mark</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#657b83</string>
-			</dict>
-		</dict>
-
 		<!-- Sublime Bracket Highlighter -->
 		<dict>
 			<key>name</key>
@@ -1153,41 +1056,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#586e75</string>
-			</dict>
-		</dict>
-
-		<!-- Git Gutter -->
-		<dict>
-			<key>name</key>
-			<string>GitGutter deleted</string>
-			<key>scope</key>
-			<string>markup.deleted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#dc322f</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter inserted</string>
-			<key>scope</key>
-			<string>markup.inserted.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#859900</string>
-			</dict>
-		</dict>
-		<dict>
-			<key>name</key>
-			<string>GitGutter changed</string>
-			<key>scope</key>
-			<string>markup.changed.git_gutter</string>
-			<key>settings</key>
-			<dict>
-				<key>foreground</key>
-				<string>#b58900</string>
 			</dict>
 		</dict>
 
