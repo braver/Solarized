@@ -62,7 +62,7 @@
         {
             "name": "Variable",
             "scope": "variable",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Variable Function",
@@ -107,7 +107,7 @@
         {
             "name": "Inherited Class",
             "scope": "entity.other.inherited-class",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Attribute",
@@ -151,7 +151,7 @@
         {
             "name": "Tag name",
             "scope": "entity.name.tag",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Tag start/end",
@@ -171,7 +171,7 @@
         {
             "name": "Storage Type",
             "scope": "storage.type",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "Exception",
@@ -201,7 +201,7 @@
         {
             "name": "[]",
             "scope": "meta.brace.square, punctuation.section.brackets",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "(),{}",
@@ -236,7 +236,7 @@
         {
             "name": "CSS :pseudo",
             "scope": "entity.other.attribute-name.pseudo-element, entity.other.attribute-name.tag.pseudo-element, entity.other.attribute-name.pseudo-class, entity.other.attribute-name.tag.pseudo-class",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "HTML: =",
@@ -396,7 +396,7 @@
         {
             "name": "Perl: functions",
             "scope": "support.function.perl",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "diff: header",
@@ -406,7 +406,7 @@
         {
             "name": "diff: range",
             "scope": "meta.diff.range",
-            "foreground": "var(blue2)"
+            "foreground": "var(blue)"
         },
         {
             "name": "diff: deleted",
