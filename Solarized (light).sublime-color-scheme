@@ -186,7 +186,7 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "background": "var(red)"
+            "background": "color(var(red) blend(var(base3) 30%))"
         },
         {
             "name": "Quoted String",
