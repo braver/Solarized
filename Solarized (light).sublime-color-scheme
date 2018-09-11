@@ -45,8 +45,8 @@
         "active_guide": "var(base1)",
         "stack_guide": "var(base2)",
 
-        "selection": "color(var(base1) blend(var(base3) 25%)",
-        "selection_border": "color(var(base1) blend(var(base3) 50%)",
+        "selection": "color(var(base1) blend(var(base3) 25%))",
+        "selection_border": "color(var(base1) blend(var(base3) 50%))",
         "inactive_selection": "var(base2)",
 
         "brackets_options": "underline",
