@@ -19,18 +19,45 @@
         "blue":    "#268bd2",
         "cyan":    "#2aa198",
         "green":   "#859900",
+
+        "highlight": "#d3ac36" // triad from magenta
     },
     "globals":
     {
-        "foreground": "var(base00)",
         "background": "var(base3)",
+        "foreground": "var(base00)",
+        "line_highlight": "var(base2)",
+        "gutter": "var(base2)",
+        "minimap_border": "var(base2)",
+
         "caret": "var(base02)",
         "invisibles": "var(base1)",
-        "line_highlight": "color(var(base2))",
-        "selection": "color(var(base1) blend(var(base2) 15%)",
-        "selection_border": "color(var(base1) blend(var(base2) 30%)",
         "misspelling": "var(red)",
-        "gutter": "var(base2)"
+
+        "highlight": "var(base1)",
+        "find_highlight": "var(highlight)",
+        "find_highlight_foreground": "var(base00)",
+
+        "accent": "var(yellow)",
+        "fold_marker": "var(highlight)",
+
+        "guide": "var(base2)",
+        "active_guide": "var(base1)",
+        "stack_guide": "var(base2)",
+
+        "selection": "color(var(base1) blend(var(base3) 25%)",
+        "selection_border": "color(var(base1) blend(var(base3) 50%)",
+        "inactive_selection": "var(base2)",
+
+        "brackets_options": "underline",
+        "brackets_foreground": "var(green)",
+        "bracket_contents_options": "stippled_underline",
+        "bracket_contents_foreground": "var(base1)",
+        "tags_options": "stippled_underline",
+        "tags_foreground": "var(green)",
+
+        "shadow": "var(base1)",
+        "shadow_width": "4"
     },
     "rules":
     [
