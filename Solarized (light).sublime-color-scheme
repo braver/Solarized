@@ -19,8 +19,6 @@
         "blue":    "#268bd2",
         "cyan":    "#2aa198",
         "green":   "#859900",
-
-        "highlight": "#d3ac36" // triad from magenta
     },
     "globals":
     {
@@ -35,11 +33,11 @@
         "misspelling": "var(red)",
 
         "highlight": "var(base1)",
-        "find_highlight": "var(highlight)",
-        "find_highlight_foreground": "var(base00)",
+        "find_highlight": "var(base2)",
+        "find_highlight_foreground": "var(base03)",
 
         "accent": "var(yellow)",
-        "fold_marker": "var(highlight)",
+        "fold_marker": "var(yellow)",
 
         "guide": "var(base2)",
         "active_guide": "var(base1)",
