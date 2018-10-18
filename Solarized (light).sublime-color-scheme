@@ -29,7 +29,7 @@
         "minimap_border": "var(base2)",
 
         "caret": "var(base02)",
-        "invisibles": "color(var(base1) alpha(0.35))",
+        "invisibles": "color(var(base1) alpha(0.3))",
         "misspelling": "var(red)",
 
         "highlight": "var(base1)",
