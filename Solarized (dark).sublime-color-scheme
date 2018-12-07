@@ -216,7 +216,8 @@
         {
             "name": "Quoted String",
             "scope": "string.quoted.double, string.quoted.single",
-            "foreground": "var(cyan)"
+            "foreground": "var(cyan)",
+            "background": "color(var(cyan) alpha(0.15))",
         },
         {
             "name": "Quotes",
