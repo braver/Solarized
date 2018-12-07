@@ -62,7 +62,8 @@
         {
             "name": "Comment",
             "scope": "comment, meta.documentation",
-            "foreground": "var(base01)"
+            "foreground": "var(base01)",
+            "font_style": "italic"
         },
         {
             "name": "String",
