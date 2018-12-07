@@ -82,7 +82,8 @@
         {
             "name": "Number",
             "scope": "constant.numeric",
-            "foreground": "var(violet)"
+            "foreground": "var(violet)",
+            "background": "color(var(violet) alpha(.2))",
         },
         {
             "name": "Variable",
