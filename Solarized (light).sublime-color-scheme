@@ -104,7 +104,8 @@
         {
             "name": "Keyword",
             "scope": "keyword",
-            "foreground": "var(green)"
+            "foreground": "var(green)",
+            "font_style": "italic"
         },
         {
             "name": "Import",
@@ -112,14 +113,20 @@
             "foreground": "var(orange)"
         },
         {
+            "name": "Operators",
+            "scope": "keyword.operator, storage.type.function.arrow",
+            "font_style": ""
+        },
+        {
             "name": "Arithmetical, Assignment, Comparision Operators",
             "scope": "keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic",
-            "foreground": "var(base00)"
+            "foreground": "var(base00)",
         },
         {
             "name": "Storage",
             "scope": "storage",
-            "foreground": "var(green)"
+            "foreground": "var(green)",
+            "font_style": "italic"
         },
         {
             "name": "Storage modifier",
