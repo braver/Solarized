@@ -264,6 +264,11 @@
             "foreground": "var(blue)"
         },
         {
+            "name": "Haskell: Variable",
+            "scope": "source.haskell variable",
+            "foreground": "var(yellow)"
+        },
+        {
             "name": "HTML: =",
             "scope": "text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, punctuation.separator.key-value.html",
             "foreground": "var(base00)"
