@@ -264,6 +264,11 @@
             "foreground": "var(blue)"
         },
         {
+            "name": "CSS: @-rule",
+            "scope": "keyword.control.at-rule",
+            "foreground": "var(orange)"
+        },
+        {
             "name": "Haskell: Variable",
             "scope": "source.haskell variable",
             "foreground": "var(yellow)"
