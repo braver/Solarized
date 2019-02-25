@@ -110,9 +110,14 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "Arithmetical, Assignment, Comparision Operators",
-            "scope": "keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic",
-            "foreground": "var(base00)"
+            "name": "Assignment, Comparision Operators",
+            "scope": "keyword.operator.comparison, keyword.operator.assignment",
+            "foreground": "var(base0)"
+        },
+        {
+            "name": "Arithmetical Operators",
+            "scope": "keyword.operator.arithmetic",
+            "foreground": "var(base1)"
         },
         {
             "name": "Storage",
@@ -231,7 +236,7 @@
         {
             "name": "(),{}",
             "scope": "meta.brace.round, meta.brace.curly, punctuation.section, punctuation.section.block, punctuation.definition.parameters, punctuation.section.group",
-            "foreground": "var(base00)"
+            "foreground": "var(base0)"
         },
         {
             "name": "CSS: Standard color value",
@@ -241,7 +246,7 @@
         {
             "name": "CSS: Selector > [] and non-spec tags",
             "scope": "meta.selector.css",
-            "foreground": "var(base00)"
+            "foreground": "var(base0)"
         },
         {
             "name": "CSS: Tag",
@@ -276,7 +281,7 @@
         {
             "name": "HTML: =",
             "scope": "text.html.basic meta.tag.other.html, text.html.basic meta.tag.any.html, text.html.basic meta.tag.block.any, text.html.basic meta.tag.inline.any, text.html.basic meta.tag.structure.any.html, text.html.basic source.js.embedded.html, punctuation.separator.key-value.html",
-            "foreground": "var(base00)"
+            "foreground": "var(base0)"
         },
         {
             "name": "HTML: something=",

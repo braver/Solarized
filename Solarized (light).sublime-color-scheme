@@ -110,9 +110,14 @@
             "foreground": "var(orange)"
         },
         {
-            "name": "Arithmetical, Assignment, Comparision Operators",
-            "scope": "keyword.operator.comparison, keyword.operator.assignment, keyword.operator.arithmetic",
+            "name": "Assignment, Comparision Operators",
+            "scope": "keyword.operator.comparison, keyword.operator.assignment",
             "foreground": "var(base00)"
+        },
+        {
+            "name": "Arithmetical Operators",
+            "scope": "keyword.operator.arithmetic",
+            "foreground": "var(base01)"
         },
         {
             "name": "Storage",
