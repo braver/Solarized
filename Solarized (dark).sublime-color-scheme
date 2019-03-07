@@ -117,7 +117,7 @@
         {
             "name": "Arithmetical Operators",
             "scope": "keyword.operator.arithmetic",
-            "foreground": "var(base1)"
+            "foreground": "var(orange)"
         },
         {
             "name": "Storage",
