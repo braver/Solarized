@@ -55,7 +55,10 @@
         "tags_foreground": "var(green)",
 
         "shadow": "var(base1)",
-        "shadow_width": "4"
+        "shadow_width": "4",
+
+        "line_diff_added" : "var(green)",
+        "line_diff_modified" : "var(yellow)"
     },
     "rules":
     [
