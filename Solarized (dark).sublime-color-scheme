@@ -29,6 +29,7 @@
         "minimap_border": "var(base02)",
 
         "caret": "var(base2)",
+        "block_caret": "var(base3)",
         "invisibles": "var(base01)",
         "misspelling": "var(red)",
 
