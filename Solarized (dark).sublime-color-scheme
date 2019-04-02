@@ -33,7 +33,7 @@
         "invisibles": "var(base01)",
         "misspelling": "var(red)",
 
-        "highlight": "var(base1)",
+        "highlight": "var(base01)",
         "find_highlight": "var(base02)",
         "find_highlight_foreground": "var(base3)",
 
