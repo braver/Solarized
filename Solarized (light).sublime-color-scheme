@@ -220,7 +220,8 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "background": "color(var(red) blend(var(base3) 30%))"
+            "background": "color(var(red) blend(var(base3) 30%))",
+            "foreground": "var(red)"
         },
         {
             "name": "Quoted String",
