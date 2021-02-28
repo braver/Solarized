@@ -528,6 +528,90 @@
             "name": "JavaScript Variables",
             "scope": "variable.other.readwrite.js, variable.other.object.js, variable.other.constant.js",
             "foreground": "var(base0)"
+        },
+
+        // Sublime Merge
+        {
+            "scope": "diff.deleted",
+            "background": "color(var(red) alpha(0.24))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.deleted.char",
+            "background": "color(var(red) alpha(0.36))",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.inserted",
+            "background": "color(var(green) alpha(0.24))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char",
+            "background": "color(var(green) alpha(0.36))",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.deleted.side-by-side",
+            "background": "color(var(red) alpha(0.24))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.side-by-side",
+            "background": "color(var(green) alpha(0.24))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.fill",
+            "background": "color(var(base3) alpha(0.36))",
+        },
+        {
+            "scope": "diff.inserted.merge-left",
+            "background": "color(var(green) alpha(0.24))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char.merge-left",
+            "background": "color(var(red) alpha(0.36))",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.border.merge-left",
+            "background": "color(var(blue) alpha(0.5))",
+        },
+        {
+            "scope": "diff.inserted.merge-right",
+            "background": "color(var(green) alpha(0.24))",
+            "foreground_adjust": "l(+ 5%)"
+        },
+        {
+            "scope": "diff.inserted.char.merge-right",
+            "background": "color(var(base3) alpha(0.36))",
+            "foreground_adjust": "l(+ 10%)"
+        },
+        {
+            "scope": "diff.border.merge-right",
+            "background": "color(var(blue) alpha(0.5))",
+        },
+        {
+            "scope": "diff.border.merge-conflict",
+            "background": "color(var(red) alpha(0.5))",
+        },
+        {
+            "scope": "diff.border.merge-merged",
+            "background": "color(var(yellow) alpha(0.5))",
+        },
+        {
+            "scope": "blame.border",
+            "background": "color(var(cyan) alpha(0.5))",
+        },
+        {
+            "scope": "blame.age-icon",
+            "foreground": "color(var(base02) alpha(1))",
+        },
+        {
+            "scope": "source.sublime-merge.preferences.git_binary",
+            "foreground": "color(var(base02) alpha(1))",
         }
     ]
 }
