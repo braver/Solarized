@@ -1,10 +1,10 @@
 # Solarized
 
-Solarized is a color scheme created by [Ethan Schoonover](http://ethanschoonover.com/solarized). There are [versions](https://github.com/altercation/solarized) for pretty much every editor out there, this is the one to get for Sublime Text 3.
+Solarized is a color scheme created by [Ethan Schoonover](http://ethanschoonover.com/solarized). There are [versions](https://github.com/altercation/solarized) for pretty much every editor out there, this is the one to get for Sublime Text.
 
 ## Solarized for Sublime Text
 
-This color scheme is created for Sublime Text 3.  
+This color scheme is created for Sublime Text.  
 
 To install it, use [Package Control](https://packagecontrol.io/packages/Solarized%20Color%20Scheme).
 
