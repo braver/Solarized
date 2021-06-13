@@ -41,8 +41,8 @@
         "fold_marker": "var(yellow)",
 
         "guide": "var(base2)",
-        "active_guide": "var(base1)",
-        "stack_guide": "var(base2)",
+        "active_guide": "color(var(base1) blend(var(base2) 80%))",
+        "stack_guide": "color(var(base1) blend(var(base2) 40%))",
 
         "selection": "color(var(base1) blend(var(base3) 25%))",
         "selection_border": "color(var(base1) blend(var(base3) 50%))",
