@@ -94,6 +94,11 @@
             "foreground": "var(violet)"
         },
         {
+            "name": "Number Units",
+            "scope": "constant.numeric.suffix",
+            "foreground": "var(green)"
+        },
+        {
             "name": "Variable",
             "scope": "variable",
             "foreground": "var(blue)"
