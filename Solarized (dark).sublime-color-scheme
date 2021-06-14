@@ -51,6 +51,7 @@
         "selection": "color(var(base01) blend(var(base03) 25%))",
         "selection_border": "color(var(base01) blend(var(base03) 50%))",
         "inactive_selection": "var(base02)",
+        "inactive_selection_border": "color(var(base01) blend(var(base03) 50%))",
 
         "brackets_options": "underline",
         "brackets_foreground": "var(green)",
