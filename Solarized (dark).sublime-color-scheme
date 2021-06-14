@@ -25,7 +25,11 @@
         "background": "var(base03)",
         "foreground": "var(base0)",
         "line_highlight": "var(base02)",
+
         "gutter": "var(base02)",
+        "gutter_foreground": "var(base01)",
+        "gutter_foreground_highlight": "var(base0)",
+
         "minimap_border": "var(base02)",
 
         "caret": "var(base2)",
