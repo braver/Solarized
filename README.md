@@ -19,4 +19,4 @@ After installation select either Light or Dark from the Select Color Scheme entr
 
 ☕️👌🏻
 
-If you enjoy this package, feel free to make a little [donation via PayPal](https://paypal.me/pools/c/8aniLejX25) towards the coffee that keeps this project running. It's much appreciated!
+If you enjoy this package, feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) towards the coffee that keeps this project running. It's much appreciated!
