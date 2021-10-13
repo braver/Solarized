@@ -540,6 +540,13 @@
             "foreground": "var(base00)"
         },
 
+        // Go
+        {
+            "name": "Go Variables",
+            "scope": "variable.other.go, variable.other.member.go, variable.other.member.declaration.go, variable.other.constant.declaration.go",
+            "foreground": "var(base00)"
+        },
+
         // Sublime Merge
         {
             "scope": "diff.deleted",
