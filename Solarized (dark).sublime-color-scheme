@@ -230,7 +230,7 @@
         {
             "name": "Invalid",
             "scope": "invalid",
-            "background": "color(var(red) blend(var(base03) 30%))",
+            "background": "color(var(red) blend(var(base03) 60%))",
             "foreground": "var(red)"
         },
         {
