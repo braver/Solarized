@@ -540,13 +540,6 @@
             "foreground": "var(base0)"
         },
 
-        // SCSS
-        {
-            "name": "Scss Function",
-            "scope": "support.function.scss",
-            "foreground": "var(cyan)"
-        },
-
         // Go
         {
             "name": "Go Variables",
