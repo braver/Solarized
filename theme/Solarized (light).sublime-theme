@@ -1,0 +1,1064 @@
+{
+    "extends": "Default.sublime-theme",
+    "variables": {
+        ////////////////////////////////// Solarized //////////////////////////
+        "base03":  "#002b36",
+        "base02":  "#073642",
+        "base01":  "#586e75",
+        "base00":  "#657b83",
+        "base0":   "#839496",
+        "base1":   "#93a1a1",
+        "base2":   "#eee8d5",
+        "base3":   "#fdf6e3",
+        "yellow":  "#b58900",
+        "orange":  "#cb4b16",
+        "red":     "#dc322f",
+        "magenta": "#d33682",
+        "violet":  "#6c71c4",
+        "blue":    "#268bd2",
+        "cyan":    "#2aa198",
+        "green":   "#859900",
+
+        ////////////////////////////////// Based on Rosé Pine /////////////////
+        "base": "var(base3)",
+        "surface": "var(base3)",
+        "overlay": "var(base2)",
+        "muted": "color(var(base1) blend(var(base2) 80%))",
+        "subtle": "color(var(base1) blend(var(base2) 100%))",
+        "text": "var(base00)",
+        "love": "var(magenta)",
+        "gold": "var(yellow)",
+        "rose": "var(red)",
+        "pine": "var(cyan)",
+        "foam": "var(green)",
+        "iris": "var(violet)",
+        "highlight-low": "color(var(base1) blend(var(base2) 2%))",
+        "highlight-med": "color(var(base1) blend(var(base2) 20%))",
+        "highlight-high": "color(var(base1) blend(var(base2) 36%))",
+
+        ////////////////////////////////// Utility ////////////////////////////
+
+        "opaque": { "target": 1, "speed": 6.0, "interpolation": "smoothstep" },
+        "transparent": { "target": 0, "speed": 3.0, "interpolation": "smoothstep" },
+
+        ////////////////////////////////// Default ////////////////////////////
+
+        "base_hue": "var(base)",
+        "base_tint": "var(text)",
+
+        "ui_bg": "var(base)",
+        "text_fg": "var(text)",
+        "link_fg": "var(iris)",
+
+        "label_color": "var(text)",
+
+        "icon_tint": "var(subtle)",
+        "shape_tint": "var(highlight-high)",
+
+        "button_bg": "var(surface)",
+
+        "scroll_bar_bg": "var(overlay)",
+        "scroll_bar_puck_bg": "var(subtle)",
+
+        "scroll_bar_dark_bg": "var(overlay)",
+        "scroll_bar_puck_dark_bg": "var(subtle)",
+
+        "button_label_color": "var(text)",
+        "button_label_shadow": "transparent",
+
+        "sidebar_bg": "var(surface)",
+
+        "sidebar_heading": "var(highlight-high)",
+        "sidebar_heading_shadow": "var(base)",
+        "sidebar_label": "var(base1)",
+        "sidebar_label_selected": "var(text)",
+        "sidebar_label_ignored": "var(highlight-med)",
+
+        "sidebar_button_tint": "var(subtle)",
+        "sidebar_button_new_tint": "var(foam)",
+        "sidebar_button_modified_tint": "var(rose)",
+        "sidebar_button_deleted_tint": "var(love)",
+
+        "sidebar_button_opacity": "var(opaque)",
+        "sidebar_button_hover_opacity": "var(opaque)",
+
+        "sidebar_close_button_opacity": "var(opaque)",
+        "sidebar_close_button_hover_opacity": "var(opaque)",
+
+        "sidebar_scroll_bar_bg": "var(base)",
+        "sidebar_scroll_bar_puck_bg": "var(subtle)",
+
+        "vcs_untracked": "var(muted)",
+        "vcs_modified": "var(rose)",
+        "vcs_missing": "var(rose)",
+        "vcs_staged": "var(iris)",
+        "vcs_added": "var(foam)",
+        "vcs_deleted": "var(love)",
+        "vcs_unmerged": "var(gold)",
+
+        "switch_project_bg": "var(overlay)",
+
+        "panel_bg": "var(overlay)",
+
+        "progress_bar_bg": "var(overlay)",
+        "progress_bar_fg": "var(text)",
+
+        "dialog_bg": "var(overlay)",
+        "dialog_button_bg": "var(base)",
+
+        "icon_button_highlight": "var(base)",
+
+        "tool_tip_bg": "var(base)",
+        "tool_tip_fg": "var(text)",
+
+        "sheet_dark_modifier": "blend(var(highlight-high) 82%)",
+        "sheet_medium_dark_modifier": "blend(var(highlight-high) 82%)",
+        "sheet_medium_modifier": "blend(var(highlight-high) 82%)",
+        "sheet_light_modifier": "blend(var(highlight-high) 82%)",
+
+        "text_widget_dark_modifier": "l(- 0%)",
+        "text_widget_light_modifier": "l(- 0%)",
+
+        "overlay_bg": "var(overlay)",
+
+        "quick_panel_label_color": "var(subtle)",
+        "quick_panel_path_label_color": "var(foam)",
+        "quick_panel_matched_label_color": "var(text)",
+        "quick_panel_matched_path_label_color": "var(foam)",
+
+        "quick_panel_selected_row_bg": "var(highlight-med)",
+        "quick_panel_selected_label_color": "var(text)",
+        "quick_panel_selected_path_label_color": "var(foam)",
+        "quick_panel_selected_matched_label_color": "var(quick_panel_matched_label_color)",
+        "quick_panel_selected_matched_path_label_color": "var(foam)",
+
+        "quick_panel_link_color": "var(iris)",
+
+        "viewport_always_visible_color": "var(highlight-low)",
+        "viewport_hide_show_color": "var(highlight-med)",
+
+        "auto_complete_bg_dark_tint": "var(overlay)",
+        "auto_complete_bg_light_tint": "var(overlay)",
+
+        "auto_complete_selected_row_dark_tint": "var(highlight-med)",
+        "auto_complete_selected_row_light_tint": "var(highlight-med)",
+
+        "auto_complete_text_dark_tint": "var(text)",
+        "auto_complete_text_light_tint": "var(text)",
+
+        "auto_complete_detail_pane_dark_tint": "var(surface)",
+        "auto_complete_detail_pane_light_tint": "var(surface)",
+
+        "auto_complete_detail_panel_mono_dark_bg": "var(overlay)",
+        "auto_complete_detail_panel_mono_light_bg": "var(overlay)",
+
+        "kind_function_color": "var(love)",
+        "kind_keyword_color": "var(rose)",
+        "kind_markup_color": "var(gold)",
+        "kind_namespace_color": "var(foam)",
+        "kind_navigation_color": "var(gold)",
+        "kind_snippet_color": "var(pine)",
+        "kind_type_color": "var(iris)",
+        "kind_variable_color": "var(foam)",
+
+        "kind_name_label_border_color": "var(highlight-high)",
+
+        "icon_opacity": "var(opaque)",
+        "icon_hover_opacity": "var(opaque)",
+
+        "status_bar_bg": "var(overlay)",
+        "status_bar_label_color": "var(subtle)",
+        "status_bar_icon_tint": "var(subtle)",
+        "status_bar_label_shadow": "transparent",
+
+        "radio_back": "var(surface)",
+        "radio_border-unselected": "var(subtle)",
+        "radio_selected": "var(foam)",
+        "radio_border-selected": "var(pine)",
+
+        "checkbox_back": "var(surface)",
+        "checkbox_border-unselected": "var(subtle)",
+        "checkbox_selected": "var(foam)",
+        "checkbox_border-selected": "var(pine)",
+        "checkbox-disabled": "var(muted)",
+    },
+    "rules": [
+        // Title Bar, adapted from Adaptive to allow it to be themed
+        {
+            "class": "title_bar",
+            "settings": ["themed_title_bar"],
+            "bg": "var(overlay)",
+            "fg": "var(text)"
+        },
+
+        // Side Bar, current file row highlight
+        {
+            "class": "tree_row",
+            "attributes": ["!hover"],
+            "layer0.opacity": 0.0,
+        },
+        {
+            "class": "tree_row",
+            "attributes": ["selectable", "hover"],
+            "layer0.tint": "var(highlight-low)",
+            "layer0.opacity": 1,
+        },
+        {
+            "class": "tree_row",
+            "attributes": ["selected"],
+            "layer0.tint": "var(highlight-low)",
+            "layer0.opacity": 1,
+        },
+        {
+            "class": "tree_row",
+            "attributes": ["highlighted"],
+            "layer0.tint": "var(highlight-low)",
+            "layer0.opacity": 1,
+        },
+
+        // // Open Files Icons
+        {
+            "class": "close_button",
+            "layer0.texture": "Theme - Default/common/open_file_close.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(shape_tint)",
+            "layer1.texture": "Theme - Default/common/open_file_close.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(text)",
+            "content_margin": [8, 8],
+        },
+        {
+            "class": "close_button",
+            "attributes": ["hover"],
+            "layer1.opacity": "var(opaque)",
+        },
+        {
+            "class": "close_button",
+            "attributes": ["!hover", "dirty"],
+            "layer0.texture": "Theme - Default/common/open_file_dirty.png",
+            "layer1.texture": "Theme - Default/common/open_file_dirty.png",
+        },
+        {
+            "class": "close_button",
+            "attributes": ["added"],
+            "layer0.tint": "var(sidebar_button_new_tint)",
+            "layer1.tint": "var(sidebar_button_new_tint)",
+        },
+        {
+            "class": "close_button",
+            "attributes": ["modified"],
+            "layer0.tint": "var(sidebar_button_modified_tint)",
+            "layer1.tint": "var(sidebar_button_modified_tint)",
+        },
+        {
+            "class": "close_button",
+            "attributes": ["deleted"],
+            "layer0.tint": "var(sidebar_button_deleted_tint)",
+            "layer1.tint": "var(sidebar_button_deleted_tint)",
+        },
+
+        // Folder & File Icons
+        {
+            "class": "disclosure_button_control",
+            "layer0.texture": "Theme - Default/common/disclosure_unexpanded.png",
+            "layer0.tint": "var(shape_tint)",
+            "layer0.opacity": "var(opaque)",
+            "layer1.texture": "Theme - Default/common/disclosure_unexpanded.png",
+            "layer1.tint": "var(subtle)",
+            "layer1.opacity": "var(transparent)",
+            "content_margin": [8, 8]
+        },
+        {
+            "class": "disclosure_button_control",
+            "attributes": ["expanded"],
+            "layer0.texture": "Theme - Default/common/disclosure_expanded.png",
+            "layer1.texture": "Theme - Default/common/disclosure_expanded.png",
+        },
+        {
+            "class": "disclosure_button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+
+        {
+            "class": "icon_folder",
+            "layer0.texture": "Theme - Default/common/folder_closed.png",
+            "layer0.tint": "var(subtle)",
+            "layer0.opacity": "var(opaque)",
+            "content_margin": [9, 8]
+        },
+        {
+            "class": "icon_folder",
+            "parents": [{"class": "tree_row", "attributes": ["expanded"]}],
+            "layer0.texture": "Theme - Default/common/folder_open.png",
+        },
+        {
+            "class": "icon_folder_loading",
+            "layer0.texture":
+            {
+                "keyframes":
+                [
+                    "Theme - Default/common/folder_loading_01.png",
+                    "Theme - Default/common/folder_loading_02.png",
+                    "Theme - Default/common/folder_loading_03.png",
+                    "Theme - Default/common/folder_loading_04.png",
+                    "Theme - Default/common/folder_loading_05.png",
+                    "Theme - Default/common/folder_loading_06.png",
+                    "Theme - Default/common/folder_loading_07.png",
+                    "Theme - Default/common/folder_loading_08.png",
+                    "Theme - Default/common/folder_loading_09.png",
+                    "Theme - Default/common/folder_loading_10.png",
+                    "Theme - Default/common/folder_loading_11.png",
+                    "Theme - Default/common/folder_loading_12.png",
+                    "Theme - Default/common/folder_loading_13.png",
+                    "Theme - Default/common/folder_loading_14.png",
+                    "Theme - Default/common/folder_loading_15.png",
+                    "Theme - Default/common/folder_loading_16.png",
+                    "Theme - Default/common/folder_loading_17.png",
+                    "Theme - Default/common/folder_loading_18.png",
+                    "Theme - Default/common/folder_loading_19.png",
+                    "Theme - Default/common/folder_loading_20.png",
+                ],
+                "loop": true,
+                "frame_time": 0.08,
+            },
+            "layer0.tint": "var(subtle)",
+            "layer0.opacity": "var(opaque)",
+            "content_margin": [9, 8]
+        },
+        {
+            "class": "icon_folder_dup",
+            "layer0.texture": "Theme - Default/common/symlink.png",
+            "layer0.tint": "var(subtle)",
+            "layer0.opacity": 1,
+            "content_margin": [9, 8]
+        },
+
+        // File Icons
+        {
+          "class": "icon_file_type",
+          "layer0.tint": "var(subtle)",
+          "layer0.opacity": 1,
+          "content_margin": [8, 8]
+        },
+        // File Icons: Hovered
+        {
+          "class": "icon_file_type",
+          "parents": [{"class": "tree_row", "attributes": ["hover"]}],
+          "layer0.tint": "var(subtle)",
+          "layer0.opacity": 1
+        },
+        // File Icons: Selected
+        {
+          "class": "icon_file_type",
+          "parents": [{"class": "tree_row", "attributes": ["selected"]}],
+          "layer0.tint": "var(text)",
+          "layer0.opacity": 1
+        },
+
+        // Tabs
+        {
+            "class": "tabset_control",
+            "layer0.texture": "",
+            "layer0.opacity": 1.0,
+            "layer0.tint": "var(surface)",
+            "layer0.inner_margin": 0,
+            "layer1.texture": "Theme - Rose Pine/images/border_bottom.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(overlay)",
+            "layer1.inner_margin": [0, 2],
+            "content_margin": [0, 1, 0, 2],
+            "tab_overlap": 1,
+            "tab_height": 34,
+            "connector_height": 0,
+            "spacing": 5,
+        },
+
+        {
+            "class": "tab_connector",
+            "layer0.texture": "",
+            "layer0.opacity": 1.0,
+            "layer0.tint": "var(gold)",
+            "tint_index": 0,
+        },
+
+        {
+            "class": "tab_control",
+            "layer0.texture": "",
+            "layer0.opacity": 1.0,
+            "layer0.tint": "var(surface)",
+            "layer0.inner_margin": 0,
+            "layer1.texture": "Theme - Rose Pine/images/tab.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(overlay)",
+            "layer1.inner_margin": 8,
+            "layer2.texture": "Theme - Rose Pine/images/tab_square_pinstripe.png",
+            "layer2.opacity": 0.0,
+            "layer2.inner_margin": [0, 2],
+            "layer2.tint": "var(rose)",
+            "layer3.texture": "Theme - Default/common/tab_square_divider.png",
+            "layer3.inner_margin": [2, 0, 2,  0],
+            "layer3.opacity": "var(transparent)",
+            "layer3.tint": "var(highlight-med)",
+            "tint_index": 4,
+            "tint_modifier": "transparent",
+            "accent_tint_index": 2,
+            "content_margin": [16, 3, 8, 4],
+            "hit_test_level": 0.3
+        },
+
+        // We don't use animation for the selected tab opacity changed due
+        // to the hover state syncing with the hover state of the
+        // sheet_contents, which has the background_modifier that can not
+        // be animated
+        {
+            "class": "tab_control",
+            "attributes": ["selected"],
+            "layer1.opacity": 1.0,
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["!selected"],
+            "layer1.opacity": "var(transparent)",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["!selected", "hover"],
+            "layer1.opacity": "var(transparent)" ,
+        },
+        // Tabs - modified highlight
+        {
+            "class": "tab_control",
+            "attributes": ["dirty"],
+            "settings": {
+                "highlight_modified_tabs": true
+            },
+            "layer2.opacity": 1.0
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["added"],
+            "layer2.tint": "var(foam)",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["deleted"],
+            "layer2.tint": "var(love)",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["right", "!left"],
+            "layer3.texture": "Theme - Default/common/tab_square_divider_right.png",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["left_of_selected", "!left", "!right_of_selected", "!selected"],
+            "layer3.texture": "Theme - Default/common/tab_square_divider_right.png",
+            "layer3.opacity": "var(opaque)",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["left", "!right"],
+            "layer3.texture": "Theme - Default/common/tab_square_divider_left.png",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["right_of_selected", "!right", "!left_of_selected", "!selected"],
+            "layer3.texture": "Theme - Default/common/tab_square_divider_left.png",
+            "layer3.opacity": "var(opaque)",
+        },
+        {
+            "class": "tab_control",
+            "attributes": ["!highlighted", "!selected", "!left_of_selected", "!right_of_selected"],
+            "layer3.opacity": "var(opaque)",
+        },
+
+
+        // Tabs - label
+        {
+            "class": "tab_label",
+            "font.face": "var(font_face)",
+            "font.size": "var(font_size_sm)",
+        },
+        {
+            "class": "tab_label",
+            "attributes": ["transient"],
+            "font.italic": true
+        },
+        {
+            "class": "tab_label",
+            "fg": "var(file_tab_selected_label_color)",
+            "opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
+            "opacity": { "target": 0.7, "speed": 5.0, "interpolation": "smoothstep" }
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["!selected", "hover"]}],
+            "opacity": { "target": 1.0, "speed": 5.0, "interpolation": "smoothstep" }
+        },
+        // Ensure unselected tabs use the correct text color based on what
+        // background is being shown
+        {
+            "class": "tab_label",
+            "parents": [
+                {"class": "tab_control", "attributes": ["!selected"]}
+            ],
+            "fg": "var(muted)"
+        },
+        {
+            "class": "tab_label",
+            "parents": [
+                {"class": "tab_control", "attributes": ["!selected", "!hover"]}
+            ],
+            "fg": "var(muted)"
+        },
+        {
+            "class": "tab_label",
+            "parents": [
+                {"class": "tab_control", "attributes": ["!selected", "hover"]}
+            ],
+            "fg": "var(subtle)"
+        },
+        {
+            "class": "tab_label",
+            "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+            "fg": "var(text)"
+        },
+
+        // Tab Close X button
+        {
+            "class": "tab_close_button",
+            "settings": ["show_tab_close_buttons"],
+            "layer0.texture": "Theme - Default/common/tab_close.png",
+            "layer0.tint": "var(shape_tint)",
+            "content_margin": [10, 9]
+        },
+        {
+            "class": "tab_close_button",
+            "attributes": ["!hover"],
+            "parents": [{"class": "tab_control", "attributes": ["dirty"]}],
+            "layer0.texture": "Theme - Default/common/tab_dirty.png",
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(shape_tint)",
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+        },
+        {
+            "class": "tab_close_button",
+            "attributes": ["hover"],
+            "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+        {
+            "class": "tab_close_button",
+            "attributes": ["hover"],
+            "parents": [{"class": "tab_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["added"]}],
+            "layer0.tint": "var(foam)",
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["modified"]}],
+            "layer0.tint": "var(rose)",
+        },
+        {
+            "class": "tab_close_button",
+            "parents": [{"class": "tab_control", "attributes": ["deleted"]}],
+            "layer0.tint": "var(love)",
+        },
+
+        // Tab scrolling
+        {
+            "class": "scroll_tabs_left_button",
+            "layer0.texture": "Theme - Default/common/tab_scroll_left.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(highlight-high)",
+            "layer0.inner_margin": [1, 0, 13, 0],
+            "layer1.texture": "Theme - Default/common/tab_scroll_left.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(subtle)",
+            "layer1.inner_margin": [1, 0, 13, 0],
+            "content_margin": [11, 12, 10, 12]
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "settings": ["hide_tab_scrolling_buttons"],
+            "content_margin": 0
+        },
+        {
+            "class": "scroll_tabs_left_button",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+
+        {
+            "class": "scroll_tabs_right_button",
+            "layer0.texture": "Theme - Default/common/tab_scroll_right.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(highlight-high)",
+            "layer0.inner_margin": [13, 0, 1, 0],
+            "layer1.texture": "Theme - Default/common/tab_scroll_right.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(subtle)",
+            "layer1.inner_margin": [13, 0, 1, 0],
+            // Reduces the right padding on the button due to accomodate for
+            // tab overlap
+            "content_margin": [11, 12, 5, 12],
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "settings": ["hide_tab_scrolling_buttons"],
+            "content_margin": 0
+        },
+        {
+            "class": "scroll_tabs_right_button",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+
+        {
+            "class": "new_tab_button",
+            "layer0.texture": "Theme - Default/common/new_tab.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(highlight-high)",
+            "layer0.inner_margin": [21, 0, 1, 0],
+            "layer1.texture": "Theme - Default/common/new_tab.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(subtle)",
+            "layer1.inner_margin": [21, 0, 1, 0],
+            "content_margin": [12, 12]
+        },
+        {
+            "class": "new_tab_button",
+            "settings": ["!enable_tab_scrolling"],
+            "content_margin": [15, 12]
+        },
+        {
+            "class": "new_tab_button",
+            "settings": ["hide_new_tab_button"],
+            "content_margin": 0
+        },
+        {
+            "class": "new_tab_button",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+
+        {
+            "class": "show_tabs_dropdown_button",
+            "layer0.texture": "Theme - Default/common/tab_dropdown.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(highlight-high)",
+            "layer0.inner_margin": [1, 0, 21, 0],
+            "layer1.texture": "Theme - Default/common/tab_dropdown.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(subtle)",
+            "layer1.inner_margin": [1, 0, 21, 0],
+            "content_margin": [11, 12]
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "settings": ["hide_new_tab_button"],
+            "content_margin": [13, 12]
+        },
+        {
+            "class": "show_tabs_dropdown_button",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)"
+        },
+
+        {
+            "class": "sheet_container_control",
+            "layer0.tint": "var(base)",
+            "layer0.opacity": 1
+        },
+
+        {
+            "class": "overlay_control",
+            "layer0.tint": "var(overlay)",
+            "layer0.texture": "Theme - Rose Pine/images/overlay.png",
+            "layer0.inner_margin": 6,
+            "layer0.opacity": 1.0,
+            "content_margin": 8
+        },
+
+        // Views
+        {
+            "class": "grid_layout_control",
+            "border_color": "var(highlight-high)",
+            "border_size": 1
+        },
+
+        {
+            "class": "fold_button_control",
+            "layer0.texture": "Theme - Default/common/fold_closed.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(highlight-high)",
+            "layer1.texture": "Theme - Default/common/fold_closed.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(subtle)",
+            "content_margin": 8
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+        {
+            "class": "fold_button_control",
+            "attributes": ["expanded"],
+            "layer0.texture": "Theme - Default/common/fold_opened.png",
+            "layer1.texture": "Theme - Default/common/fold_opened.png",
+        },
+
+        {
+            "class": "panel_control",
+            "layer0.tint": "var(panel_bg)",
+            "layer0.opacity": 1.0,
+            "layer1.texture": "Theme - Rose Pine/images/border_bottom.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(highlight-med)",
+            "layer1.inner_margin": [0, 2],
+            "content_margin": 4
+        },
+        {
+            "class": "panel_close_button",
+            "layer0.texture": "Theme - Default/common/panel_close.png",
+            "layer0.tint": "var(muted)",
+            "layer0.opacity": "var(opaque)",
+            "layer1.texture": "Theme - Default/common/panel_close.png",
+            "layer1.tint": "var(subtle)",
+            "layer1.opacity": "var(transparent)",
+            "content_margin": 8
+        },
+        {
+            "class": "panel_close_button",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+
+        {
+            "class": "dropdown_button_control",
+            "layer0.texture": "Theme - Default/common/dropdown_button.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(highlight-high)",
+            "layer1.texture": "Theme - Default/common/dropdown_button.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(subtle)",
+            "content_margin": [9, 8, 9, 8]
+        },
+        {
+            "class": "dropdown_button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+
+        // Buttons
+        {
+            "class": "button_control",
+            "layer0.texture": "Theme - Default/common/button.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(base)",
+            "layer0.inner_margin": 4,
+            "layer1.texture": "Theme - Default/common/button.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(surface)",
+            "layer1.inner_margin": 4,
+            "min_size": [80, 18],
+            "content_margin": [10, 4]
+        },
+        {
+            "class": "button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+        {
+            "class": "button_control",
+            "attributes": ["pressed"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": { "target": 0.6, "speed": 6.0, "interpolation": "smoothstep" },
+        },
+        {
+            "class": "button_control",
+            "parents": [{"class": "dialog"}],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+        {
+            "class": "button_control",
+            "attributes": ["disabled"],
+            "layer0.opacity": 0.3,
+            "layer1.opacity": "var(transparent)",
+        },
+
+        {
+            "class": "icon_regex",
+            "layer0.texture": "Theme - Default/common/icon_regex.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_regex",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_regex",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_case",
+            "layer0.texture": "Theme - Default/common/icon_case_sensitive.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_case",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_case",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_whole_word",
+            "layer0.texture": "Theme - Default/common/icon_whole_word.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_whole_word",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_whole_word",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_wrap",
+            "layer0.texture": "Theme - Default/common/icon_wrap.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_wrap",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_wrap",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_in_selection",
+            "layer0.texture": "Theme - Default/common/icon_in_selection.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_in_selection",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_in_selection",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_highlight",
+            "layer0.texture": "Theme - Default/common/icon_highlight_matches.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_highlight",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_highlight",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_preserve_case",
+            "layer0.texture": "Theme - Default/common/icon_preserve_case.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_preserve_case",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_preserve_case",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_context",
+            "layer0.texture": "Theme - Default/common/icon_context.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_context",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_context",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_use_buffer",
+            "layer0.texture": "Theme - Default/common/icon_use_buffer.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_use_buffer",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)",
+        },
+        {
+            "class": "icon_use_buffer",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)",
+        },
+
+        {
+            "class": "icon_use_gitignore",
+            "layer0.texture": "Theme - Default/common/icon_use_gitignore.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "content_margin": [14, 11]
+        },
+        {
+            "class": "icon_use_gitignore",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(subtle)"
+        },
+        {
+            "class": "icon_use_gitignore",
+            "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(text)"
+        },
+
+        // Status Bar
+        {
+            "class": "status_bar",
+            "layer0.tint": "var(overlay)",
+            "layer0.opacity": 1.0,
+            "content_margin": [8, 2, 8, 2]
+        },
+        {
+            "class": "sidebar_button_control",
+            "layer0.texture": "Theme - Default/common/sidebar_button.png",
+            "layer0.opacity": "var(opaque)",
+            "layer0.tint": "var(muted)",
+            "layer1.texture": "Theme - Default/common/sidebar_button.png",
+            "layer1.opacity": "var(transparent)",
+            "layer1.tint": "var(text)",
+            "content_margin": [10, 11]
+        },
+        {
+            "class": "sidebar_button_control",
+            "attributes": ["hover"],
+            "layer0.opacity": "var(opaque)",
+            "layer1.opacity": "var(opaque)",
+        },
+        {
+            "class": "vcs_changes_annotation",
+            "font.face": "var(font_face)",
+            "font.size": 9,
+            "color": "var(muted)",
+            "border_color": "var(highlight-high)",
+            "content_margin": [3, 0]
+        },
+
+        // Side Bar
+        {
+            "class": "sidebar_container",
+            "layer0.tint": "var(surface)",
+            "layer0.opacity": 1.0,
+            "layer1.texture": "Theme - Rose Pine/images/border_right.png",
+            "layer1.opacity": 1.0,
+            "layer1.tint": "var(overlay)",
+            "layer1.inner_margin": [2, 0],
+            "content_margin": 0,
+        }
+    ]
+}
