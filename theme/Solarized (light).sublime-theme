@@ -1,15 +1,22 @@
 {
     "extends": "Default.sublime-theme",
     "variables": {
-        ////////////////////////////////// Solarized //////////////////////////
-        "base03":  "#002b36",
-        "base02":  "#073642",
-        "base01":  "#586e75",
-        "base00":  "#657b83",
-        "base0":   "#839496",
-        "base1":   "#93a1a1",
-        "base2":   "#eee8d5",
-        "base3":   "#fdf6e3",
+        ////////////////////////////////// Solarized Light ////////////////////
+        "base03":  "#002b36", // very dark - unused light
+        "base02":  "#073642", // dark      - unused
+        "base01":  "#586e75", // darker content
+        "base00":  "#657b83", // main content
+        "base0":   "#839496", //           - unused
+        "base1":   "#93a1a1", // comments
+        "base2":   "#eee8d5", // background highlights
+        "base3":   "#fdf6e3", // background
+
+        "less-muted": "color(var(base1) blend(var(base2) 80%))", // subdued text elements
+        "muted": "color(var(base1) blend(var(base2) 40%))",      // subdued, but less so, text elements
+
+        "overlay": "color(var(base1) blend(var(base3) 10%))",    // slightly darker areas
+        "overlay2": "color(var(base1) blend(var(base3) 20%))",   // a bit more darker areas and borders
+
         "yellow":  "#b58900",
         "orange":  "#cb4b16",
         "red":     "#dc322f",
@@ -22,9 +29,7 @@
         ////////////////////////////////// Based on Rosé Pine /////////////////
         "base": "var(base3)",
         "surface": "var(base3)",
-        "overlay": "var(base2)",
-        "muted": "color(var(base1) blend(var(base2) 80%))",
-        "subtle": "color(var(base1) blend(var(base2) 100%))",
+        "subtle": "color(var(base1) blend(var(base2) 80%))",
         "text": "var(base00)",
         "love": "var(magenta)",
         "gold": "var(yellow)",
@@ -32,9 +37,9 @@
         "pine": "var(cyan)",
         "foam": "var(green)",
         "iris": "var(violet)",
-        "highlight-low": "color(var(base1) blend(var(base2) 2%))",
+        "highlight-low": "color(var(base1) blend(var(base2) 10%))",
         "highlight-med": "color(var(base1) blend(var(base2) 20%))",
-        "highlight-high": "color(var(base1) blend(var(base2) 36%))",
+        "highlight-high": "color(var(base1) blend(var(base2) 30%))",
 
         ////////////////////////////////// Utility ////////////////////////////
 
@@ -52,8 +57,8 @@
 
         "label_color": "var(text)",
 
-        "icon_tint": "var(subtle)",
-        "shape_tint": "var(highlight-high)",
+        "icon_tint": "var(base00)",
+        "shape_tint": "var(base1)",
 
         "button_bg": "var(surface)",
 
@@ -68,11 +73,11 @@
 
         "sidebar_bg": "var(surface)",
 
-        "sidebar_heading": "var(highlight-high)",
+        "sidebar_heading": "var(muted)",
         "sidebar_heading_shadow": "var(base)",
-        "sidebar_label": "var(base1)",
-        "sidebar_label_selected": "var(text)",
-        "sidebar_label_ignored": "var(highlight-med)",
+        "sidebar_label": "var(base00)",
+        "sidebar_label_selected": "var(base01)",
+        "sidebar_label_ignored": "var(muted)",
 
         "sidebar_button_tint": "var(subtle)",
         "sidebar_button_new_tint": "var(foam)",
@@ -88,13 +93,13 @@
         "sidebar_scroll_bar_bg": "var(base)",
         "sidebar_scroll_bar_puck_bg": "var(subtle)",
 
-        "vcs_untracked": "var(muted)",
-        "vcs_modified": "var(rose)",
-        "vcs_missing": "var(rose)",
-        "vcs_staged": "var(iris)",
-        "vcs_added": "var(foam)",
-        "vcs_deleted": "var(love)",
-        "vcs_unmerged": "var(gold)",
+        "vcs_untracked": "var(base1)",
+        "vcs_modified": "var(cyan)",
+        "vcs_missing": "var(violet)",
+        "vcs_staged": "var(cyan)",
+        "vcs_added": "var(green)",
+        "vcs_deleted": "var(red)",
+        "vcs_unmerged": "var(orange)",
 
         "switch_project_bg": "var(overlay)",
 
@@ -119,14 +124,14 @@
         "text_widget_dark_modifier": "l(- 0%)",
         "text_widget_light_modifier": "l(- 0%)",
 
-        "overlay_bg": "var(overlay)",
+        "overlay_bg": "var(highlight-med)",
 
-        "quick_panel_label_color": "var(subtle)",
-        "quick_panel_path_label_color": "var(foam)",
+        "quick_panel_label_color": "var(base1)",
+        "quick_panel_path_label_color": "var(green)",
         "quick_panel_matched_label_color": "var(text)",
         "quick_panel_matched_path_label_color": "var(foam)",
 
-        "quick_panel_selected_row_bg": "var(highlight-med)",
+        "quick_panel_selected_row_bg": "var(highlight-high)",
         "quick_panel_selected_label_color": "var(text)",
         "quick_panel_selected_path_label_color": "var(foam)",
         "quick_panel_selected_matched_label_color": "var(quick_panel_matched_label_color)",
@@ -152,22 +157,22 @@
         "auto_complete_detail_panel_mono_dark_bg": "var(overlay)",
         "auto_complete_detail_panel_mono_light_bg": "var(overlay)",
 
-        "kind_function_color": "var(love)",
-        "kind_keyword_color": "var(rose)",
-        "kind_markup_color": "var(gold)",
-        "kind_namespace_color": "var(foam)",
-        "kind_navigation_color": "var(gold)",
-        "kind_snippet_color": "var(pine)",
-        "kind_type_color": "var(iris)",
-        "kind_variable_color": "var(foam)",
+        "kind_function_color": "var(magenta)",
+        "kind_keyword_color": "var(cyan)",
+        "kind_markup_color": "var(yellow)",
+        "kind_namespace_color": "var(violet)",
+        "kind_navigation_color": "var(yellow)",
+        "kind_snippet_color": "var(green)",
+        "kind_type_color": "var(blue)",
+        "kind_variable_color": "var(orange)",
 
         "kind_name_label_border_color": "var(highlight-high)",
 
         "icon_opacity": "var(opaque)",
         "icon_hover_opacity": "var(opaque)",
 
-        "status_bar_bg": "var(overlay)",
-        "status_bar_label_color": "var(subtle)",
+        "status_bar_bg": "var(highlight-low)",
+        "status_bar_label_color": "var(base1)",
         "status_bar_icon_tint": "var(subtle)",
         "status_bar_label_shadow": "transparent",
 
@@ -200,91 +205,91 @@
         {
             "class": "tree_row",
             "attributes": ["selectable", "hover"],
-            "layer0.tint": "var(highlight-low)",
+            "layer0.tint": "var(overlay)",
             "layer0.opacity": 1,
         },
         {
             "class": "tree_row",
             "attributes": ["selected"],
-            "layer0.tint": "var(highlight-low)",
+            "layer0.tint": "var(overlay)",
             "layer0.opacity": 1,
         },
         {
             "class": "tree_row",
             "attributes": ["highlighted"],
-            "layer0.tint": "var(highlight-low)",
+            "layer0.tint": "var(overlay2)",
             "layer0.opacity": 1,
         },
 
         // // Open Files Icons
-        {
-            "class": "close_button",
-            "layer0.texture": "Theme - Default/common/open_file_close.png",
-            "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(shape_tint)",
-            "layer1.texture": "Theme - Default/common/open_file_close.png",
-            "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(text)",
-            "content_margin": [8, 8],
-        },
-        {
-            "class": "close_button",
-            "attributes": ["hover"],
-            "layer1.opacity": "var(opaque)",
-        },
-        {
-            "class": "close_button",
-            "attributes": ["!hover", "dirty"],
-            "layer0.texture": "Theme - Default/common/open_file_dirty.png",
-            "layer1.texture": "Theme - Default/common/open_file_dirty.png",
-        },
-        {
-            "class": "close_button",
-            "attributes": ["added"],
-            "layer0.tint": "var(sidebar_button_new_tint)",
-            "layer1.tint": "var(sidebar_button_new_tint)",
-        },
-        {
-            "class": "close_button",
-            "attributes": ["modified"],
-            "layer0.tint": "var(sidebar_button_modified_tint)",
-            "layer1.tint": "var(sidebar_button_modified_tint)",
-        },
-        {
-            "class": "close_button",
-            "attributes": ["deleted"],
-            "layer0.tint": "var(sidebar_button_deleted_tint)",
-            "layer1.tint": "var(sidebar_button_deleted_tint)",
-        },
+        // {
+        //     "class": "close_button",
+        //     "layer0.texture": "Theme - Default/common/open_file_close.png",
+        //     "layer0.opacity": "var(opaque)",
+        //     "layer0.tint": "var(shape_tint)",
+        //     "layer1.texture": "Theme - Default/common/open_file_close.png",
+        //     "layer1.opacity": "var(transparent)",
+        //     "layer1.tint": "var(text)",
+        //     "content_margin": [8, 8],
+        // },
+        // {
+        //     "class": "close_button",
+        //     "attributes": ["hover"],
+        //     "layer1.opacity": "var(opaque)",
+        // },
+        // {
+        //     "class": "close_button",
+        //     "attributes": ["!hover", "dirty"],
+        //     "layer0.texture": "Theme - Default/common/open_file_dirty.png",
+        //     "layer1.texture": "Theme - Default/common/open_file_dirty.png",
+        // },
+        // {
+        //     "class": "close_button",
+        //     "attributes": ["added"],
+        //     "layer0.tint": "var(sidebar_button_new_tint)",
+        //     "layer1.tint": "var(sidebar_button_new_tint)",
+        // },
+        // {
+        //     "class": "close_button",
+        //     "attributes": ["modified"],
+        //     "layer0.tint": "var(sidebar_button_modified_tint)",
+        //     "layer1.tint": "var(sidebar_button_modified_tint)",
+        // },
+        // {
+        //     "class": "close_button",
+        //     "attributes": ["deleted"],
+        //     "layer0.tint": "var(sidebar_button_deleted_tint)",
+        //     "layer1.tint": "var(sidebar_button_deleted_tint)",
+        // },
 
         // Folder & File Icons
-        {
-            "class": "disclosure_button_control",
-            "layer0.texture": "Theme - Default/common/disclosure_unexpanded.png",
-            "layer0.tint": "var(shape_tint)",
-            "layer0.opacity": "var(opaque)",
-            "layer1.texture": "Theme - Default/common/disclosure_unexpanded.png",
-            "layer1.tint": "var(subtle)",
-            "layer1.opacity": "var(transparent)",
-            "content_margin": [8, 8]
-        },
-        {
-            "class": "disclosure_button_control",
-            "attributes": ["expanded"],
-            "layer0.texture": "Theme - Default/common/disclosure_expanded.png",
-            "layer1.texture": "Theme - Default/common/disclosure_expanded.png",
-        },
-        {
-            "class": "disclosure_button_control",
-            "attributes": ["hover"],
-            "layer0.opacity": "var(opaque)",
-            "layer1.opacity": "var(opaque)",
-        },
+        // {
+        //     "class": "disclosure_button_control",
+        //     "layer0.texture": "Theme - Default/common/disclosure_unexpanded.png",
+        //     "layer0.tint": "var(shape_tint)",
+        //     "layer0.opacity": "var(opaque)",
+        //     "layer1.texture": "Theme - Default/common/disclosure_unexpanded.png",
+        //     "layer1.tint": "var(subtle)",
+        //     "layer1.opacity": "var(transparent)",
+        //     "content_margin": [8, 8]
+        // },
+        // {
+        //     "class": "disclosure_button_control",
+        //     "attributes": ["expanded"],
+        //     "layer0.texture": "Theme - Default/common/disclosure_expanded.png",
+        //     "layer1.texture": "Theme - Default/common/disclosure_expanded.png",
+        // },
+        // {
+        //     "class": "disclosure_button_control",
+        //     "attributes": ["hover"],
+        //     "layer0.opacity": "var(opaque)",
+        //     "layer1.opacity": "var(opaque)",
+        // },
 
         {
             "class": "icon_folder",
             "layer0.texture": "Theme - Default/common/folder_closed.png",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(base1)",
             "layer0.opacity": "var(opaque)",
             "content_margin": [9, 8]
         },
@@ -323,14 +328,14 @@
                 "loop": true,
                 "frame_time": 0.08,
             },
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(base1)",
             "layer0.opacity": "var(opaque)",
             "content_margin": [9, 8]
         },
         {
             "class": "icon_folder_dup",
             "layer0.texture": "Theme - Default/common/symlink.png",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(base1)",
             "layer0.opacity": 1,
             "content_margin": [9, 8]
         },
@@ -338,7 +343,7 @@
         // File Icons
         {
           "class": "icon_file_type",
-          "layer0.tint": "var(subtle)",
+          "layer0.tint": "var(less-muted)",
           "layer0.opacity": 1,
           "content_margin": [8, 8]
         },
@@ -346,14 +351,14 @@
         {
           "class": "icon_file_type",
           "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-          "layer0.tint": "var(subtle)",
+          "layer0.tint": "var(less-muted)",
           "layer0.opacity": 1
         },
         // File Icons: Selected
         {
           "class": "icon_file_type",
           "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-          "layer0.tint": "var(text)",
+          "layer0.tint": "var(muted)",
           "layer0.opacity": 1
         },
 
@@ -362,9 +367,9 @@
             "class": "tabset_control",
             "layer0.texture": "",
             "layer0.opacity": 1.0,
-            "layer0.tint": "var(surface)",
+            "layer0.tint": "var(base3)",
             "layer0.inner_margin": 0,
-            "layer1.texture": "Theme - Rose Pine/images/border_bottom.png",
+            "layer1.texture": "Solarized/images/border_bottom.png",
             "layer1.opacity": 1.0,
             "layer1.tint": "var(overlay)",
             "layer1.inner_margin": [0, 2],
@@ -379,7 +384,7 @@
             "class": "tab_connector",
             "layer0.texture": "",
             "layer0.opacity": 1.0,
-            "layer0.tint": "var(gold)",
+            "layer0.tint": "var(yellow)",
             "tint_index": 0,
         },
 
@@ -389,14 +394,14 @@
             "layer0.opacity": 1.0,
             "layer0.tint": "var(surface)",
             "layer0.inner_margin": 0,
-            "layer1.texture": "Theme - Rose Pine/images/tab.png",
+            "layer1.texture": "Solarized/images/tab.png",
             "layer1.opacity": 1.0,
             "layer1.tint": "var(overlay)",
             "layer1.inner_margin": 8,
-            "layer2.texture": "Theme - Rose Pine/images/tab_square_pinstripe.png",
+            "layer2.texture": "Solarized/images/tab_square_pinstripe.png",
             "layer2.opacity": 0.0,
             "layer2.inner_margin": [0, 2],
-            "layer2.tint": "var(rose)",
+            "layer2.tint": "var(magenta)",
             "layer3.texture": "Theme - Default/common/tab_square_divider.png",
             "layer3.inner_margin": [2, 0, 2,  0],
             "layer3.opacity": "var(transparent)",
@@ -439,12 +444,12 @@
         {
             "class": "tab_control",
             "attributes": ["added"],
-            "layer2.tint": "var(foam)",
+            "layer2.tint": "var(green)",
         },
         {
             "class": "tab_control",
             "attributes": ["deleted"],
-            "layer2.tint": "var(love)",
+            "layer2.tint": "var(red)",
         },
         {
             "class": "tab_control",
@@ -572,17 +577,17 @@
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["added"]}],
-            "layer0.tint": "var(foam)",
+            "layer0.tint": "var(green)",
         },
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["modified"]}],
-            "layer0.tint": "var(rose)",
+            "layer0.tint": "var(cyan)",
         },
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["deleted"]}],
-            "layer0.tint": "var(love)",
+            "layer0.tint": "var(red)",
         },
 
         // Tab scrolling
@@ -698,7 +703,7 @@
         {
             "class": "overlay_control",
             "layer0.tint": "var(overlay)",
-            "layer0.texture": "Theme - Rose Pine/images/overlay.png",
+            "layer0.texture": "Solarized/images/overlay.png",
             "layer0.inner_margin": 6,
             "layer0.opacity": 1.0,
             "content_margin": 8
@@ -738,7 +743,7 @@
             "class": "panel_control",
             "layer0.tint": "var(panel_bg)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Rose Pine/images/border_bottom.png",
+            "layer1.texture": "Solarized/images/border_bottom.png",
             "layer1.opacity": 1.0,
             "layer1.tint": "var(highlight-med)",
             "layer1.inner_margin": [0, 2],
@@ -821,14 +826,14 @@
             "class": "icon_regex",
             "layer0.texture": "Theme - Default/common/icon_regex.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_regex",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_regex",
@@ -841,14 +846,14 @@
             "class": "icon_case",
             "layer0.texture": "Theme - Default/common/icon_case_sensitive.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_case",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_case",
@@ -861,14 +866,14 @@
             "class": "icon_whole_word",
             "layer0.texture": "Theme - Default/common/icon_whole_word.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_whole_word",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_whole_word",
@@ -881,14 +886,14 @@
             "class": "icon_wrap",
             "layer0.texture": "Theme - Default/common/icon_wrap.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_wrap",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_wrap",
@@ -901,14 +906,14 @@
             "class": "icon_in_selection",
             "layer0.texture": "Theme - Default/common/icon_in_selection.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_in_selection",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_in_selection",
@@ -921,14 +926,14 @@
             "class": "icon_highlight",
             "layer0.texture": "Theme - Default/common/icon_highlight_matches.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_highlight",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_highlight",
@@ -941,14 +946,14 @@
             "class": "icon_preserve_case",
             "layer0.texture": "Theme - Default/common/icon_preserve_case.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_preserve_case",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_preserve_case",
@@ -961,14 +966,14 @@
             "class": "icon_context",
             "layer0.texture": "Theme - Default/common/icon_context.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_context",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_context",
@@ -981,14 +986,14 @@
             "class": "icon_use_buffer",
             "layer0.texture": "Theme - Default/common/icon_use_buffer.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_use_buffer",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)",
+            "layer0.tint": "var(text)",
         },
         {
             "class": "icon_use_buffer",
@@ -1001,14 +1006,14 @@
             "class": "icon_use_gitignore",
             "layer0.texture": "Theme - Default/common/icon_use_gitignore.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "content_margin": [14, 11]
         },
         {
             "class": "icon_use_gitignore",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(subtle)"
+            "layer0.tint": "var(text)"
         },
         {
             "class": "icon_use_gitignore",
@@ -1020,7 +1025,7 @@
         // Status Bar
         {
             "class": "status_bar",
-            "layer0.tint": "var(overlay)",
+            "layer0.tint": "var(status_bar_bg)",
             "layer0.opacity": 1.0,
             "content_margin": [8, 2, 8, 2]
         },
@@ -1028,7 +1033,7 @@
             "class": "sidebar_button_control",
             "layer0.texture": "Theme - Default/common/sidebar_button.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(muted)",
+            "layer0.tint": "var(base1)",
             "layer1.texture": "Theme - Default/common/sidebar_button.png",
             "layer1.opacity": "var(transparent)",
             "layer1.tint": "var(text)",
@@ -1044,7 +1049,7 @@
             "class": "vcs_changes_annotation",
             "font.face": "var(font_face)",
             "font.size": 9,
-            "color": "var(muted)",
+            "color": "var(base1)",
             "border_color": "var(highlight-high)",
             "content_margin": [3, 0]
         },
@@ -1054,9 +1059,9 @@
             "class": "sidebar_container",
             "layer0.tint": "var(surface)",
             "layer0.opacity": 1.0,
-            "layer1.texture": "Theme - Rose Pine/images/border_right.png",
+            "layer1.texture": "Solarized/images/border_right.png",
             "layer1.opacity": 1.0,
-            "layer1.tint": "var(overlay)",
+            "layer1.tint": "var(highlight-med)",
             "layer1.inner_margin": [2, 0],
             "content_margin": 0,
         }
