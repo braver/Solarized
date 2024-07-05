@@ -26,15 +26,6 @@
         "cyan":    "#2aa198",
         "green":   "#859900",
 
-        ////////////////////////////////// Based on Rosé Pine /////////////////
-
-
-        "surface": "var(base3)",
-        "subtle": "color(var(base1) blend(var(base2) 80%))",
-        "text": "var(base00)",
-        "highlight-med": "color(var(base1) blend(var(base2) 20%))",
-        "highlight-high": "color(var(base1) blend(var(base2) 30%))",
-
         ////////////////////////////////// Utility ////////////////////////////
 
         "opaque": { "target": 1, "speed": 6.0, "interpolation": "smoothstep" },
@@ -43,13 +34,13 @@
         ////////////////////////////////// Default ////////////////////////////
 
         "base_hue": "var(base3)",
-        "base_tint": "var(text)",
+        "base_tint": "var(base00)",
 
-        "ui_bg": "var(base3)",
-        "text_fg": "var(text)",
+        "ui_bg": "var(base_hue)",
+        "text_fg": "var(base_tint)",
         "link_fg": "var(blue)",
 
-        "label_color": "var(text)",
+        "label_color": "var(base_tint)",
 
         "icon_tint": "var(base00)",
         "shape_tint": "var(base1)",
@@ -57,23 +48,23 @@
         "button_bg": "var(base2)",
 
         "scroll_bar_bg": "var(overlay)",
-        "scroll_bar_puck_bg": "var(subtle)",
+        "scroll_bar_puck_bg": "var(muted)",
 
         "scroll_bar_dark_bg": "var(overlay)",
-        "scroll_bar_puck_dark_bg": "var(subtle)",
+        "scroll_bar_puck_dark_bg": "var(muted)",
 
-        "button_label_color": "var(text)",
+        "button_label_color": "var(base_tint)",
         "button_label_shadow": "transparent",
 
-        "sidebar_bg": "var(base3)",
+        "sidebar_bg": "var(base_hue)",
 
         "sidebar_heading": "var(muted)",
-        "sidebar_heading_shadow": "var(base3)",
+        "sidebar_heading_shadow": "var(base2)",
         "sidebar_label": "var(base00)",
         "sidebar_label_selected": "var(base01)",
         "sidebar_label_ignored": "var(muted)",
 
-        "sidebar_button_tint": "var(subtle)",
+        "sidebar_button_tint": "var(muted)",
         "sidebar_button_new_tint": "var(green)",
         "sidebar_button_modified_tint": "var(cyan)",
         "sidebar_button_deleted_tint": "var(red)",
@@ -84,8 +75,8 @@
         "sidebar_close_button_opacity": "var(opaque)",
         "sidebar_close_button_hover_opacity": "var(opaque)",
 
-        "sidebar_scroll_bar_bg": "var(base3)",
-        "sidebar_scroll_bar_puck_bg": "var(subtle)",
+        "sidebar_scroll_bar_bg": "var(base_hue)",
+        "sidebar_scroll_bar_puck_bg": "var(muted)",
 
         "vcs_untracked": "var(base1)",
         "vcs_modified": "var(cyan)",
@@ -100,15 +91,15 @@
         "panel_bg": "var(overlay)",
 
         "progress_bar_bg": "var(overlay)",
-        "progress_bar_fg": "var(text)",
+        "progress_bar_fg": "var(base_tint)",
 
         "dialog_bg": "var(overlay)",
-        "dialog_button_bg": "var(base3)",
+        "dialog_button_bg": "var(base_hue)",
 
-        "icon_button_highlight": "var(base3)",
+        "icon_button_highlight": "var(base_hue)",
 
-        "tool_tip_bg": "var(orange)",
-        "tool_tip_fg": "var(text)",
+        "tool_tip_bg": "var(overlay)",
+        "tool_tip_fg": "var(base_tint)",
 
         "sheet_dark_modifier": "blend(var(overlay) 80%)",
         "sheet_medium_dark_modifier": "blend(var(overlay) 80%)",
@@ -121,15 +112,15 @@
         "overlay_bg": "var(overlay)",
 
         "quick_panel_label_color": "var(base00)",
-        "quick_panel_path_label_color": "var(yellow)",
+        "quick_panel_path_label_color": "var(green)",
         "quick_panel_matched_label_color": "var(base01)",
-        "quick_panel_matched_path_label_color": "var(yellow)",
+        "quick_panel_matched_path_label_color": "var(green)",
 
-        "quick_panel_selected_row_bg": "var(overlay2)",
-        "quick_panel_selected_label_color": "var(text)",
-        "quick_panel_selected_path_label_color": "var(yellow)",
+        "quick_panel_selected_row_bg": "var(base2)",
+        "quick_panel_selected_label_color": "var(base_tint)",
+        "quick_panel_selected_path_label_color": "var(green)",
         "quick_panel_selected_matched_label_color": "var(quick_panel_matched_label_color)",
-        "quick_panel_selected_matched_path_label_color": "var(yellow)",
+        "quick_panel_selected_matched_path_label_color": "var(green)",
 
         "quick_panel_link_color": "var(blue)",
 
@@ -142,25 +133,25 @@
         "auto_complete_selected_row_dark_tint": "var(overlay)",
         "auto_complete_selected_row_light_tint": "var(overlay)",
 
-        "auto_complete_text_dark_tint": "var(text)",
-        "auto_complete_text_light_tint": "var(text)",
+        "auto_complete_text_dark_tint": "var(base_tint)",
+        "auto_complete_text_light_tint": "var(base_tint)",
 
-        "auto_complete_detail_pane_dark_tint": "var(base3)",
-        "auto_complete_detail_pane_light_tint": "var(base3)",
+        "auto_complete_detail_pane_dark_tint": "var(base_hue)",
+        "auto_complete_detail_pane_light_tint": "var(base_hue)",
 
         "auto_complete_detail_panel_mono_dark_bg": "var(overlay)",
         "auto_complete_detail_panel_mono_light_bg": "var(overlay)",
 
-        "kind_function_color": "var(magenta)",
+        "kind_function_color": "var(yellow)",
         "kind_keyword_color": "var(cyan)",
-        "kind_markup_color": "var(yellow)",
+        "kind_markup_color": "var(orange)",
         "kind_namespace_color": "var(violet)",
         "kind_navigation_color": "var(yellow)",
         "kind_snippet_color": "var(green)",
-        "kind_type_color": "var(blue)",
-        "kind_variable_color": "var(orange)",
+        "kind_type_color": "var(magenta)",
+        "kind_variable_color": "var(blue)",
 
-        "kind_name_label_border_color": "var(highlight-high)",
+        "kind_name_label_border_color": "var(overlay2)",
 
         "icon_opacity": "var(opaque)",
         "icon_hover_opacity": "var(opaque)",
@@ -170,13 +161,13 @@
         "status_bar_icon_tint": "var(muted)",
         "status_bar_label_shadow": "transparent",
 
-        "radio_back": "var(base3)",
-        "radio_border-unselected": "var(subtle)",
+        "radio_back": "var(base_hue)",
+        "radio_border-unselected": "var(muted)",
         "radio_selected": "var(base00)",
         "radio_border-selected": "var(cyan)",
 
-        "checkbox_back": "var(base3)",
-        "checkbox_border-unselected": "var(subtle)",
+        "checkbox_back": "var(base_hue)",
+        "checkbox_border-unselected": "var(muted)",
         "checkbox_selected": "var(base00)",
         "checkbox_border-selected": "var(cyan)",
         "checkbox-disabled": "var(muted)",
@@ -187,7 +178,7 @@
             "class": "title_bar",
             "settings": ["themed_title_bar"],
             "bg": "var(overlay2)",
-            "fg": "var(text)"
+            "fg": "var(base_tint)"
         },
 
         // Side Bar, current file row highlight
@@ -223,7 +214,7 @@
         //     "layer0.tint": "var(shape_tint)",
         //     "layer1.texture": "Theme - Default/common/open_file_close.png",
         //     "layer1.opacity": "var(transparent)",
-        //     "layer1.tint": "var(text)",
+        //     "layer1.tint": "var(base_tint)",
         //     "content_margin": [8, 8],
         // },
         // {
@@ -361,11 +352,11 @@
             "class": "tabset_control",
             "layer0.texture": "",
             "layer0.opacity": 1.0,
-            "layer0.tint": "var(base3)",
+            "layer0.tint": "var(base_hue)",
             "layer0.inner_margin": 0,
             "layer1.texture": "Solarized/images/border_bottom.png",
             "layer1.opacity": 1.0,
-            "layer1.tint": "var(overlay)",
+            "layer1.tint": "var(overlay2)",
             "layer1.inner_margin": [0, 2],
             "content_margin": [0, 1, 0, 2],
             "tab_overlap": 1,
@@ -386,7 +377,7 @@
             "class": "tab_control",
             "layer0.texture": "",
             "layer0.opacity": 1.0,
-            "layer0.tint": "var(base3)",
+            "layer0.tint": "var(base_hue)",
             "layer0.inner_margin": 0,
             "layer1.texture": "Solarized/images/tab.png",
             "layer1.opacity": 1.0,
@@ -521,12 +512,12 @@
             "parents": [
                 {"class": "tab_control", "attributes": ["!selected", "hover"]}
             ],
-            "fg": "var(subtle)"
+            "fg": "var(muted)"
         },
         {
             "class": "tab_label",
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
-            "fg": "var(text)"
+            "fg": "var(base_tint)"
         },
 
         // Tab Close X button
@@ -559,14 +550,14 @@
             "attributes": ["hover"],
             "parents": [{"class": "tab_control", "attributes": ["!selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "tab_close_button",
             "attributes": ["hover"],
             "parents": [{"class": "tab_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "tab_close_button",
@@ -589,11 +580,11 @@
             "class": "scroll_tabs_left_button",
             "layer0.texture": "Theme - Default/common/tab_scroll_left.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(highlight-high)",
+            "layer0.tint": "var(overlay2)",
             "layer0.inner_margin": [1, 0, 13, 0],
             "layer1.texture": "Theme - Default/common/tab_scroll_left.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "layer1.inner_margin": [1, 0, 13, 0],
             "content_margin": [11, 12, 10, 12]
         },
@@ -613,11 +604,11 @@
             "class": "scroll_tabs_right_button",
             "layer0.texture": "Theme - Default/common/tab_scroll_right.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(highlight-high)",
+            "layer0.tint": "var(overlay2)",
             "layer0.inner_margin": [13, 0, 1, 0],
             "layer1.texture": "Theme - Default/common/tab_scroll_right.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "layer1.inner_margin": [13, 0, 1, 0],
             // Reduces the right padding on the button due to accomodate for
             // tab overlap
@@ -639,11 +630,11 @@
             "class": "new_tab_button",
             "layer0.texture": "Theme - Default/common/new_tab.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(highlight-high)",
+            "layer0.tint": "var(overlay2)",
             "layer0.inner_margin": [21, 0, 1, 0],
             "layer1.texture": "Theme - Default/common/new_tab.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "layer1.inner_margin": [21, 0, 1, 0],
             "content_margin": [12, 12]
         },
@@ -668,11 +659,11 @@
             "class": "show_tabs_dropdown_button",
             "layer0.texture": "Theme - Default/common/tab_dropdown.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(highlight-high)",
+            "layer0.tint": "var(overlay2)",
             "layer0.inner_margin": [1, 0, 21, 0],
             "layer1.texture": "Theme - Default/common/tab_dropdown.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "layer1.inner_margin": [1, 0, 21, 0],
             "content_margin": [11, 12]
         },
@@ -690,7 +681,7 @@
 
         {
             "class": "sheet_container_control",
-            "layer0.tint": "var(base3)",
+            "layer0.tint": "var(base_hue)",
             "layer0.opacity": 1
         },
 
@@ -706,7 +697,7 @@
         // Views
         {
             "class": "grid_layout_control",
-            "border_color": "var(highlight-high)",
+            "border_color": "var(overlay2)",
             "border_size": 1
         },
 
@@ -714,10 +705,10 @@
             "class": "fold_button_control",
             "layer0.texture": "Theme - Default/common/fold_closed.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(highlight-high)",
+            "layer0.tint": "var(overlay2)",
             "layer1.texture": "Theme - Default/common/fold_closed.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "content_margin": 8
         },
         {
@@ -749,7 +740,7 @@
             "layer0.tint": "var(muted)",
             "layer0.opacity": "var(opaque)",
             "layer1.texture": "Theme - Default/common/panel_close.png",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "layer1.opacity": "var(transparent)",
             "content_margin": 8
         },
@@ -764,10 +755,10 @@
             "class": "dropdown_button_control",
             "layer0.texture": "Theme - Default/common/dropdown_button.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(highlight-high)",
+            "layer0.tint": "var(overlay2)",
             "layer1.texture": "Theme - Default/common/dropdown_button.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(subtle)",
+            "layer1.tint": "var(muted)",
             "content_margin": [9, 8, 9, 8]
         },
         {
@@ -786,7 +777,7 @@
             "layer0.inner_margin": 4,
             "layer1.texture": "Theme - Default/common/button.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(base3)",
+            "layer1.tint": "var(base_hue)",
             "layer1.inner_margin": 4,
             "min_size": [80, 18],
             "content_margin": [10, 4]
@@ -827,13 +818,13 @@
             "class": "icon_regex",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_regex",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -847,13 +838,13 @@
             "class": "icon_case",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_case",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -867,13 +858,13 @@
             "class": "icon_whole_word",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_whole_word",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -887,13 +878,13 @@
             "class": "icon_wrap",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_wrap",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -907,13 +898,13 @@
             "class": "icon_in_selection",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_in_selection",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -927,13 +918,13 @@
             "class": "icon_highlight",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_highlight",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -947,13 +938,13 @@
             "class": "icon_preserve_case",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_preserve_case",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -967,13 +958,13 @@
             "class": "icon_context",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_context",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -987,13 +978,13 @@
             "class": "icon_use_buffer",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
         {
             "class": "icon_use_buffer",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)",
+            "layer0.tint": "var(base_tint)",
         },
 
         {
@@ -1007,13 +998,13 @@
             "class": "icon_use_gitignore",
             "attributes": ["hover"],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)"
+            "layer0.tint": "var(base_tint)"
         },
         {
             "class": "icon_use_gitignore",
             "parents": [{"class": "icon_button_control", "attributes": ["selected"]}],
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(text)"
+            "layer0.tint": "var(base_tint)"
         },
 
         // Status Bar
@@ -1030,7 +1021,7 @@
             "layer0.tint": "var(base1)",
             "layer1.texture": "Theme - Default/common/sidebar_button.png",
             "layer1.opacity": "var(transparent)",
-            "layer1.tint": "var(text)",
+            "layer1.tint": "var(base_tint)",
             "content_margin": [10, 11]
         },
         {
@@ -1044,7 +1035,7 @@
             "font.face": "var(font_face)",
             "font.size": 9,
             "color": "var(base1)",
-            "border_color": "var(highlight-high)",
+            "border_color": "var(overlay2)",
             "content_margin": [3, 0]
         },
 
