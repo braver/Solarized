@@ -35,6 +35,7 @@
 
         "base_hue": "var(base3)",
         "base_tint": "var(base00)",
+        "dark_bg": "var(base2)",
 
         "ui_bg": "var(base_hue)",
         "text_fg": "var(base_tint)",
@@ -206,75 +207,10 @@
             "layer0.opacity": 1,
         },
 
-        // // Open Files Icons
-        // {
-        //     "class": "close_button",
-        //     "layer0.texture": "Theme - Default/common/open_file_close.png",
-        //     "layer0.opacity": "var(opaque)",
-        //     "layer0.tint": "var(shape_tint)",
-        //     "layer1.texture": "Theme - Default/common/open_file_close.png",
-        //     "layer1.opacity": "var(transparent)",
-        //     "layer1.tint": "var(base_tint)",
-        //     "content_margin": [8, 8],
-        // },
-        // {
-        //     "class": "close_button",
-        //     "attributes": ["hover"],
-        //     "layer1.opacity": "var(opaque)",
-        // },
-        // {
-        //     "class": "close_button",
-        //     "attributes": ["!hover", "dirty"],
-        //     "layer0.texture": "Theme - Default/common/open_file_dirty.png",
-        //     "layer1.texture": "Theme - Default/common/open_file_dirty.png",
-        // },
-        // {
-        //     "class": "close_button",
-        //     "attributes": ["added"],
-        //     "layer0.tint": "var(sidebar_button_new_tint)",
-        //     "layer1.tint": "var(sidebar_button_new_tint)",
-        // },
-        // {
-        //     "class": "close_button",
-        //     "attributes": ["modified"],
-        //     "layer0.tint": "var(sidebar_button_modified_tint)",
-        //     "layer1.tint": "var(sidebar_button_modified_tint)",
-        // },
-        // {
-        //     "class": "close_button",
-        //     "attributes": ["deleted"],
-        //     "layer0.tint": "var(sidebar_button_deleted_tint)",
-        //     "layer1.tint": "var(sidebar_button_deleted_tint)",
-        // },
-
-        // Folder & File Icons
-        // {
-        //     "class": "disclosure_button_control",
-        //     "layer0.texture": "Theme - Default/common/disclosure_unexpanded.png",
-        //     "layer0.tint": "var(shape_tint)",
-        //     "layer0.opacity": "var(opaque)",
-        //     "layer1.texture": "Theme - Default/common/disclosure_unexpanded.png",
-        //     "layer1.tint": "var(subtle)",
-        //     "layer1.opacity": "var(transparent)",
-        //     "content_margin": [8, 8]
-        // },
-        // {
-        //     "class": "disclosure_button_control",
-        //     "attributes": ["expanded"],
-        //     "layer0.texture": "Theme - Default/common/disclosure_expanded.png",
-        //     "layer1.texture": "Theme - Default/common/disclosure_expanded.png",
-        // },
-        // {
-        //     "class": "disclosure_button_control",
-        //     "attributes": ["hover"],
-        //     "layer0.opacity": "var(opaque)",
-        //     "layer1.opacity": "var(opaque)",
-        // },
-
         {
             "class": "icon_folder",
             "layer0.texture": "Theme - Default/common/folder_closed.png",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "layer0.opacity": "var(opaque)",
             "content_margin": [9, 8]
         },
@@ -313,14 +249,14 @@
                 "loop": true,
                 "frame_time": 0.08,
             },
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "layer0.opacity": "var(opaque)",
             "content_margin": [9, 8]
         },
         {
             "class": "icon_folder_dup",
             "layer0.texture": "Theme - Default/common/symlink.png",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "layer0.opacity": 1,
             "content_margin": [9, 8]
         },
@@ -381,7 +317,7 @@
             "layer0.inner_margin": 0,
             "layer1.texture": "Solarized/images/tab.png",
             "layer1.opacity": 1.0,
-            "layer1.tint": "var(base2)",
+            "layer1.tint": "var(button_bg)",
             "layer1.inner_margin": 8,
             "layer2.texture": "Solarized/images/tab_square_pinstripe.png",
             "layer2.opacity": 0.0,
@@ -390,7 +326,7 @@
             "layer3.texture": "Theme - Default/common/tab_square_divider.png",
             "layer3.inner_margin": [2, 0, 2,  0],
             "layer3.opacity": "var(transparent)",
-            "layer3.tint": "var(base2)",
+            "layer3.tint": "var(button_bg)",
             "tint_index": 4,
             "tint_modifier": "transparent",
             "accent_tint_index": 2,
@@ -773,7 +709,7 @@
             "class": "button_control",
             "layer0.texture": "Theme - Default/common/button.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base2)",
+            "layer0.tint": "var(button_bg)",
             "layer0.inner_margin": 4,
             "layer1.texture": "Theme - Default/common/button.png",
             "layer1.opacity": "var(transparent)",
@@ -811,7 +747,7 @@
             "class": "icon_regex",
             "layer0.texture": "Theme - Default/common/icon_regex.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -831,7 +767,7 @@
             "class": "icon_case",
             "layer0.texture": "Theme - Default/common/icon_case_sensitive.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -851,7 +787,7 @@
             "class": "icon_whole_word",
             "layer0.texture": "Theme - Default/common/icon_whole_word.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -871,7 +807,7 @@
             "class": "icon_wrap",
             "layer0.texture": "Theme - Default/common/icon_wrap.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -891,7 +827,7 @@
             "class": "icon_in_selection",
             "layer0.texture": "Theme - Default/common/icon_in_selection.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -911,7 +847,7 @@
             "class": "icon_highlight",
             "layer0.texture": "Theme - Default/common/icon_highlight_matches.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -931,7 +867,7 @@
             "class": "icon_preserve_case",
             "layer0.texture": "Theme - Default/common/icon_preserve_case.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -951,7 +887,7 @@
             "class": "icon_context",
             "layer0.texture": "Theme - Default/common/icon_context.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -971,7 +907,7 @@
             "class": "icon_use_buffer",
             "layer0.texture": "Theme - Default/common/icon_use_buffer.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -991,7 +927,7 @@
             "class": "icon_use_gitignore",
             "layer0.texture": "Theme - Default/common/icon_use_gitignore.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "content_margin": [14, 11]
         },
         {
@@ -1010,7 +946,7 @@
         // Status Bar
         {
             "class": "status_bar",
-            "layer0.tint": "var(base2)",
+            "layer0.tint": "var(button_bg)",
             "layer0.opacity": 1.0,
             "content_margin": [8, 2, 8, 2]
         },
@@ -1018,7 +954,7 @@
             "class": "sidebar_button_control",
             "layer0.texture": "Theme - Default/common/sidebar_button.png",
             "layer0.opacity": "var(opaque)",
-            "layer0.tint": "var(base1)",
+            "layer0.tint": "var(shape_tint)",
             "layer1.texture": "Theme - Default/common/sidebar_button.png",
             "layer1.opacity": "var(transparent)",
             "layer1.tint": "var(base_tint)",
@@ -1034,7 +970,7 @@
             "class": "vcs_changes_annotation",
             "font.face": "var(font_face)",
             "font.size": 9,
-            "color": "var(base1)",
+            "color": "var(shape_tint)",
             "border_color": "var(overlay2)",
             "content_margin": [3, 0]
         },
@@ -1042,7 +978,7 @@
         // Side Bar
         {
             "class": "sidebar_container",
-            "layer0.tint": "var(base2)",
+            "layer0.tint": "var(dark_bg)",
             "layer0.opacity": 1.0,
             "layer1.texture": "Solarized/images/border_right.png",
             "layer1.opacity": 1.0,
