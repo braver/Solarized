@@ -264,23 +264,23 @@
         // File Icons
         {
           "class": "icon_file_type",
-          "layer0.tint": "var(muted)",
-          "layer0.opacity": 1,
+          "layer0.tint": [255, 255, 255],
+          "layer0.opacity": 0.66,
           "content_margin": [8, 8]
         },
-        // File Icons: Hovered
+
+        // Hovered
         {
           "class": "icon_file_type",
           "parents": [{"class": "tree_row", "attributes": ["hover"]}],
-          "layer0.tint": "var(muted)",
-          "layer0.opacity": 1
+          "layer0.opacity": 0.75
         },
-        // File Icons: Selected
+
+        // Selected
         {
           "class": "icon_file_type",
           "parents": [{"class": "tree_row", "attributes": ["selected"]}],
-          "layer0.tint": "var(muted)",
-          "layer0.opacity": 1
+          "layer0.opacity": 1.0
         },
 
         // Tabs
