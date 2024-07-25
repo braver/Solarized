@@ -322,7 +322,7 @@
             "layer2.texture": "Solarized/images/tab_square_pinstripe.png",
             "layer2.opacity": 0.0,
             "layer2.inner_margin": [0, 2],
-            "layer2.tint": "var(magenta)",
+            "layer2.tint": "var(green)",
             "layer3.texture": "Theme - Default/common/tab_square_divider.png",
             "layer3.inner_margin": [2, 0, 2,  0],
             "layer3.opacity": "var(transparent)",
