@@ -178,7 +178,7 @@
         {
             "class": "title_bar",
             "settings": ["themed_title_bar"],
-            "bg": "var(overlay2)",
+            "bg": "var(overlay)",
             "fg": "var(base_tint)"
         },
 
@@ -434,21 +434,21 @@
             "parents": [
                 {"class": "tab_control", "attributes": ["!selected"]}
             ],
-            "fg": "var(muted)"
+            "fg": "var(shape_tint)"
         },
         {
             "class": "tab_label",
             "parents": [
                 {"class": "tab_control", "attributes": ["!selected", "!hover"]}
             ],
-            "fg": "var(muted)"
+            "fg": "var(shape_tint)"
         },
         {
             "class": "tab_label",
             "parents": [
                 {"class": "tab_control", "attributes": ["!selected", "hover"]}
             ],
-            "fg": "var(muted)"
+            "fg": "var(shape_tint)"
         },
         {
             "class": "tab_label",
@@ -666,7 +666,7 @@
             "layer0.opacity": 1.0,
             "layer1.texture": "Solarized/images/border_bottom.png",
             "layer1.opacity": 1.0,
-            "layer1.tint": "var(overlay)",
+            "layer1.tint": "var(overlay2)",
             "layer1.inner_margin": [0, 2],
             "content_margin": 4
         },
@@ -946,7 +946,7 @@
         // Status Bar
         {
             "class": "status_bar",
-            "layer0.tint": "var(button_bg)",
+            "layer0.tint": "var(overlay)",
             "layer0.opacity": 1.0,
             "content_margin": [8, 2, 8, 2]
         },
