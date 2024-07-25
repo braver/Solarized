@@ -66,8 +66,8 @@
         "sidebar_label_ignored": "var(muted)",
 
         "sidebar_button_tint": "var(muted)",
-        "sidebar_button_new_tint": "var(green)",
-        "sidebar_button_modified_tint": "var(cyan)",
+        "sidebar_button_new_tint": "var(cyan)",
+        "sidebar_button_modified_tint": "var(green)",
         "sidebar_button_deleted_tint": "var(red)",
 
         "sidebar_button_opacity": "var(opaque)",
@@ -80,10 +80,10 @@
         "sidebar_scroll_bar_puck_bg": "var(muted)",
 
         "vcs_untracked": "var(base1)",
-        "vcs_modified": "var(cyan)",
+        "vcs_modified": "var(green)",
         "vcs_missing": "var(violet)",
-        "vcs_staged": "var(cyan)",
-        "vcs_added": "var(green)",
+        "vcs_staged": "var(blue)",
+        "vcs_added": "var(cyan)",
         "vcs_deleted": "var(red)",
         "vcs_unmerged": "var(orange)",
 
@@ -498,12 +498,12 @@
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["added"]}],
-            "layer0.tint": "var(green)",
+            "layer0.tint": "var(cyan)",
         },
         {
             "class": "tab_close_button",
             "parents": [{"class": "tab_control", "attributes": ["modified"]}],
-            "layer0.tint": "var(cyan)",
+            "layer0.tint": "var(green)",
         },
         {
             "class": "tab_close_button",
