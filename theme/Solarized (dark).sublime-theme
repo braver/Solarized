@@ -4,7 +4,7 @@
         ////////////////////////////////// Solarized Dark /////////////////////
 
         // "less-muted": "color(var(base1) blend(var(base2) 80%))", // subdued text elements
-        "muted": "color(var(base1) blend(var(base02) 80%))",      // subdued, but less so, text elements
+        "muted": "color(var(base1) blend(var(base02) 36%))",      // subdued, but less so, text elements
 
         "overlay": "color(var(base1) blend(var(base02) 12%))",    // slightly darker areas
         "overlay2": "color(var(base1) blend(var(base02) 24%))",   // a bit more darker areas and borders
