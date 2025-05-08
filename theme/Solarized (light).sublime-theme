@@ -985,6 +985,11 @@
             "layer1.tint": "var(overlay2)",
             "layer1.inner_margin": [2, 0],
             "content_margin": 0,
+        },
+        {
+            "class": "sidebar_container",
+            "settings": ["sidebar_on_right"],
+            "layer1.texture": "Solarized Color Scheme/images/border_left.png",
         }
     ]
 }
