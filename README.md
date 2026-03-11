@@ -17,6 +17,6 @@ After installation select either Light or Dark from the "Select Color Scheme" en
 
 ## Buy me a coffee 
 
-☕️👌🏻
+If you enjoy this package, feel free to make a little donation towards the coffee that keeps this project running. It's much appreciated!
 
-If you enjoy this package, feel free to make a little [donation via PayPal](https://paypal.me/koenlageveen) towards the coffee that keeps this project running. It's much appreciated!
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G21VT3Z6)
