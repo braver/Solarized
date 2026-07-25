@@ -6,7 +6,7 @@ Solarized is a color scheme created by [Ethan Schoonover](http://ethanschoonover
 
 This package is both a color scheme (ie. syntax highlight for code), and a UI theme, created especially for Sublime Text.  
 
-To install it, use [Package Control](https://packagecontrol.io/packages/Solarized%20Color%20Scheme).
+To install it, use [Package Control](https://packages.sublimetext.com/packages/Solarized%20Color%20Scheme).
 
 ![](https://raw.githubusercontent.com/braver/Solarized/master/solarized.png)
 
