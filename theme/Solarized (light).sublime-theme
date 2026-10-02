@@ -266,7 +266,7 @@
           "class": "icon_file_type",
           "layer0.tint": [255, 255, 255],
           "layer0.opacity": 0.66,
-          "content_margin": [8, 8]
+          "content_margin": [9, 8]
         },
 
         // Hovered
