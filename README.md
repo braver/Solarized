@@ -10,6 +10,10 @@ To install it, use [Package Control](https://packages.sublimetext.com/packages/S
 
 ![](https://raw.githubusercontent.com/braver/Solarized/master/solarized.png)
 
+### File icon theme
+
+For versions of Sublime Text 4206 and newer, this package also ships with a [file icon theme](https://www.sublimetext.com/docs/themes.html#file-icon-themes). 
+
 ## Installation
 
 After installation select either Light or Dark from the "Select Color Scheme" entry in the command palette. To select a matching UI theme, use the "Select Theme" command palette entry.
