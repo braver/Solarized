@@ -5,829 +5,926 @@
 		/////////////////////////////////////////
 
 		// archives
-		"7z": "color_archive",
-		"7zip": "color_archive",
-		"gz": "color_archive",
-		"pzip": "color_archive",
-		"rar": "color_archive",
-		"tar": "color_archive",
-		"tgz": "color_archive",
-		"wim": "color_archive",
-		"zip": "color_archive",
+		"7z": "file_type_archive",
+		"7zip": "file_type_archive",
+		"gz": "file_type_archive",
+		"pzip": "file_type_archive",
+		"rar": "file_type_archive",
+		"tar": "file_type_archive",
+		"tgz": "file_type_archive",
+		"wim": "file_type_archive",
+		"zip": "file_type_archive",
 
-		"bin": "color_binary",
+		"bin": "file_type_binary",
 
 		// Adobe
-		"psd": "color_psd",
-		"PSD": "color_psd",
-		"PSB": "color_psd",
+		"psd": "file_type_psd",
+		"PSD": "file_type_psd",
+		"PSB": "file_type_psd",
 
-		"ae": "color_ae",
-		"aep": "color_ae",
-		"aepx": "color_ae",
-		"aet": "color_ae",
+		"ae": "file_type_ae",
+		"aep": "file_type_ae",
+		"aepx": "file_type_ae",
+		"aet": "file_type_ae",
 
-		"prproj": "color_premiere",
+		"prproj": "file_type_premiere",
 
-		"ai": "color_ai",
-		"eps": "color_ai",
+		"ai": "file_type_ai",
+		"eps": "file_type_ai",
 
-		"indd": "color_indesign",
-		"indl": "color_indesign",
-		"indt": "color_indesign",
-		"indb": "color_indesign",
-		"inx": "color_indesign",
-		"idml": "color_indesign",
-		"pmd": "color_indesign",
-		"xqx": "color_indesign",
+		"indd": "file_type_indesign",
+		"indl": "file_type_indesign",
+		"indt": "file_type_indesign",
+		"indb": "file_type_indesign",
+		"inx": "file_type_indesign",
+		"idml": "file_type_indesign",
+		"pmd": "file_type_indesign",
+		"xqx": "file_type_indesign",
 
-		"dng": "color_image",
-		"DNG": "color_image",
+		"dng": "file_type_image",
+		"DNG": "file_type_image",
 
-		"sketch": "color_sketch",
+		"sketch": "file_type_sketch",
 
 		// MS office
-		"adn": "color_access",
-		"accda": "color_access",
-		"accdb": "color_access",
-		"accde": "color_access",
-		"accdr": "color_access",
-		"accdt": "color_access",
-		"accdu": "color_access",
+		"adn": "file_type_access",
+		"accda": "file_type_access",
+		"accdb": "file_type_access",
+		"accde": "file_type_access",
+		"accdr": "file_type_access",
+		"accdt": "file_type_access",
+		"accdu": "file_type_access",
 
-		"xls": "color_excel",
-		"xlsb": "color_excel",
-		"xlsm": "color_excel",
-		"xlsx": "color_excel",
-		"xlt": "color_excel",
+		"xls": "file_type_excel",
+		"xlsb": "file_type_excel",
+		"xlsm": "file_type_excel",
+		"xlsx": "file_type_excel",
+		"xlt": "file_type_excel",
 
-		"one": "color_onenote",
-		"onepkg": "color_onenote",
+		"one": "file_type_onenote",
+		"onepkg": "file_type_onenote",
 
-		"pps": "color_powerpoint",
-		"ppsx": "color_powerpoint",
-		"ppt": "color_powerpoint",
-		"pptx": "color_powerpoint",
+		"pps": "file_type_powerpoint",
+		"ppsx": "file_type_powerpoint",
+		"ppt": "file_type_powerpoint",
+		"pptx": "file_type_powerpoint",
 
-		"doc": "color_word",
-		"docm": "color_word",
-		"docx": "color_word",
-		"docxml": "color_word",
-		"dotm": "color_word",
-		"dotx": "color_word",
-		"wri": "color_word",
+		"doc": "file_type_word",
+		"docm": "file_type_word",
+		"docx": "file_type_word",
+		"docxml": "file_type_word",
+		"dotm": "file_type_word",
+		"dotx": "file_type_word",
+		"wri": "file_type_word",
 
 		// (auto) cad
-		"cad": "color_cad",
-		"stl": "color_cad",
-		"stp": "color_cad",
-		"step": "color_cad",
-		"wrl": "color_cad",
+		"cad": "file_type_cad",
+		"stl": "file_type_cad",
+		"stp": "file_type_cad",
+		"step": "file_type_cad",
+		"wrl": "file_type_cad",
 
 		// media
-		"pdf": "color_pdf",
-		"PDF": "color_pdf",
+		"pdf": "file_type_pdf",
+		"PDF": "file_type_pdf",
 
-		"eml": "color_email",
-		"emlx": "color_email",
-		"mbox": "color_email",
-		"msg": "color_email", // outlook
+		"eml": "file_type_email",
+		"emlx": "file_type_email",
+		"mbox": "file_type_email",
+		"msg": "file_type_email", // outlook
 
-		"3g2": "color_video",
-		"3gp": "color_video",
-		"aaf": "color_video",
-		"AAF": "color_video",
-		"asf": "color_video",
-		"avi": "color_video",
-		"drc": "color_video",
-		"f4a": "color_video",
-		"f4b": "color_video",
-		"f4p": "color_video",
-		"f4v": "color_video",
-		"flv": "color_video",
-		"gifv": "color_video",
-		"m2v": "color_video",
-		"m4p": "color_video",
-		"m4v": "color_video",
-		"mkv": "color_video",
-		"mov": "color_video",
-		"mp2": "color_video",
-		"mp4": "color_video",
-		"mpe": "color_video",
-		"mpeg": "color_video",
-		"mpg": "color_video",
-		"mpv": "color_video",
-		"mxf": "color_video",
-		"nsv": "color_video",
-		"ogv": "color_video",
-		"qt": "color_video",
-		"rm": "color_video",
-		"rmvb": "color_video",
-		"svi": "color_video",
-		"viv": "color_video",
-		"vob": "color_video",
-		"webm": "color_video",
-		"wmv": "color_video",
+		"3g2": "file_type_video",
+		"3gp": "file_type_video",
+		"aaf": "file_type_video",
+		"AAF": "file_type_video",
+		"asf": "file_type_video",
+		"avi": "file_type_video",
+		"drc": "file_type_video",
+		"f4a": "file_type_video",
+		"f4b": "file_type_video",
+		"f4p": "file_type_video",
+		"f4v": "file_type_video",
+		"flv": "file_type_video",
+		"gifv": "file_type_video",
+		"m2v": "file_type_video",
+		"m4p": "file_type_video",
+		"m4v": "file_type_video",
+		"mkv": "file_type_video",
+		"mov": "file_type_video",
+		"mp2": "file_type_video",
+		"mp4": "file_type_video",
+		"mpe": "file_type_video",
+		"mpeg": "file_type_video",
+		"mpg": "file_type_video",
+		"mpv": "file_type_video",
+		"mxf": "file_type_video",
+		"nsv": "file_type_video",
+		"ogv": "file_type_video",
+		"qt": "file_type_video",
+		"rm": "file_type_video",
+		"rmvb": "file_type_video",
+		"svi": "file_type_video",
+		"viv": "file_type_video",
+		"vob": "file_type_video",
+		"webm": "file_type_video",
+		"wmv": "file_type_video",
 
-		"8svx": "color_audio",
-		"aa": "color_audio",
-		"aac": "color_audio",
-		"aax": "color_audio",
-		"act": "color_audio",
-		"aiff": "color_audio",
-		"alac": "color_audio",
-		"amr": "color_audio",
-		"ape": "color_audio",
-		"au": "color_audio",
-		"awb": "color_audio",
-		"cda": "color_audio",
-		"dss": "color_audio",
-		"dvf": "color_audio",
-		"flac": "color_audio",
-		"gsm": "color_audio",
-		"iklax": "color_audio",
-		"ivs": "color_audio",
-		"m4a": "color_audio",
-		"m4b": "color_audio",
-		"m4p": "color_audio",
-		"mmf": "color_audio",
-		"movpkg": "color_audio",
-		"mp1": "color_audio",
-		"mp2": "color_audio",
-		"mp3": "color_audio",
-		"mpc": "color_audio",
-		"msv": "color_audio",
-		"nmf": "color_audio",
-		"ogg,": "color_audio",
-		"opus": "color_audio",
-		"qoa": "color_audio",
-		"ra,": "color_audio",
-		"raw": "color_audio",
-		"rf64": "color_audio",
-		"sln": "color_audio",
-		"tta": "color_audio",
-		"voc": "color_audio",
-		"vox": "color_audio",
-		"wav": "color_audio",
-		"webm": "color_audio",
-		"wma": "color_audio",
-		"wv": "color_audio",
+		"8svx": "file_type_audio",
+		"aa": "file_type_audio",
+		"aac": "file_type_audio",
+		"aax": "file_type_audio",
+		"act": "file_type_audio",
+		"aiff": "file_type_audio",
+		"alac": "file_type_audio",
+		"amr": "file_type_audio",
+		"ape": "file_type_audio",
+		"au": "file_type_audio",
+		"awb": "file_type_audio",
+		"cda": "file_type_audio",
+		"dss": "file_type_audio",
+		"dvf": "file_type_audio",
+		"flac": "file_type_audio",
+		"gsm": "file_type_audio",
+		"iklax": "file_type_audio",
+		"ivs": "file_type_audio",
+		"m4a": "file_type_audio",
+		"m4b": "file_type_audio",
+		"m4p": "file_type_audio",
+		"mmf": "file_type_audio",
+		"movpkg": "file_type_audio",
+		"mp1": "file_type_audio",
+		"mp2": "file_type_audio",
+		"mp3": "file_type_audio",
+		"mpc": "file_type_audio",
+		"msv": "file_type_audio",
+		"nmf": "file_type_audio",
+		"ogg,": "file_type_audio",
+		"opus": "file_type_audio",
+		"qoa": "file_type_audio",
+		"ra,": "file_type_audio",
+		"raw": "file_type_audio",
+		"rf64": "file_type_audio",
+		"sln": "file_type_audio",
+		"tta": "file_type_audio",
+		"voc": "file_type_audio",
+		"vox": "file_type_audio",
+		"wav": "file_type_audio",
+		"webm": "file_type_audio",
+		"wma": "file_type_audio",
+		"wv": "file_type_audio",
 
-		"avif": "color_image",
-		"bmp": "color_image",
-		"emf": "color_image",
-		"gif": "color_image",
-		"jp2": "color_image",
-		"jpeg": "color_image",
-		"jpg": "color_image",
-		"png": "color_image",
-		"pnm": "color_image",
-		"ppm": "color_image",
-		"tga": "color_image",
-		"tif": "color_image",
-		"tiff": "color_image",
-		"webp": "color_image",
-		"xbm": "color_image",
-		"xpm": "color_image",
+		"avif": "file_type_image",
+		"bmp": "file_type_image",
+		"emf": "file_type_image",
+		"gif": "file_type_image",
+		"jp2": "file_type_image",
+		"jpeg": "file_type_image",
+		"jpg": "file_type_image",
+		"png": "file_type_image",
+		"pnm": "file_type_image",
+		"ppm": "file_type_image",
+		"tga": "file_type_image",
+		"tif": "file_type_image",
+		"tiff": "file_type_image",
+		"webp": "file_type_image",
+		"xbm": "file_type_image",
+		"xpm": "file_type_image",
 
-		"bdf": "color_font",
-		"BDF": "color_font",
-		"dfont": "color_font",
-		"eot": "color_font",
-		"fon": "color_font",
-		"FON": "color_font",
-		"otf": "color_font",
-		"pcf": "color_font",
-		"PCF": "color_font",
-		"ttc": "color_font",
-		"ttf": "color_font",
-		"ufo": "color_font",
-		"woff": "color_font",
-		"woff2": "color_font",
+		"bdf": "file_type_font",
+		"BDF": "file_type_font",
+		"dfont": "file_type_font",
+		"eot": "file_type_font",
+		"fon": "file_type_font",
+		"FON": "file_type_font",
+		"otf": "file_type_font",
+		"pcf": "file_type_font",
+		"PCF": "file_type_font",
+		"ttc": "file_type_font",
+		"ttf": "file_type_font",
+		"ufo": "file_type_font",
+		"woff": "file_type_font",
+		"woff2": "file_type_font",
 
-		"COPYING": "color_license",
-		"copying": "color_license",
-		"COPYRIGHT": "color_license",
-		"copyright": "color_license",
-		"LICENSE": "color_license",
-		"license": "color_license",
-		"license.apache": "color_license",
-		"license.bsd": "color_license",
-		"license.gpl": "color_license",
-		"license.gpl2": "color_license",
-		"license.gpl3": "color_license",
-		"license.mit": "color_license",
+		// common conventions
+		"COPYING": "file_type_license",
+		"copying": "file_type_license",
+		"COPYRIGHT": "file_type_license",
+		"copyright": "file_type_license",
+		"LICENSE": "file_type_license",
+		"license": "file_type_license",
+		"license.apache": "file_type_license",
+		"license.bsd": "file_type_license",
+		"license.gpl": "file_type_license",
+		"license.gpl2": "file_type_license",
+		"license.gpl3": "file_type_license",
+		"license.mit": "file_type_license",
 
-		"lock": "color_lock",
-		"log": "color_log",
+		"TASKS": "file_type_todo",
+		"tasks": "file_type_todo",
+		"TODO": "file_type_todo",
+		"todo": "file_type_todo",
+
+		"lock": "file_type_lock",
+		"log": "file_type_log",
+
+		"txt": "file_type_text",
 
 		/////////////////////////////////////////
 		// community packages (https://packages.sublimetext.com/packages/<name>)
 		/////////////////////////////////////////
 
-		// Kotlin
-		"kt": "color_kotlin",
-		"kts": "color_kotlin",
-
-		// ApacheConf
-		// "conf": "color_preferences", // doubles ini
-		"CONF": "color_preferences",
-		"envvars": "color_preferences",
-		"htaccess": "color_preferences",
-		"HTACCESS": "color_preferences",
-		"htgroups": "color_preferences",
-		"HTGROUPS": "color_preferences",
-		"htpasswd": "color_preferences",
-		"HTPASSWD": "color_preferences",
-
-		// Arduino-like IDE
-		// "ino": "color_arduino", // doubles c++
-		"pde": "color_arduino",
-
-		// SSH Config
-		"authorized_keys": "color_authorized_keys",
-		"known_hosts": "color_known_hosts",
-		"pem": "color_pem",
-		"pub": "color_public_key",
-		"ssh_config": "color_ssh_config",
-		"sshd_config": "color_sshd_config",
-
-		// Sass
-		"sass": "color_sass",
-		"scss": "color_scss",
-
-		// Less
-		"less": "color_less",
-
-		// Vue
-		"vue": "color_vue",
-		"we": "color_vue",
-		"wpy": "color_vue",
-
-		// CoffeeScript
-		"coffee": "color_coffeescript",
-		"Cakefile": "color_coffeescript",
-		"coffee.erb": "color_coffeescript",
-		"cson": "color_coffeescript",
-		"cjsx": "color_coffeescript",
-
-		// Dockerfile Syntax Highlighting (sic)
-		"Dockerfile": "color_docker",
-		"dockerfile": "color_docker",
-
-		// EditorConfig
-		"editorconfig": "color_editorconfig",
-
-		// Twig
-		"twig": "color_twig",
-		"css.twig": "color_twig",
-		"htm.twig": "color_twig",
-		"html.twig": "color_twig",
-		"js.twig": "color_twig",
-		"json.twig": "color_twig",
-
-		// PowerShell
-		"ps1": "color_powershell",
-		"psm1": "color_powershell",
-		"psd1": "color_powershell",
-
-		// Stylus
-		"styl": "color_stylus",
-		"stylus": "color_stylus",
-
-		// Handlebars
-		"handlebars": "color_mustache",
-		"handlebars.html": "color_mustache",
-		"hbr": "color_mustache",
-		"hbrs": "color_mustache",
-		"hbs": "color_mustache",
-		"hdbs": "color_mustache",
-		"hjs": "color_mustache",
-		"mu": "color_mustache",
-		"mustache": "color_mustache",
-		"rac": "color_mustache",
-		"stache": "color_mustache",
-		"template": "color_mustache",
-		"tmpl": "color_mustache",
-
-		// INI
-		"ini": "color_settings",
-		"cfg": "color_settings",
-		"conf": "color_settings",
-
-		// EJS
-		"ejs": "color_ejs",
-
-		// nginx
-		"conf.erb": "color_nginx",
-		// "conf": "color_nginx", // doubles ini
-		"nginx.conf": "color_nginx",
-		"mime.types": "color_nginx",
-		"fastcgi_params": "color_nginx",
-		"scgi_params": "color_nginx",
-		"uwsgi_params": "color_nginx",
-
-		// Swift
-		"swift": "color_swift",
+		// Adept
+		"adept": "file_type_adept",
 
 		// Advanced CSV
-		"csv": "color_csv",
-		"tsv": "color_csv",
-
-		// Pug
-		"pug": "color_pug",
-
-		// todo: Verilog
-		// "v": "color_verilog",
-		// "V": "color_verilog",
-
-		// VBScript
-		"vbs": "color_dotnet",
-		"vba": "color_dotnet",
-		"bas": "color_dotnet",
-		"cls": "color_dotnet",
-		"frm": "color_dotnet",
-		"vbe": "color_dotnet",
-		"wsf": "color_dotnet",
-		"wsc": "color_dotnet",
-		"acm": "color_dotnet",
-		"acr": "color_dotnet",
-		"acf": "color_dotnet",
-
-		// Terraform
-		"tf": "color_terraform",
-		"nomad": "color_terraform",
-
-		// plist
-		"plist": "color_plist",
+		"csv": "file_type_csv",
+		"tsv": "file_type_csv",
 
 		// AngularJS
-		"ng.html": "color_angular",
+		"ng.html": "file_type_angular",
+
+		// ApacheConf
+		// "conf": "file_type_preferences", // doubles ini
+		"CONF": "file_type_preferences",
+		"envvars": "file_type_preferences",
+		"htaccess": "file_type_preferences",
+		"HTACCESS": "file_type_preferences",
+		"htgroups": "file_type_preferences",
+		"HTGROUPS": "file_type_preferences",
+		"htpasswd": "file_type_preferences",
+		"HTPASSWD": "file_type_preferences",
+
+		// Arduino-like IDE
+		// "ino": "file_type_arduino", // doubles c++
+		"pde": "file_type_arduino",
+
+		// Astro
+		"astro": "file_type_astro",
 
 		// Awk
-		"awk": "color_awk",
+		"awk": "file_type_awk",
 
 		// Babel
-		"babel": "color_babel",
-		"es6": "color_babel",
+		"babel": "file_type_babel",
+		"es6": "file_type_babel",
 
-		// Laravel Blade
-		"blade": "color_blade",
-		"blade.php": "color_blade",
+		// CFML
+		"cfc": "file_type_cf",
+		"cfm": "file_type_cf",
+		"cfml": "file_type_cf",
+		"cfs": "file_type_cf",
+
+		// CMake
+		"CMakeLists.txt": "file_type_cmake",
+		"cmake": "file_type_cmake",
+
+		// CoffeeScript
+		"coffee": "file_type_coffeescript",
+		"Cakefile": "file_type_coffeescript",
+		"coffee.erb": "file_type_coffeescript",
+		"cson": "file_type_coffeescript",
+		"cjsx": "file_type_coffeescript",
+
+		// CookLang
+		"cook": "file_type_cook",
+
+		// Crystal
+		"cr": "file_type_crystal",
+
+		// Dart
+		"dart": "file_type_dart",
+
+		// Django Syntax
+		"djt": "file_type_django",
+
+		// Dockerfile Syntax Highlighting (sic)
+		"Dockerfile": "file_type_docker",
+		"dockerfile": "file_type_docker",
+
+		// EditorConfig
+		"editorconfig": "file_type_editorconfig",
+
+		// EJS
+		"ejs": "file_type_ejs",
+
+		// Elm Syntax Highlighting (sic)
+		"elm": "file_type_elm",
+
+		// ESQL
+		"esql": "file_type_esql",
 
 		// Ethereum
-		"cairo": "color_cairo",
- 		"vy": "color_vyper",
- 		"sol": "color_solidity",
- 		"yul": "color_solidity",
- 		"yulp": "color_solidity",
+		"cairo": "file_type_cairo",
+		"vy": "file_type_vyper",
+		"sol": "file_type_solidity",
+		"yul": "file_type_solidity",
+		"yulp": "file_type_solidity",
 
- 		// CFML
- 		"cfc": "color_cf",
- 		"cfm": "color_cf",
- 		"cfml": "color_cf",
- 		"cfs": "color_cf",
+		// Fortran
+		"f": "file_type_fixedform-fortran",
+		"F": "file_type_fixedform-fortran",
+		"f77": "file_type_fixedform-fortran",
+		"F77": "file_type_fixedform-fortran",
+		"for": "file_type_fixedform-fortran",
+		"FOR": "file_type_fixedform-fortran",
+		"fpp": "file_type_fixedform-fortran",
+		"FPP": "file_type_fixedform-fortran",
+		"f90": " file_type_modern-fortran",
+		"F90": " file_type_modern-fortran",
+		"f95": " file_type_modern-fortran",
+		"F95": " file_type_modern-fortran",
+		"f03": " file_type_modern-fortran",
+		"F03": " file_type_modern-fortran",
+		"f08": " file_type_modern-fortran",
+		"F08": " file_type_modern-fortran",
+		"namelist": " file_type_modern-fortran",
 
- 		// CMake
- 		"CMakeLists.txt": "color_cmake",
- 		"cmake": "color_cmake",
+		// Gradle_Language
+		"gradle": "file_type_gradle",
 
- 		// Crystal
- 		"cr": "color_crystal",
+		// Handlebars
+		"handlebars": "file_type_mustache",
+		"handlebars.html": "file_type_mustache",
+		"hbr": "file_type_mustache",
+		"hbrs": "file_type_mustache",
+		"hbs": "file_type_mustache",
+		"hdbs": "file_type_mustache",
+		"hjs": "file_type_mustache",
+		"mu": "file_type_mustache",
+		"mustache": "file_type_mustache",
+		"rac": "file_type_mustache",
+		"stache": "file_type_mustache",
+		"template": "file_type_mustache",
+		"tmpl": "file_type_mustache",
 
- 		// Dart
- 		"dart": "color_dart",
+		// Haxe
+		"hx": "file_type_haxe",
+		"hxsl": "file_type_haxe",
+		"hscript": "file_type_haxe",
 
- 		// Elm Syntax Highlighting (sic)
- 		"elm": "color_elm",
+		// Gleam
+		"gleam": "file_type_gleam",
 
- 		// Fortran
- 		"f": "color_fixedform-fortran",
- 		"F": "color_fixedform-fortran",
-		"f77": "color_fixedform-fortran",
-		"F77": "color_fixedform-fortran",
-		"for": "color_fixedform-fortran",
-		"FOR": "color_fixedform-fortran",
-		"fpp": "color_fixedform-fortran",
-		"FPP": "color_fixedform-fortran",
- 		"f90": " color_modern-fortran",
- 		"F90": " color_modern-fortran",
- 		"f95": " color_modern-fortran",
-		"F95": " color_modern-fortran",
-		"f03": " color_modern-fortran",
-		"F03": " color_modern-fortran",
-		"f08": " color_modern-fortran",
-		"F08": " color_modern-fortran",
- 		"namelist": " color_modern-fortran",
+		// Hacklang
+		"hack": "file_type_hack",
 
- 		// Gradle_Language
- 		"gradle": "color_gradle",
+		// Heta
+		"heta": "file_type_heta",
 
- 		// Haxe
- 		"hx": "color_haxe",
-		"hxsl": "color_haxe",
-		"hscript": "color_haxe",
+		// Hyperflask
+		"jpy": "file_type_hyperflask",
+
+		// INI
+		"ini": "file_type_settings",
+		"cfg": "file_type_settings",
+		"conf": "file_type_settings",
+
+		// Jinja2
+		"jinja": "file_type_jinja",
 
 		// Julia
-		"jl": "color_julia",
+		"jl": "file_type_julia",
+
+		// Just
+		".justfile": "file_type_just",
+		"just": "file_type_just",
+		"justfile": "file_type_just",
+
+		// KDL
+		"kdl": "file_type_kdl",
+		"kdl1": "file_type_kdl",
+		"kdl2": "file_type_kdl",
+
+		// Kotlin
+		"kt": "file_type_kotlin",
+		"kts": "file_type_kotlin",
 
 		// KSP (Kontakt Script Processor)
- 		"ksp": "color_ksp",
+		"ksp": "file_type_ksp",
 
- 		// Liquid
- 		"liquid": "color_liquid",
+		// Laravel Blade
+		"blade": "file_type_blade",
+		"blade.php": "file_type_blade",
+
+		// Lean
+		"lean": "file_type_lean",
+
+		// Less
+		"less": "file_type_less",
+
+		// Liquid
+		"liquid": "file_type_liquid",
 
 		// LSL
-		"lsl": "color_lsl",
-		"ossl": "color_lsl",
+		"lsl": "file_type_lsl",
+		"ossl": "file_type_lsl",
+
+		// Marko
+		"marko": "file_type_marko",
 
 		// MayaSublime
-		"mel": "color_maya",
-		"ma": "color_maya",
+		"mel": "file_type_maya",
+		"ma": "file_type_maya",
+
+		// MDX
+		"mdx": "file_type_mdx",
+
+		// Meson
+		"meson.build": "file_type_meson",
+		"meson.options": "file_type_meson",
+		"meson_options.txt": "file_type_meson",
 
 		// Mint Lang
-		"mint": "color_mint",
+		"mint": "file_type_mint",
+
+		// MLIR TOC
+		"mlir": "file_type_mlir",
+		"mlir-toc": "file_type_mlir",
+
+		// Moonbit
+		"mbt": "file_type_moonbit",
+		"mbti": "file_type_moonbit",
+
+		// Nelua
+		"nelua": "file_type_nelua",
 
 		// Nim
-		"nim": "color_nim",
-		"nims": "color_nim",
-		"nimble": "color_nim",
-		"nif": "color_nim",
-		"nimf": "color_nim",
+		"nim": "file_type_nim",
+		"nims": "file_type_nim",
+		"nimble": "file_type_nim",
+		"nif": "file_type_nim",
+		"nimf": "file_type_nim",
 		// "nim.cfg" // opting to leave this covered by .cfg
 
-		// PlainNotes
-		"note": "color_note",
+		// nginx
+		"conf.erb": "file_type_nginx",
+		// "conf": "file_type_nginx", // doubles ini
+		"nginx.conf": "file_type_nginx",
+		"mime.types": "file_type_nginx",
+		"fastcgi_params": "file_type_nginx",
+		"scgi_params": "file_type_nginx",
+		"uwsgi_params": "file_type_nginx",
 
 		// NSIS
-		"nsi": "color_nsis",
-		"nsh": "color_nsis",
-		"bnsi": "color_nsis",
-		"bnsh": "color_nsis",
-		"nsdinc": "color_nsis",
+		"nsi": "file_type_nsis",
+		"nsh": "file_type_nsis",
+		"bnsi": "file_type_nsis",
+		"bnsh": "file_type_nsis",
+		"nsdinc": "file_type_nsis",
+
+		// Nunjucks
+		"njk": "file_type_nunjucks",
+		"nunjucks": "file_type_nunjucks",
 
 		// Odin
-		"odin": "color_odin",
+		"odin": "file_type_odin",
+
+		// Pkl (Pickle)
+		"pkl": "file_type_pickle",
+		"pcf": "file_type_pickle",
+
+		// PlainNotes
+		"note": "file_type_note",
+
+		// plist
+		"plist": "file_type_plist",
+
+		// PowerShell
+		"ps1": "file_type_powershell",
+		"psm1": "file_type_powershell",
+		"psd1": "file_type_powershell",
+
+		// Pug
+		"pug": "file_type_pug",
 
 		// Puppet
-		"pp": "color_puppet",
-		"epp": "color_puppet",
+		"pp": "file_type_puppet",
+		"epp": "file_type_puppet",
+
+		// Quarto
+		"quarto": "file_type_quarto",
 
 		// Ruby Slim
-		"slim": "color_slim",
-		"skim": "color_slim",
+		"slim": "file_type_slim",
+		"skim": "file_type_slim",
+
+		// Sass
+		"sass": "file_type_sass",
+		"scss": "file_type_scss",
+
+		// SSH Config
+		"authorized_keys": "file_type_authorized_keys",
+		"known_hosts": "file_type_known_hosts",
+		"pem": "file_type_pem",
+		"pub": "file_type_public_key",
+		"ssh_config": "file_type_ssh_config",
+		"sshd_config": "file_type_sshd_config",
 
 		// Stata Improved Editor
-		"do": "color_stata",
-        "ado": "color_stata",
-        "doh": "color_stata",
-        "mata": "color_stata",
+		"do": "file_type_stata",
+		"ado": "file_type_stata",
+		"doh": "file_type_stata",
+		"mata": "file_type_stata",
 
-        // Svelte
-        "svelte": "color_svelte",
-        "svx": "color_svelte",
-        "mdsv": "color_svelte",
-        "mdsvex": "color_svelte",
+		// Stylus
+		"styl": "file_type_stylus",
+		"stylus": "file_type_stylus",
 
-        // Toit
-        "toit": "color_toit",
+		// Svelte
+		"svelte": "file_type_svelte",
+		"svx": "file_type_svelte",
+		"mdsv": "file_type_svelte",
+		"mdsvex": "file_type_svelte",
 
-        // Zig Language
-        "zig": "color_zig",
-        "zon": "color_zig",
+		// Swift
+		"swift": "file_type_swift",
 
- 		/////////////////////////////////////////
- 		// from sublimehq/Packages
- 		/////////////////////////////////////////
+		// SystemVerilog
+		"v": "file_type_verilog",
+		"sv": "file_type_systemverilog",
+		"svh": "file_type_systemverilog",
+		"vh": "file_type_systemverilog",
 
- 		"applescript": "color_applescript",
- 		"scpt": "color_applescript",
- 		"scptd": "color_applescript",
+		// Terraform
+		"tf": "file_type_terraform",
+		"nomad": "file_type_terraform",
 
- 		"as": "color_actionscript",
+		// Toit
+		"toit": "file_type_toit",
 
- 		"asp": "color_dotnet",
- 		"asa": "color_dotnet",
- 		"vbs": "color_dotnet",
+		// Twig
+		"twig": "file_type_twig",
+		"css.twig": "file_type_twig",
+		"htm.twig": "file_type_twig",
+		"html.twig": "file_type_twig",
+		"js.twig": "file_type_twig",
+		"json.twig": "file_type_twig",
 
- 		"bat": "color_windows",
- 		"cmd": "color_windows",
+		// VBScript
+		"vbs": "file_type_dotnet",
+		"vba": "file_type_dotnet",
+		"bas": "file_type_dotnet",
+		"cls": "file_type_dotnet",
+		"frm": "file_type_dotnet",
+		"vbe": "file_type_dotnet",
+		"wsf": "file_type_dotnet",
+		"wsc": "file_type_dotnet",
+		"acm": "file_type_dotnet",
+		"acr": "file_type_dotnet",
+		"acf": "file_type_dotnet",
 
- 		"diff": "color_diff",
- 		"patch": "color_diff",
- 		"diff.eml": "color_diff",
- 		"patch.eml": "color_diff",
- 		"diff.mbox": "color_diff",
- 		"patch.mbox": "color_diff",
+		// VEX
+		"vfl": "file_type_vex",
+		// h // leave it for C
 
- 		"erl": "color_erlang",
- 		"escript": "color_erlang",
- 		"hrl": "color_erlang",
- 		"yaws": "color_erlang",
+		// Vue
+		"vue": "file_type_vue",
+		"we": "file_type_vue",
+		"wpy": "file_type_vue",
 
- 		"DOT": "color_graphviz",
- 		"dot": "color_graphviz",
- 		"gv": "color_graphviz",
+		// Zig Language
+		"zig": "file_type_zig",
+		"zon": "file_type_zig",
 
- 		"gradle": "color_groovy",
- 		"groovy": "color_groovy",
- 		"gvy": "color_groovy",
+		/////////////////////////////////////////
+		// from sublimehq/Packages
+		/////////////////////////////////////////
 
- 		"CODEOWNERS": "color_git",
- 		"git": "color_git",
- 		"git-blame-ignore-revs": "color_git",
- 		"gitattributes": "color_git",
- 		"gitconfig": "color_git",
- 		"gitignore": "color_git",
- 		"gitmodules": "color_git",
- 		"mailmap": "color_git",
+		"applescript": "file_type_applescript",
+		"scpt": "file_type_applescript",
+		"scptd": "file_type_applescript",
 
- 		"haml": "color_haml",
+		"as": "file_type_actionscript",
 
- 		"cabal": "color_haskell",
- 		"cabal.project": "color_haskell",
- 		"lhs": "color_haskell",
- 		"hs": "color_haskell",
- 		"hs-boot": "color_haskell",
- 		"hsig": "color_haskell",
+		"asp": "file_type_dotnet",
+		"asa": "file_type_dotnet",
+		"vbs": "file_type_dotnet",
 
- 		"htm": "color_html",
- 		"html": "color_html",
- 		"shtml": "color_html",
- 		"xhtml": "color_html",
- 		"gohtml": "color_html",
- 		"gotmpl": "color_html",
- 		"go.html": "color_html",
- 		"go.tmpl": "color_html",
- 		"rails": "color_html",
- 		"rhtml": "color_html",
- 		"erb": "color_html",
- 		"html.erb": "color_html",
- 		"adp": "color_html",
+		"bat": "file_type_windows",
+		"cmd": "file_type_windows",
 
- 		"css": "color_css",
- 		"gocss": "color_css",
- 		"go.css": "color_css",
- 		"css.php": "color_css",
- 		"css.erb": "color_css",
+		"diff": "file_type_diff",
+		"patch": "file_type_diff",
+		"diff.eml": "file_type_diff",
+		"patch.eml": "file_type_diff",
+		"diff.mbox": "file_type_diff",
+		"patch.mbox": "file_type_diff",
 
- 		"d": "color_dlang",
- 		"di": "color_dlang",
+		"erl": "file_type_erlang",
+		"escript": "file_type_erlang",
+		"hrl": "file_type_erlang",
+		"yaws": "file_type_erlang",
 
- 		"js": "color_js",
- 		"gojs": "color_js",
- 		"go.js": "color_js",
- 		"mjs": "color_js",
- 		"cjs": "color_js",
- 		"htc": "color_js",
- 		"js.php": "color_js",
- 		"js.erb": "color_js",
+		"DOT": "file_type_graphviz",
+		"dot": "file_type_graphviz",
+		"gv": "file_type_graphviz",
 
- 		"jsx": "color_jsx",
+		"gradle": "file_type_groovy",
+		"groovy": "file_type_groovy",
+		"gvy": "file_type_groovy",
 
- 		"tsx": "color_tsx",
- 		"ts": "color_typescript",
- 		"mts": "color_typescript",
- 		"cts": "color_typescript",
+		"CODEOWNERS": "file_type_git",
+		"git": "file_type_git",
+		"git-blame-ignore-revs": "file_type_git",
+		"gitattributes": "file_type_git",
+		"gitconfig": "file_type_git",
+		"gitignore": "file_type_git",
+		"gitmodules": "file_type_git",
+		"mailmap": "file_type_git",
 
- 		"jsp": "color_jsp",
- 		"jspf": "color_jsp",
- 		"jspx": "color_jsp",
- 		"jstl": "color_jsp",
+		"haml": "file_type_haml",
 
- 		"java": "color_java",
- 		"bsh": "color_java",
- 		"properties": "color_java",
+		"cabal": "file_type_haskell",
+		"cabal.project": "file_type_haskell",
+		"lhs": "file_type_haskell",
+		"hs": "file_type_haskell",
+		"hs-boot": "file_type_haskell",
+		"hsig": "file_type_haskell",
 
- 		"json": "color_json",
- 		"jsonc": "color_json",
- 		"ipynb": "color_json",
- 		"gltf": "color_json",
- 		"avsc": "color_json",
- 		"json.php": "color_json",
- 		"json.erb": "color_json",
+		"htm": "file_type_html",
+		"html": "file_type_html",
+		"shtml": "file_type_html",
+		"xhtml": "file_type_html",
+		"gohtml": "file_type_html",
+		"gotmpl": "file_type_html",
+		"go.html": "file_type_html",
+		"go.tmpl": "file_type_html",
+		"rails": "file_type_html",
+		"rhtml": "file_type_html",
+		"erb": "file_type_html",
+		"html.erb": "file_type_html",
+		"adp": "file_type_html",
 
- 		"sublime-build": "color_sublime",
- 		"sublime-color-scheme": "color_sublime",
- 		"sublime-commands": "color_sublime",
- 		"sublime-completions": "color_sublime",
- 		"sublime-file-icons": "color_sublime",
- 		"sublime-keymap": "color_sublime",
- 		"sublime-macro": "color_sublime",
- 		"sublime-menu": "color_sublime",
- 		"sublime-mousemap": "color_sublime",
- 		"sublime-project": "color_sublime",
- 		"sublime-settings": "color_sublime",
- 		"sublime-theme": "color_sublime",
- 		"sublime-merge-theme": "color_sublime",
- 		"sublime-workspace": "color_sublime",
- 		"sublime-syntax": "color_sublime",
+		"css": "file_type_css",
+		"gocss": "file_type_css",
+		"go.css": "file_type_css",
+		"css.php": "file_type_css",
+		"css.erb": "file_type_css",
 
- 		"bib": "color_tex",
- 		"ins": "color_tex",
- 		"tex": "color_tex",
- 		"ltx": "color_tex",
- 		"sty": "color_tex",
- 		"cls": "color_tex",
+		"d": "file_type_dlang",
+		"di": "file_type_dlang",
 
- 		"lisp": "color_lisp",
- 		"cl": "color_lisp",
- 		"clisp": "color_lisp",
- 		"l": "color_lisp",
- 		"mud": "color_lisp",
- 		"el": "color_lisp",
- 		"scm": "color_lisp",
- 		"ss": "color_lisp",
- 		"lsp": "color_lisp",
- 		"fasl": "color_lisp",
- 		"sld": "color_lisp",
+		"js": "file_type_js",
+		"gojs": "file_type_js",
+		"go.js": "file_type_js",
+		"mjs": "file_type_js",
+		"cjs": "file_type_js",
+		"htc": "file_type_js",
+		"js.php": "file_type_js",
+		"js.erb": "file_type_js",
 
- 		"lua": "color_lua",
+		"jsx": "file_type_jsx",
 
- 		// todo: icon for make?
- 		"mk": "color_shell",
- 		"mak": "color_shell",
- 		"make": "color_shell",
- 		"GNUmakefile": "color_shell",
- 		"Makefile": "color_shell",
- 		"OCamlMakefile": "color_shell",
+		"tsx": "file_type_tsx",
+		"ts": "file_type_typescript",
+		"mts": "file_type_typescript",
+		"cts": "file_type_typescript",
 
- 		"sh": "color_shell",
- 		"bash": "color_shell",
- 		"bashrc": "color_shell",
- 		"ash": "color_shell",
- 		"zsh": "color_shell",
+		"jsp": "file_type_jsp",
+		"jspf": "file_type_jsp",
+		"jspx": "file_type_jsp",
+		"jstl": "file_type_jsp",
 
- 		"matlab": "color_matlab",
+		"java": "file_type_java",
+		"bsh": "file_type_java",
+		"properties": "file_type_java",
 
- 		"go": "color_go",
+		"json": "file_type_json",
+		"jsonc": "file_type_json",
+		"ipynb": "file_type_json",
+		"gltf": "file_type_json",
+		"avsc": "file_type_json",
+		"json.php": "file_type_json",
+		"json.erb": "file_type_json",
 
- 		"md": "color_markdown",
- 		"mdown": "color_markdown",
- 		"mdwn": "color_markdown",
- 		"markdown": "color_markdown",
- 		"markdn": "color_markdown",
- 		"gomd": "color_markdown",
- 		"go.md": "color_markdown",
- 		"hugo": "color_markdown",
+		"sublime-build": "file_type_sublime",
+		"sublime-color-scheme": "file_type_sublime",
+		"sublime-commands": "file_type_sublime",
+		"sublime-completions": "file_type_sublime",
+		"sublime-file-icons": "file_type_sublime",
+		"sublime-keymap": "file_type_sublime",
+		"sublime-macro": "file_type_sublime",
+		"sublime-menu": "file_type_sublime",
+		"sublime-mousemap": "file_type_sublime",
+		"sublime-project": "file_type_sublime",
+		"sublime-settings": "file_type_sublime",
+		"sublime-theme": "file_type_sublime",
+		"sublime-merge-theme": "file_type_sublime",
+		"sublime-workspace": "file_type_sublime",
+		"sublime-syntax": "file_type_sublime",
 
- 		"php": "color_php",
- 		"php3": "color_php",
- 		"php4": "color_php",
- 		"php5": "color_php",
- 		"php7": "color_php",
- 		"php8": "color_php",
- 		"phps": "color_php",
- 		"phpt": "color_php",
- 		"phtml": "color_php",
+		"bib": "file_type_tex",
+		"ins": "file_type_tex",
+		"tex": "file_type_tex",
+		"ltx": "file_type_tex",
+		"sty": "file_type_tex",
+		"cls": "file_type_tex",
 
- 		"py": "color_python",
- 		"py3": "color_python",
- 		"pyw": "color_python",
- 		"pyi": "color_python",
- 		"pyx": "color_python",
- 		"pyx.in": "color_python",
- 		"pxd": "color_python",
- 		"pxd.in": "color_python",
- 		"pxi": "color_python",
- 		"pxi.in": "color_python",
- 		"rpy": "color_python",
- 		"cpy": "color_python",
- 		"gyp": "color_python",
- 		"gypi": "color_python",
- 		"vpy": "color_python",
- 		"smk": "color_python",
- 		"wscript": "color_python",
- 		"bazel": "color_python",
- 		"bzl": "color_python",
+		"lisp": "file_type_lisp",
+		"cl": "file_type_lisp",
+		"clisp": "file_type_lisp",
+		"l": "file_type_lisp",
+		"mud": "file_type_lisp",
+		"el": "file_type_lisp",
+		"scm": "file_type_lisp",
+		"ss": "file_type_lisp",
+		"lsp": "file_type_lisp",
+		"fasl": "file_type_lisp",
+		"sld": "file_type_lisp",
 
- 		"cs": "color_csharp",
- 		"csx": "color_csharp",
+		"lua": "file_type_lua",
 
- 		"R": "color_r",
- 		"rd": "color_r",
+		// todo: icon for make?
+		"mk": "file_type_shell",
+		"mak": "file_type_shell",
+		"make": "file_type_shell",
+		"GNUmakefile": "file_type_shell",
+		"Makefile": "file_type_shell",
+		"OCamlMakefile": "file_type_shell",
 
- 		// todo source.regexp (? what's a regex file)
- 		// "re": "",
+		"ash": "file_type_shell",
+		"sh": "file_type_shell",
+		"bash": "file_type_shell",
+		"bash_history": "file_type_shell",
+		"bash_profile": "file_type_shell",
+		"bashrc": "file_type_shell",
+		"profile": "file_type_shell",
+		"zprofile": "file_type_shell",
+		"zsh": "file_type_shell",
+		"zsh_history": "file_type_shell",
+		"zshenv": "file_type_shell",
+		"zshrc": "file_type_shell",
 
- 		"rb": "color_ruby",
- 		"rbi": "color_ruby",
- 		"rbx": "color_ruby",
- 		"rjs": "color_ruby",
- 		"rabl": "color_ruby",
- 		"rake": "color_ruby",
- 		"capfile": "color_ruby",
- 		"jbuilder": "color_ruby",
- 		"gemspec": "color_ruby",
- 		"podspec": "color_ruby",
- 		"irbrc": "color_ruby",
- 		"pryrc": "color_ruby",
- 		"prawn": "color_ruby",
- 		"thor": "color_ruby",
+		"matlab": "file_type_matlab",
 
- 		"ruby.rail": "color_rails",
- 		"rxml": "color_rails",
- 		"builder": "color_rails",
- 		"arb": "color_rails",
+		"go": "file_type_go",
 
- 		"rs": "color_rust",
+		"md": "file_type_markdown",
+		"mdown": "file_type_markdown",
+		"mdwn": "file_type_markdown",
+		"markdown": "file_type_markdown",
+		"markdn": "file_type_markdown",
+		"gomd": "file_type_markdown",
+		"go.md": "file_type_markdown",
+		"hugo": "file_type_markdown",
 
- 		"rst": "color_restructuredtext",
- 		"rest": "color_restructuredtext",
+		"php": "file_type_php",
+		"php3": "file_type_php",
+		"php4": "file_type_php",
+		"php5": "file_type_php",
+		"php7": "file_type_php",
+		"php8": "file_type_php",
+		"phps": "file_type_php",
+		"phpt": "file_type_php",
+		"phtml": "file_type_php",
 
- 		"sbt": "color_scala",
- 		"sc": "color_scala",
- 		"scala": "color_scala",
+		"py": "file_type_python",
+		"py3": "file_type_python",
+		"pyw": "file_type_python",
+		"pyi": "file_type_python",
+		"pyx": "file_type_python",
+		"pyx.in": "file_type_python",
+		"pxd": "file_type_python",
+		"pxd.in": "file_type_python",
+		"pxi": "file_type_python",
+		"pxi.in": "file_type_python",
+		"rpy": "file_type_python",
+		"cpy": "file_type_python",
+		"gyp": "file_type_python",
+		"gypi": "file_type_python",
+		"vpy": "file_type_python",
+		"smk": "file_type_python",
+		"wscript": "file_type_python",
+		"bazel": "file_type_python",
+		"bzl": "file_type_python",
 
- 		"sql.erb": "color_sql",
- 		"erbsql": "color_sql",
- 		"cql": "color_sql",
- 		"pgsql": "color_sql",
- 		"psql": "color_sql",
- 		"sql": "color_sql",
- 		"ddl": "color_sql",
- 		"dml": "color_sql",
+		"cs": "file_type_csharp",
+		"csx": "file_type_csharp",
 
- 		"textile": "color_textile",
+		"R": "file_type_r",
+		"rd": "file_type_r",
 
- 		"tcl": "color_tcl",
+		// todo source.regexp (? what's a regex file)
+		// "re": "",
 
- 		"c": "color_c",
- 		"C": "color_c",
- 		"mm": "color_c",
- 		"m": "color_c",
- 		"M": "color_c",
- 		"h": "color_cheader",
+		"rb": "file_type_ruby",
+		"rbi": "file_type_ruby",
+		"rbx": "file_type_ruby",
+		"rjs": "file_type_ruby",
+		"rabl": "file_type_ruby",
+		"rake": "file_type_ruby",
+		"capfile": "file_type_ruby",
+		"jbuilder": "file_type_ruby",
+		"gemspec": "file_type_ruby",
+		"podspec": "file_type_ruby",
+		"irbrc": "file_type_ruby",
+		"pryrc": "file_type_ruby",
+		"prawn": "file_type_ruby",
+		"thor": "file_type_ruby",
 
- 		"cc": "color_cpp",
- 		"cp": "color_cpp",
- 		"cpp": "color_cpp",
- 		"cppm": "color_cpp",
- 		"cxx": "color_cpp",
- 		"inl": "color_cpp",
- 		"ino": "color_cpp",
- 		"ipp": "color_cpp",
- 		"ixx": "color_cpp",
- 		"hh": "color_cppheader",
- 		"hpp": "color_cppheader",
- 		"hxx": "color_cppheader",
+		"ruby.rail": "file_type_rails",
+		"rxml": "file_type_rails",
+		"builder": "file_type_rails",
+		"arb": "file_type_rails",
 
- 		"clj": "color_clojure",
- 		"cljc": "color_clojure",
- 		"edn": "color_clojure",
- 		"cljs": "color_clojure",
+		"rs": "file_type_rust",
 
- 		"ml": "color_ocaml",
- 		"mli": "color_ocaml",
- 		"mll": "color_ocaml",
- 		"mly": "color_ocaml",
+		"rst": "file_type_restructuredtext",
+		"rest": "file_type_restructuredtext",
 
- 		"pas": "color_delphi",
- 		"p": "color_delphi",
- 		"dpr": "color_delphi",
+		"sbt": "file_type_scala",
+		"sc": "file_type_scala",
+		"scala": "file_type_scala",
 
- 		"pl": "color_perl",
- 		"pc": "color_perl",
- 		"pm": "color_perl",
- 		"pmc": "color_perl",
- 		"pod": "color_perl",
- 		"t": "color_perl",
+		"sql.erb": "file_type_sql",
+		"erbsql": "file_type_sql",
+		"cql": "file_type_sql",
+		"pgsql": "file_type_sql",
+		"psql": "file_type_sql",
+		"sql": "file_type_sql",
+		"ddl": "file_type_sql",
+		"dml": "file_type_sql",
 
- 		"toml": "color_toml",
- 		"tml": "color_toml",
+		"textile": "file_type_textile",
 
- 		"Pipfile": "color_preferences",
+		"tcl": "file_type_tcl",
 
- 		"pc": "color_xml",
- 		"pl": "color_xml",
- 		"pm": "color_xml",
- 		"pmc": "color_xml",
- 		"pod": "color_xml",
- 		"t": "color_xml",
- 		"dtd": "color_xml",
- 		"ent": "color_xml",
- 		"mod": "color_xml",
- 		"xml": "color_xml",
- 		"tld": "color_xml",
- 		"dtml": "color_xml",
- 		"rng": "color_xml",
- 		"rss": "color_xml",
- 		"opml": "color_xml",
- 		"slnx": "color_xml",
- 		"svg": "color_svg",
- 		"xaml": "color_xml",
+		"c": "file_type_c",
+		"C": "file_type_c",
+		"mm": "file_type_c",
+		"m": "file_type_c",
+		"M": "file_type_c",
+		"h": "file_type_cheader",
 
- 		"sublime-snippet": "color_sublime",
- 		"tmLanguage": "color_textmate",
- 		"tmPreferences": "color_textmate",
- 		"tmSnippet": "color_textmate",
- 		"tmTheme": "color_textmate",
+		"cc": "file_type_cpp",
+		"cp": "file_type_cpp",
+		"cpp": "file_type_cpp",
+		"cppm": "file_type_cpp",
+		"cxx": "file_type_cpp",
+		"inl": "file_type_cpp",
+		"ino": "file_type_cpp",
+		"ipp": "file_type_cpp",
+		"ixx": "file_type_cpp",
+		"hh": "file_type_cppheader",
+		"hpp": "file_type_cppheader",
+		"hxx": "file_type_cppheader",
 
- 		"yaml": "color_yaml",
- 		"yml": "color_yaml",
- 		"goyaml": "color_yaml",
- 		"go.yaml": "color_yaml",
- 		"goyml": "color_yaml",
- 		"go.yml": "color_yaml",
+		"clj": "file_type_clojure",
+		"cljc": "file_type_clojure",
+		"edn": "file_type_clojure",
+		"cljs": "file_type_clojure",
+
+		"ml": "file_type_ocaml",
+		"mli": "file_type_ocaml",
+		"mll": "file_type_ocaml",
+		"mly": "file_type_ocaml",
+
+		"pas": "file_type_delphi",
+		"p": "file_type_delphi",
+		"dpr": "file_type_delphi",
+
+		"pl": "file_type_perl",
+		"pc": "file_type_perl",
+		"pm": "file_type_perl",
+		"pmc": "file_type_perl",
+		"pod": "file_type_perl",
+		"t": "file_type_perl",
+
+		"toml": "file_type_toml",
+		"tml": "file_type_toml",
+
+		"Pipfile": "file_type_preferences",
+
+		"pc": "file_type_xml",
+		"pl": "file_type_xml",
+		"pm": "file_type_xml",
+		"pmc": "file_type_xml",
+		"pod": "file_type_xml",
+		"t": "file_type_xml",
+		"dtd": "file_type_xml",
+		"ent": "file_type_xml",
+		"mod": "file_type_xml",
+		"xml": "file_type_xml",
+		"tld": "file_type_xml",
+		"dtml": "file_type_xml",
+		"rng": "file_type_xml",
+		"rss": "file_type_xml",
+		"opml": "file_type_xml",
+		"slnx": "file_type_xml",
+		"svg": "file_type_svg",
+		"xaml": "file_type_xml",
+
+		"sublime-snippet": "file_type_sublime",
+		"tmLanguage": "file_type_textmate",
+		"tmPreferences": "file_type_textmate",
+		"tmSnippet": "file_type_textmate",
+		"tmTheme": "file_type_textmate",
+
+		"yaml": "file_type_yaml",
+		"yml": "file_type_yaml",
+		"goyaml": "file_type_yaml",
+		"go.yaml": "file_type_yaml",
+		"goyml": "file_type_yaml",
+		"go.yml": "file_type_yaml",
 	}
 }
